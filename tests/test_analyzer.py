@@ -97,6 +97,67 @@ def test_analyze_evidence_parses_noisy_fenced_codex_output(monkeypatch) -> None:
     assert "SECRET_DESC" not in captured["prompt"]
 
 
+def test_analyze_evidence_dispatches_cloud_backends(monkeypatch) -> None:
+    calls = []
+
+    def fake_run_claude(prompt: str) -> str:
+        calls.append(("claude", prompt))
+        return json.dumps(_analysis_payload(), ensure_ascii=False)
+
+    def fake_run_openai(prompt: str) -> str:
+        calls.append(("openai-compatible", prompt))
+        return json.dumps(_analysis_payload(), ensure_ascii=False)
+
+    monkeypatch.setattr(analyzer, "_run_claude", fake_run_claude)
+    monkeypatch.setattr(analyzer, "_run_openai_compatible", fake_run_openai)
+
+    claude_result = analyzer.analyze_evidence(_fake_pack(1), backend="claude")
+    deepseek_result = analyzer.analyze_evidence(_fake_pack(1), backend="deepseek")
+
+    assert claude_result.backend == "claude"
+    assert deepseek_result.backend == "openai-compatible"
+    assert [call[0] for call in calls] == ["claude", "openai-compatible"]
+
+
+def test_resolve_backend_default_env_auto_and_deepseek(monkeypatch) -> None:
+    monkeypatch.delenv("BILI_RADAR_AI_BACKEND", raising=False)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    monkeypatch.delenv("BILI_RADAR_OPENAI_MODEL", raising=False)
+    monkeypatch.setattr(analyzer, "codex_available", lambda: False)
+
+    assert analyzer.resolve_backend() == "codex"
+    assert analyzer.resolve_backend("deepseek") == "openai-compatible"
+
+    monkeypatch.setenv("BILI_RADAR_AI_BACKEND", "claude")
+    assert analyzer.resolve_backend() == "claude"
+
+    monkeypatch.setenv("BILI_RADAR_AI_BACKEND", "auto")
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
+    monkeypatch.setenv("BILI_RADAR_OPENAI_MODEL", "deepseek-chat")
+    assert analyzer.resolve_backend() == "openai-compatible"
+
+
+def test_backend_status_reports_missing_sdk_and_keys(monkeypatch) -> None:
+    monkeypatch.setattr(analyzer, "codex_available", lambda: False)
+    monkeypatch.setattr(analyzer.importlib.util, "find_spec", lambda name: None)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    monkeypatch.delenv("BILI_RADAR_OPENAI_MODEL", raising=False)
+
+    statuses = {item["key"]: item for item in analyzer.backend_status()}
+
+    assert statuses["codex"]["available"] is False
+    assert "Codex" in statuses["codex"]["reason"]
+    assert statuses["claude"]["available"] is False
+    assert "anthropic SDK" in statuses["claude"]["reason"]
+    assert "ANTHROPIC_API_KEY" in statuses["claude"]["reason"]
+    assert statuses["openai-compatible"]["available"] is False
+    assert "openai SDK" in statuses["openai-compatible"]["reason"]
+    assert "OPENAI_API_KEY" in statuses["openai-compatible"]["reason"]
+    assert "BILI_RADAR_OPENAI_MODEL" in statuses["openai-compatible"]["reason"]
+
+
 def test_condense_evidence_drops_desc_truncates_videos_and_keeps_stats_comments() -> None:
     text = analyzer.condense_evidence(_fake_pack(30))
 
@@ -138,6 +199,7 @@ def test_api_analyze_returns_mock_result(monkeypatch) -> None:
         seen["now"] = now
         return expected
 
+    monkeypatch.delenv("BILI_RADAR_AI_BACKEND", raising=False)
     monkeypatch.setattr(analyzer, "codex_available", lambda: True)
     monkeypatch.setattr(analyzer, "analyze_evidence", fake_analyze)
 
@@ -153,6 +215,7 @@ def test_api_analyze_returns_mock_result(monkeypatch) -> None:
 
 
 def test_api_analyze_returns_friendly_unavailable_when_codex_missing(monkeypatch) -> None:
+    monkeypatch.delenv("BILI_RADAR_AI_BACKEND", raising=False)
     monkeypatch.setattr(analyzer, "codex_available", lambda: False)
 
     with TestClient(app) as client:

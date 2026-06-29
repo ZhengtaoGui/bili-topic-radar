@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -120,6 +122,8 @@ ANALYSIS_SCHEMA: dict[str, Any] = {
     },
 }
 
+BACKENDS = ("codex", "claude", "openai-compatible")
+
 
 @dataclass(slots=True)
 class AngleBucket:
@@ -197,13 +201,78 @@ def codex_available() -> bool:
     return completed.returncode == 0
 
 
-def analyze_evidence(pack: dict[str, Any] | object, backend: str = "codex", now: object = None) -> AnalysisResult:
+def resolve_backend(requested=None) -> str:
+    backend = (requested or os.environ.get("BILI_RADAR_AI_BACKEND") or "codex").strip()
+    if backend == "auto":
+        backend = _auto_pick()
+    if backend == "deepseek":
+        backend = "openai-compatible"
+    return backend
+
+
+def _auto_pick() -> str:
+    if codex_available():
+        return "codex"
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return "claude"
+    if os.environ.get("OPENAI_API_KEY") and os.environ.get("BILI_RADAR_OPENAI_MODEL"):
+        return "openai-compatible"
+    return "codex"
+
+
+def backend_status() -> list[dict[str, object]]:
+    anthropic_sdk = importlib.util.find_spec("anthropic") is not None
+    openai_sdk = importlib.util.find_spec("openai") is not None
+    has_anthropic_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    has_openai_key = bool(os.environ.get("OPENAI_API_KEY"))
+    has_openai_model = bool(os.environ.get("BILI_RADAR_OPENAI_MODEL"))
+    codex_ok = codex_available()
+    return [
+        {
+            "key": "codex",
+            "label": "Codex(本地)",
+            "available": codex_ok,
+            "reason": "" if codex_ok else "请在本机安装并登录 Codex CLI",
+        },
+        {
+            "key": "claude",
+            "label": "Claude",
+            "available": anthropic_sdk and has_anthropic_key,
+            "reason": _missing_reason(
+                [
+                    (anthropic_sdk, "anthropic SDK"),
+                    (has_anthropic_key, "ANTHROPIC_API_KEY"),
+                ]
+            ),
+        },
+        {
+            "key": "openai-compatible",
+            "label": "OpenAI 兼容",
+            "available": openai_sdk and has_openai_key and has_openai_model,
+            "reason": _missing_reason(
+                [
+                    (openai_sdk, "openai SDK"),
+                    (has_openai_key, "OPENAI_API_KEY"),
+                    (has_openai_model, "BILI_RADAR_OPENAI_MODEL"),
+                ]
+            ),
+        },
+    ]
+
+
+def _missing_reason(checks: list[tuple[bool, str]]) -> str:
+    missing = [name for ok, name in checks if not ok]
+    return "" if not missing else "缺少 " + "、".join(missing)
+
+
+def analyze_evidence(pack: dict[str, Any] | object, backend: str | None = None, now: object = None) -> AnalysisResult:
+    backend = resolve_backend(backend)
     evidence = condense_evidence(pack, now=now)
     prompt = AI_PROMPT.replace("{evidence}", evidence)
     runners: dict[str, Callable[[str], str]] = {
         "codex": _run_codex,
         "claude": _run_claude,
-        "deepseek": _run_deepseek,
+        "openai-compatible": _run_openai_compatible,
     }
     if backend not in runners:
         raise ValueError(f"unsupported analyzer backend: {backend}")
@@ -327,14 +396,71 @@ def _run_codex(prompt: str, schema_path: str | Path | None = None) -> str:
                     pass
 
 
+def _structured_schema() -> dict:
+    # Claude/部分 OpenAI 结构化输出不支持数组长度/数值约束,递归剥掉
+    import copy
+    drop = {"maxItems", "minItems", "minimum", "maximum", "multipleOf", "minLength", "maxLength"}
+
+    def clean(node):
+        if isinstance(node, dict):
+            return {k: clean(v) for k, v in node.items() if k not in drop}
+        if isinstance(node, list):
+            return [clean(x) for x in node]
+        return node
+
+    return clean(copy.deepcopy(ANALYSIS_SCHEMA))
+
+
 def _run_claude(prompt: str) -> str:
-    del prompt
-    raise NotImplementedError("v2")
+    try:
+        import anthropic
+    except ImportError as exc:
+        raise RuntimeError(
+            "Claude 后端需要 anthropic SDK,请运行: uv sync --extra ai-claude"
+        ) from exc
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        raise RuntimeError("Claude 后端需要环境变量 ANTHROPIC_API_KEY")
+    model = os.environ.get("BILI_RADAR_CLAUDE_MODEL", "claude-opus-4-8")
+    client = anthropic.Anthropic()
+    resp = client.messages.create(
+        model=model,
+        max_tokens=8000,
+        output_config={"format": {"type": "json_schema", "schema": _structured_schema()}},
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return "".join(
+        getattr(b, "text", "") for b in resp.content if getattr(b, "type", None) == "text"
+    )
 
 
-def _run_deepseek(prompt: str) -> str:
-    del prompt
-    raise NotImplementedError("v2")
+def _run_openai_compatible(prompt: str) -> str:
+    try:
+        import openai
+    except ImportError as exc:
+        raise RuntimeError(
+            "OpenAI 兼容后端需要 openai SDK,请运行: uv sync --extra ai-openai"
+        ) from exc
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("OpenAI 兼容后端需要环境变量 OPENAI_API_KEY")
+    model = os.environ.get("BILI_RADAR_OPENAI_MODEL")
+    if not model:
+        raise RuntimeError(
+            "请设置 BILI_RADAR_OPENAI_MODEL(如 gpt-4o / deepseek-chat / moonshot-v1-8k / glm-4)"
+        )
+    base_url = os.environ.get("BILI_RADAR_OPENAI_BASE_URL") or None  # 不填=OpenAI 官方
+    client = openai.OpenAI(api_key=api_key, base_url=base_url)
+    kwargs = dict(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.4,
+    )
+    try:
+        resp = client.chat.completions.create(response_format={"type": "json_object"}, **kwargs)
+    except Exception:
+        # 个别兼容服务不支持 response_format,退回纯文本 + 健壮解析
+        resp = client.chat.completions.create(**kwargs)
+    return resp.choices[0].message.content or ""
 
 
 def _loads_first_json_object(text: str) -> dict[str, Any]:
@@ -465,7 +591,7 @@ def _find_video_title(data: dict[str, Any], bvid: str) -> str:
 def _amain(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Analyze a Bilibili topic evidence pack with local Codex.")
     parser.add_argument("evidence", type=Path, help="Path to evidence_*.json or another evidence pack JSON.")
-    parser.add_argument("--backend", default="codex", choices=["codex", "claude", "deepseek"])
+    parser.add_argument("--backend", choices=["codex", "claude", "openai-compatible", "auto", "deepseek"])
     args = parser.parse_args(argv)
 
     pack = json.loads(args.evidence.read_text(encoding="utf-8"))

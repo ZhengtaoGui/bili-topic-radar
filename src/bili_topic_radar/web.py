@@ -282,7 +282,7 @@ HTML = """<!doctype html>
 
     .infotip[hidden] { display: none; }
 
-    input, textarea {
+    input, textarea, select {
       width: 100%;
       border: 1px solid var(--line);
       border-radius: 6px;
@@ -293,7 +293,7 @@ HTML = """<!doctype html>
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
     }
 
-    input:focus, textarea:focus {
+    input:focus, textarea:focus, select:focus {
       outline: none;
       border-color: var(--accent-strong);
       box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.13), 0 0 22px rgba(45, 212, 191, 0.12);
@@ -306,6 +306,10 @@ HTML = """<!doctype html>
     textarea {
       min-height: 92px;
       resize: vertical;
+    }
+
+    select option:disabled {
+      color: #64748b;
     }
 
     .field-actions {
@@ -465,6 +469,25 @@ HTML = """<!doctype html>
       margin: 0;
       color: var(--muted);
       font-size: 12px;
+    }
+
+    .ai-actions {
+      display: grid;
+      gap: 8px;
+      justify-items: end;
+      min-width: min(100%, 300px);
+    }
+
+    .backend-field {
+      display: grid;
+      gap: 6px;
+      width: 100%;
+    }
+
+    .backend-field label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
     }
 
     .ai-result {
@@ -988,6 +1011,8 @@ HTML = """<!doctype html>
       analysisNotice: "",
       analysisLoading: false,
       analysisError: "",
+      aiBackends: [],
+      selectedBackend: "codex",
       sortKey: "play",
       sortDir: "desc",
       expanded: new Set(),
@@ -1107,17 +1132,43 @@ HTML = """<!doctype html>
       title.textContent = "🤖 AI 智能分析";
       const note = document.createElement("p");
       note.className = "ai-note";
-      note.textContent = "本结论由 AI(本地 GPT-5)生成,仅供参考。";
+      note.textContent = "本结论由你选择的 AI 后端生成,仅供参考。";
       intro.append(title, note);
+
+      const actions = document.createElement("div");
+      actions.className = "ai-actions";
+      const backendField = document.createElement("div");
+      backendField.className = "backend-field";
+      const backendLabel = document.createElement("label");
+      backendLabel.htmlFor = "ai-backend";
+      backendLabel.textContent = "AI 后端";
+      const backendSelect = document.createElement("select");
+      backendSelect.id = "ai-backend";
+      backendSelect.disabled = state.analysisLoading;
+      for (const backend of state.aiBackends) {
+        const option = document.createElement("option");
+        option.value = backend.key;
+        option.textContent = backend.available
+          ? backend.label
+          : `${backend.label}（不可用:${backend.reason || "未配置"}）`;
+        option.disabled = !backend.available;
+        if (backend.key === state.selectedBackend) option.selected = true;
+        backendSelect.append(option);
+      }
+      backendSelect.addEventListener("change", () => {
+        state.selectedBackend = backendSelect.value;
+      });
+      backendField.append(backendLabel, backendSelect);
 
       const action = document.createElement("button");
       action.type = "button";
       action.textContent = state.analysisLoading
         ? "分析中..."
-        : "🤖 让 AI 给出建议和结论(用本地 GPT-5,约 30-60 秒)";
+        : "🤖 让 AI 给出建议和结论(约 30-60 秒)";
       action.disabled = state.analysisLoading || !state.pack;
       action.addEventListener("click", runAiAnalysis);
-      head.append(intro, action);
+      actions.append(backendField, action);
+      head.append(intro, actions);
 
       const children = [head];
       if (!state.pack) {
@@ -1137,10 +1188,10 @@ HTML = """<!doctype html>
         notice.className = "ai-muted";
         notice.textContent = state.analysisNotice + " ";
         const link = document.createElement("a");
-        link.href = "README.md#ai-智能分析说明需-codex";
+        link.href = "README.md#选择-ai-后端";
         link.target = "_blank";
         link.rel = "noreferrer";
-        link.textContent = "怎么装 Codex";
+        link.textContent = "怎么配置后端";
         notice.append(link);
         children.push(notice);
       }
@@ -1459,6 +1510,22 @@ HTML = """<!doctype html>
       setStatus(`已加载 ${count} 个视频；查询词：${(pack.queries || []).join(" / ") || "-"}`);
     }
 
+    async function loadAiBackends() {
+      try {
+        const backends = await fetchJson("/api/ai-backends");
+        state.aiBackends = Array.isArray(backends) ? backends : [];
+        const selected = state.aiBackends.find((backend) => backend.selected);
+        const fallback = state.aiBackends.find((backend) => backend.available) || state.aiBackends[0];
+        state.selectedBackend = (selected || fallback || { key: "codex" }).key;
+      } catch (error) {
+        state.aiBackends = [
+          { key: "codex", label: "Codex(本地)", available: false, reason: "无法读取后端状态" },
+        ];
+        state.selectedBackend = "codex";
+      }
+      renderAiAnalysis();
+    }
+
     async function fetchJson(url, options) {
       const response = await fetch(url, options);
       const body = await response.json().catch(() => ({}));
@@ -1474,16 +1541,18 @@ HTML = """<!doctype html>
       state.analysisNotice = "";
       state.analysisError = "";
       renderAiAnalysis();
-      setStatus("AI 分析中... 本地 GPT-5 正在读证据,通常需要 30-60 秒。");
+      const selected = state.aiBackends.find((backend) => backend.key === state.selectedBackend);
+      setStatus(`AI 分析中... ${selected ? selected.label : state.selectedBackend} 正在读证据,通常需要 30-60 秒。`);
       try {
         const payload = state.sourceFile ? { file: state.sourceFile } : { pack: state.pack };
+        payload.backend = state.selectedBackend;
         const result = await fetchJson("/api/analyze", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(payload),
         });
         if (result.available === false) {
-          state.analysisNotice = result.message || "AI 分析需要在本机安装并登录 Codex CLI;证据看板不受影响";
+          state.analysisNotice = result.message || result.error || "AI 后端不可用;证据看板不受影响";
           state.analysis = null;
           setStatus(state.analysisNotice);
         } else {
@@ -1500,6 +1569,7 @@ HTML = """<!doctype html>
     }
 
     renderAiAnalysis();
+    loadAiBackends();
 
     $("collect-form").addEventListener("submit", async (event) => {
       event.preventDefault();
@@ -1697,9 +1767,21 @@ async def api_evidence(request: Request) -> JSONResponse:
     return JSONResponse(data)
 
 
+async def api_ai_backends(request: Request) -> JSONResponse:
+    del request
+    selected = analyzer.resolve_backend()
+    items = []
+    for item in analyzer.backend_status():
+        row = dict(item)
+        row["selected"] = row.get("key") == selected
+        items.append(row)
+    return JSONResponse(items)
+
+
 async def api_analyze(request: Request) -> JSONResponse:
     try:
         payload = await _read_payload(request)
+        backend = analyzer.resolve_backend(payload.get("backend"))
         if "pack" in payload:
             pack = payload["pack"]
             if not isinstance(pack, dict):
@@ -1711,15 +1793,13 @@ async def api_analyze(request: Request) -> JSONResponse:
         else:
             return JSONResponse({"error": "body must include file or pack"}, status_code=400)
 
-        if not analyzer.codex_available():
-            return JSONResponse(
-                {
-                    "available": False,
-                    "message": AI_UNAVAILABLE_MESSAGE,
-                }
-            )
+        status = _status_for_backend(backend)
+        if status is not None and not status.get("available"):
+            reason = str(status.get("reason") or AI_UNAVAILABLE_MESSAGE)
+            message = f"{status.get('label') or backend} 后端不可用:{reason};证据看板不受影响"
+            return JSONResponse({"available": False, "error": message, "message": message})
 
-        result = analyzer.analyze_evidence(pack)
+        result = analyzer.analyze_evidence(pack, backend=backend)
         return JSONResponse(result.to_dict())
     except ValueError as exc:
         return JSONResponse({"error": str(exc)}, status_code=400)
@@ -1727,8 +1807,18 @@ async def api_analyze(request: Request) -> JSONResponse:
         return JSONResponse({"error": "file not found"}, status_code=404)
     except json.JSONDecodeError as exc:
         return JSONResponse({"error": f"invalid json: {exc}"}, status_code=400)
+    except RuntimeError as exc:
+        message = f"{exc};证据看板不受影响"
+        return JSONResponse({"available": False, "error": message, "message": message})
     except Exception as exc:
         return JSONResponse({"error": f"analyze failed: {exc}"}, status_code=500)
+
+
+def _status_for_backend(backend: str) -> dict[str, object] | None:
+    for item in analyzer.backend_status():
+        if item.get("key") == backend:
+            return item
+    return None
 
 
 def _resolve_evidence_file(filename: str) -> Path:
@@ -1792,6 +1882,7 @@ app = Starlette(
         Route("/", index, methods=["GET"]),
         Route("/api/collect", api_collect, methods=["POST"]),
         Route("/api/evidence", api_evidence, methods=["GET"]),
+        Route("/api/ai-backends", api_ai_backends, methods=["GET"]),
         Route("/api/analyze", api_analyze, methods=["POST"]),
     ],
 )

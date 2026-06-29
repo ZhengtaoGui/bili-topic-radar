@@ -7,3 +7,5 @@ __pycache__/
 /reports/
 /evidence_*.json
 /tmp_*.json
+/docs/dev/
+.env
