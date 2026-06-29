@@ -1,0 +1,2371 @@
+{
+  "keyword": "MCP",
+  "extra_queries": [
+    "MCP 教程",
+    "MCP 实战",
+    "MCP 原理",
+    "MCP Claude",
+    "Model Context Protocol",
+    "MCP 入门"
+  ],
+  "queries": [
+    "MCP",
+    "MCP 教程",
+    "MCP 实战",
+    "MCP 原理",
+    "MCP Claude",
+    "Model Context Protocol",
+    "MCP 入门"
+  ],
+  "collected_at": 1782717980,
+  "total_unique_videos": 130,
+  "near_90d_count": 45,
+  "near_90d_ratio": 0.34615384615384615,
+  "top3_play_share": 0.48782458469410206,
+  "max_play": 1197817,
+  "median_play": 2829.5,
+  "videos": [
+    {
+      "bvid": "BV14rzQB9EJj",
+      "title": "Claude Code 从 0 到 1 全攻略：MCP / SubAgent / Agent Skill / Hook / 图片 / 上下文处理/ 后台任务",
+      "desc": "时间戳如下，方便大家跳转观看： 第一部分：环境搭建与基础交互 - 01:09 安装 Claude Code - 01:43 登录与授权 - 02:55 第一个实战问题 - 03:12 三种模式详解 (默认/自动/规划) 第二部分：复杂任务处理与终端控制 - 06:00 执行终端命令 (Bash) - 06:49 使用规划模式 (Plan Mode) - 11:06 跳过所有权限检测 (dangerously-skip-permissions) - 13:53 后台任务管理 (Background",
+      "play": 1197817,
+      "danmaku": 1425,
+      "like": 45134,
+      "duration": 2685,
+      "pubdate": 1769331320,
+      "author": "马克的技术工作坊",
+      "mid": 1815948385,
+      "queries_hit": [
+        "MCP",
+        "MCP Claude"
+      ],
+      "age_days": 154
+    },
+    {
+      "bvid": "BV1KY411t75D",
+      "title": "VPN概念，技术原理和误区",
+      "desc": "VPN概念，技术原理和误区",
+      "play": 1043892,
+      "danmaku": 3420,
+      "like": 50283,
+      "duration": 563,
+      "pubdate": 1643369364,
+      "author": "技术蛋老师",
+      "mid": 327247876,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 1612
+    },
+    {
+      "bvid": "BV1aeLqzUE6L",
+      "title": "10分钟讲清楚 Prompt, Agent, MCP 是什么",
+      "desc": "up的科学星球：https://t.zsxq.com/ubYr8",
+      "play": 847147,
+      "danmaku": 718,
+      "like": 47176,
+      "duration": 699,
+      "pubdate": 1746090000,
+      "author": "隔壁的程序员老王",
+      "mid": 16433002,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 423
+    },
+    {
+      "bvid": "BV1AnQNYxEsy",
+      "title": "MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。Windows系统配置MCP，Cursor Cline使用MCP",
+      "desc": "MCP是近期的AI领域的热点，特别是在海外社区获得热烈讨论，每天都有大量MCP工具诞生。本期视频我们从MCP的概念，技术原理，到多场景实战，一个视频看懂MCP的全部内容。 MCP官方开源仓库：https://github.com/modelcontextprotocol/servers MCP合集网站： https://smithery.ai/ Vscode下载：https://code.visualstudio.com/",
+      "play": 415710,
+      "danmaku": 417,
+      "like": 12791,
+      "duration": 910,
+      "pubdate": 1741871889,
+      "author": "技术爬爬虾",
+      "mid": 316183842,
+      "queries_hit": [
+        "MCP",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 472
+    },
+    {
+      "bvid": "BV1eK5DzHEWu",
+      "title": "MCP实战指南，mcp视频教程，2小时学透mcp",
+      "desc": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取 【课程简介】对于程序员，MCP必知必学，Java+SpringAI / LangChain / LangChain4J+MCP，一旦掌握AI智能落地项目，会大大增加在就业市场的竞争力！",
+      "play": 377311,
+      "danmaku": 678,
+      "like": 2952,
+      "duration": 7408,
+      "pubdate": 1745373620,
+      "author": "尚硅谷",
+      "mid": 302417610,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 432
+    },
+    {
+      "bvid": "BV1HFd6YhErb",
+      "title": "MCP幼儿园级教程，让你的AI自己干活！【小白教程】",
+      "desc": "草履虫都能上手的MCP入门教程来了！ 简单三步，尝试让AI帮你干活！ 记得一键三连+关注！感谢铁铁们呀～ Cursor：https://www.cursor.com/ 官方GitHub servers列表：https://github.com/modelcontextprotocol/servers MCP工具聚合网站：https://smithery.ai/",
+      "play": 357864,
+      "danmaku": 403,
+      "like": 15978,
+      "duration": 494,
+      "pubdate": 1744551417,
+      "author": "秋芝2046",
+      "mid": 385670211,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 入门"
+      ],
+      "age_days": 441
+    },
+    {
+      "bvid": "635342154",
+      "title": "小木头：MCP极简入门",
+      "desc": "",
+      "play": 233630,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "五里墩茶社",
+      "mid": 615957867,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1uronYREWR",
+      "title": "MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）",
+      "desc": "MCP终极指南 - 带你深入掌握MCP（基础篇） 时间轴： 01:05 MCP简要介绍 02:47 安装 MCP Host（Cline） 03:15 配置 Cline 用的 API Key 06:01 第一个 MCP 问题 06:31 概念解释：MCP Server 和 Tool 09:13 配置 MCP Server 14:19 使用 MCP Server 15:24 MCP 交互流程详解 17:46 如何使用他人制作的 MCP Server：uvx 部分 23:54 如何使用他人制作的 MCP Se",
+      "play": 227003,
+      "danmaku": 409,
+      "like": 11902,
+      "duration": 1626,
+      "pubdate": 1744678753,
+      "author": "马克的技术工作坊",
+      "mid": 1815948385,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 440
+    },
+    {
+      "bvid": "BV1MjZ5YrESn",
+      "title": "一口气介绍15种MCP工具，CherryStudio配置MCP",
+      "desc": "一口气介绍15种有趣实用的MCP工具。 MCP是近期AI领域的热点，每天都有大量MCP工具诞生。在专题网站Smithery上面，已经收录了2000多种MCP工具，本期视频就挑选其中有趣实用的15个来试用一下。这次我选用的AI客户端是CherryStudio，与Cline这两款。其中CherryStudio开源的AI客户端，之前视频里面也多次介绍过了，Cline是则是开源免费的AI辅助编程插件。关于MCP的基础概念已经工作原理，上两期视频已经有详细介绍了。本期视频我们跳过此部分，直接进入实战环节。 Awe",
+      "play": 207496,
+      "danmaku": 194,
+      "like": 5189,
+      "duration": 1281,
+      "pubdate": 1743081674,
+      "author": "技术爬爬虾",
+      "mid": 316183842,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 458
+    },
+    {
+      "bvid": "BV1KwdAYvEQB",
+      "title": "Blender终于实现了自动建模（MCP+ Rodin AI工作流）【Blender Talk】",
+      "desc": "这一期的Blender Talk，肥虫和大家聊聊最近3D圈大火的Blender MCP和Rodin。Rodin是肥虫最近一直在用的AI建模工具，目前最新的版本是Rodin 1.5，这个版本在模型生成质量上做了很大优化，特别是尖锐物体的边缘和硬边效果等方面。整体来说，这工具真的不错！如果你还没试过，赶紧上手体验一下，绝对值得一试。 另外，肥虫给大家争取了一些专属福利，使用肥虫的兑换码（兑换码：XDE4E2UK2UKP），新用户可以再额外获得14天（208积分）的会员，只有100个名额，大伙赶紧复制兑换码冲",
+      "play": 191840,
+      "danmaku": 95,
+      "like": 4689,
+      "duration": 1151,
+      "pubdate": 1744190746,
+      "author": "浩克肥虫",
+      "mid": 372816247,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 445
+    },
+    {
+      "bvid": "BV13R5EzbE6E",
+      "title": "火遍全网的MCP是什么？怎么用？如何自己开发一个MCP服务？一个视频带你入门！",
+      "desc": "MCPPPPPPPPPPPPPPPPPPPP",
+      "play": 175752,
+      "danmaku": 201,
+      "like": 8857,
+      "duration": 474,
+      "pubdate": 1744980534,
+      "author": "玄离199",
+      "mid": 67079745,
+      "queries_hit": [
+        "MCP",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 436
+    },
+    {
+      "bvid": "BV1ZJsBznEt3",
+      "title": "用过上百款编程MCP，只有这15个真正好用，Claude Code与Codex配置MCP详细教程",
+      "desc": "用过上百种编程类的MCP工具，选出了其中真正好用的15个。这些MCP可以为AI赋予云端数据库，操作浏览器，通过设计稿生成网页，产品配图，安全扫描，全自动部署等等的能力。许多人说MCP是一个开发者比用户还多的技术，其实很多好用的MCP工具主要集中在编程领域。本期视频我用最近热度最高的两个AI编程工具 Claude Code与 Codex来实战演示下这些MCP Server。我还准备了很多具体案例，来看看如何利用MCP让生产力翻倍。",
+      "play": 152229,
+      "danmaku": 125,
+      "like": 4456,
+      "duration": 1374,
+      "pubdate": 1761203977,
+      "author": "技术爬爬虾",
+      "mid": 316183842,
+      "queries_hit": [
+        "MCP 入门"
+      ],
+      "age_days": 249
+    },
+    {
+      "bvid": "BV1RNTtzMENj",
+      "title": "从零编写MCP并发布上线，超简单！手把手教程",
+      "desc": "UV安装：https://docs.astral.sh/uv/getting-started/installation/ MCP Github首页：https://github.com/modelcontextprotocol MCP Python SKD: https://github.com/modelcontextprotocol/python-sdk 免费云服务器：https://www.bilibili.com/video/BV1r17azXEAj MCP简单来说就是AI大模型的标准化工具箱，",
+      "play": 145356,
+      "danmaku": 321,
+      "like": 4315,
+      "duration": 971,
+      "pubdate": 1749127471,
+      "author": "技术爬爬虾",
+      "mid": 316183842,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 388
+    },
+    {
+      "bvid": "BV1P3XTYPEJm",
+      "title": "MCP是怎么对接大模型的？抓取AI提示词，拆解MCP的底层原理",
+      "desc": "MCP 简单来说是AI大模型的标准化工具箱。 可大模型是怎么知道工具箱里面有哪些工具，使用什么样的参数格式进行调用呢？ MCP与Function Call的关系是什么？ 是不是只有支持Function Call的模型才能使用MCP？ 在上期视频里，爬爬虾介绍了MCP的概念与基础使用，本期视频我们从大模型与提示词的角度再次探讨下MCP协议的底层原理。这次我使用Cloudflare AI Gateway设计了一个小实验，抓取与AI交互的所有请求数据。我们来验证下视频开头的这些的问题。在开始之前，建议大家先看下",
+      "play": 100093,
+      "danmaku": 62,
+      "like": 2544,
+      "duration": 446,
+      "pubdate": 1742217671,
+      "author": "技术爬爬虾",
+      "mid": 316183842,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 468
+    },
+    {
+      "bvid": "BV1BnVpz5EBD",
+      "title": "全网爆火的MCP到底是什么？如何使用MCP？【小白入门教程】",
+      "desc": "今天聊聊MCP",
+      "play": 52541,
+      "danmaku": 121,
+      "like": 1321,
+      "duration": 511,
+      "pubdate": 1746545932,
+      "author": "直男山禾",
+      "mid": 3494362365299578,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 418
+    },
+    {
+      "bvid": "BV1kzoWYXECJ",
+      "title": "Unity+MCP AI操作Unity来开发游戏",
+      "desc": "Unity MCP Github库地址：https://github.com/justinpbarnett/unity-mcp?tab=readme-ov-file Python下载网址：https://www.python.org/downloads/ Claude桌面下载地址：https://claude.ai/download Unity Hub下载地址：https://unity.com/unity-hub AI增效游戏开发管线交流会 QQ群号：961306166 QQ频道号：pd0547586",
+      "play": 40909,
+      "danmaku": 8,
+      "like": 580,
+      "duration": 351,
+      "pubdate": 1742879060,
+      "author": "OSCAR_奥斯卡",
+      "mid": 257473965,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 461
+    },
+    {
+      "bvid": "BV1hxMbzqEzU",
+      "title": "小智MCP自由了！我开源了个命令行神器实现多MCP聚合",
+      "desc": "- 我写的小智客户端命令行工具 - github: https://github.com/shenjingnan/xiaozhi-client - gitee: https://gitee.com/shenjingnan/xiaozhi-client - 小智官方MCP示例代码仓库： - github: https://github.com/78/mcp-calculator - gitee: https://gitee.com/shenjingnan/mcp-calculator - 小智AI",
+      "play": 39646,
+      "danmaku": 68,
+      "like": 792,
+      "duration": 488,
+      "pubdate": 1749976315,
+      "author": "闪电蘑菇",
+      "mid": 24615859,
+      "queries_hit": [
+        "MCP",
+        "MCP 原理"
+      ],
+      "age_days": 378
+    },
+    {
+      "bvid": "BV1uyLjzHEMS",
+      "title": "VSCode原生支持MCP了！几千个MCP工具，这下可有得玩了",
+      "desc": "VSCode最新版已经原生支持MCP！本期视频通过一个实际例子教会大家如何通过VSCode实现MCP的调用",
+      "play": 33584,
+      "danmaku": 0,
+      "like": 468,
+      "duration": 120,
+      "pubdate": 1745538375,
+      "author": "神秘的鱼仔",
+      "mid": 319759808,
+      "queries_hit": [
+        "MCP 实战",
+        "MCP 原理"
+      ],
+      "age_days": 430
+    },
+    {
+      "bvid": "BV1qkHrzHEh4",
+      "title": "【吴恩达】2025年公认最好的【MCP】教程！大模型入门到进阶，一套全解决！Model Context Protocol‌-附带课件代码",
+      "desc": "视频来源：DeepLearning.AI 课件代码：评论区自取 本课程我们将学习到： 1、探索 MCP 如何标准化对 AI 应用程序工具和数据的访问、其底层架构，以及它如何简化新工具和与外部系统（例如 GitHub 存储库、Google Docs、本地文件）的连接集成。 2、构建和部署提供工具、资源和提示的 MCP 服务器，并将其添加到 AI 应用程序（如 Claude Desktop）的配置中以扩展它们。 3、构建一个与 MCP 兼容的应用程序，该应用程序托管多个 MCP 客户端，每个客户端都保持与 M",
+      "play": 29998,
+      "danmaku": 104,
+      "like": 291,
+      "duration": 5944,
+      "pubdate": 1757669019,
+      "author": "吴恩达深度学习",
+      "mid": 3493134979827825,
+      "queries_hit": [
+        "MCP",
+        "Model Context Protocol"
+      ],
+      "age_days": 289
+    },
+    {
+      "bvid": "107329105",
+      "title": "AI 大模型 MCP Agent 智能体 教程",
+      "desc": "",
+      "play": 29332,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "知了传课",
+      "mid": 349929259,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1vwXPYkEGx",
+      "title": "Cursor+mcp配置，手把手教你配置任意MCP服务，学不会你打我，小白保姆级教程~MCP服务配置指南 - 提升AI编程助手能力",
+      "desc": "我的知识星球，https://t.zsxq.com/jVAk9 📌 本期教程通过实战演示，教你在Cursor中配置和使用MCP服务器，特别是filesystem MCP服务，解决Cursor无法写入文件的常见问题。 ⏱️ 内容概要： 00:00 介绍MCP及其重要性 02:00 Cursor抽风问题与MCP解决方案 04:00 配置第一个MCP服务器（filesystem） 07:00 Windows环境下的特殊配置方法 08:00 测试MCP服务功能 09:00 配置第二个MCP服务器（claudec",
+      "play": 26861,
+      "danmaku": 21,
+      "like": 254,
+      "duration": 662,
+      "pubdate": 1742449883,
+      "author": "三少科技",
+      "mid": 484719715,
+      "queries_hit": [
+        "MCP 教程"
+      ],
+      "age_days": 466
+    },
+    {
+      "bvid": "BV13tuqzwEm9",
+      "title": "一个视频彻底掌握ClaudeCode使用MCP",
+      "desc": "Claude Code命令行的方式，让MCP的操作也令很多朋友感觉不适，这个视频专门做了一些介绍。 希望能帮助到大家。",
+      "play": 26668,
+      "danmaku": 2,
+      "like": 293,
+      "duration": 556,
+      "pubdate": 1752496375,
+      "author": "创哥的AI实验室",
+      "mid": 52807953,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战",
+        "MCP Claude",
+        "MCP 入门"
+      ],
+      "age_days": 349
+    },
+    {
+      "bvid": "BV11X4y1374s",
+      "title": "CVPR2021论文展示mmTransformer:Multimodal Motion Prediction with Stacked Transformers",
+      "desc": "CVPR 2021 接受论文 论文名称：Multimodal Motion Prediction with Stacked Transformers 代码地址：https://decisionforce.github.io/mmTransformer 文章网页：https://decisionforce.github.io/mmTransformer 文章地址：https://arxiv.org/pdf/2103.11624.pdf UPDATE: 代码已经开源！！！",
+      "play": 19392,
+      "danmaku": 3,
+      "like": 327,
+      "duration": 138,
+      "pubdate": 1616392865,
+      "author": "Moore66",
+      "mid": 328475337,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 1925
+    },
+    {
+      "bvid": "BV1WARBYoEjc",
+      "title": "【MCP+SpringAI王炸组合】2025年吃透MCP协议+SpringAI实战，全程干货，3步搞定智能体开发，让你面试少走99%的弯路！",
+      "desc": "一个冷知识：点赞是免费的！但是可以让辛苦做视频的UP主开心快乐一整天！！！ 视频笔记、源码、100万字Java面试题宝典、简历模板、简历优化、Java P5-P7架构师学习路线图：https://www.bilibili.com/read/cv42180604/?jump_opus=1",
+      "play": 19294,
+      "danmaku": 38,
+      "like": 323,
+      "duration": 9298,
+      "pubdate": 1743940516,
+      "author": "徐庶架构师",
+      "mid": 3546727000836710,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 448
+    },
+    {
+      "bvid": "BV13sJcz9Egm",
+      "title": "让AI替你打工！教你用Trae+MCP自动操作网页，采集数据，有手就能学会！mcp教程，mcp实战，mcp开发",
+      "desc": "让AI替你打工！教你用Trae+MCP自动操作网页，采集数据，有手就能学会！mcp教程，mcp实战，mcp开发",
+      "play": 16920,
+      "danmaku": 5,
+      "like": 124,
+      "duration": 640,
+      "pubdate": 1747460165,
+      "author": "大模型实战课程",
+      "mid": 3546818325514907,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 408
+    },
+    {
+      "bvid": "BV1no7Lz3ExS",
+      "title": "小智MCP极简入门",
+      "desc": "在windows系统下简单运行MCP服务，开启本地MCP功能",
+      "play": 14836,
+      "danmaku": 1,
+      "like": 205,
+      "duration": 612,
+      "pubdate": 1748563200,
+      "author": "Maker羊毛党首席评论员",
+      "mid": 396355825,
+      "queries_hit": [
+        "MCP",
+        "MCP 入门"
+      ],
+      "age_days": 395
+    },
+    {
+      "bvid": "BV1BjK8z1E52",
+      "title": "【吐血教程】安装个MCP有多难？用Trae带你一步步搞定，小白必看",
+      "desc": "失败×5、AI卡壳×N...Trae装MCP全流程 如果安装过程中遇到其他问题，欢迎评论区交流~",
+      "play": 14769,
+      "danmaku": 30,
+      "like": 100,
+      "duration": 504,
+      "pubdate": 1750673685,
+      "author": "AI智能体工作流",
+      "mid": 3546900781337262,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 370
+    },
+    {
+      "bvid": "BV1Qcn6ziEUg",
+      "title": "Obsidian MCP入门教程：颠覆你的Obsidian用法，开启AI自动化指令",
+      "desc": "Obsidian MCP到底是什么？它和社区里其他的AI插件有什么本质区别？为什么说它能够颠覆我们使用Obsidian的方式？本期视频将从零开始，带你一步步配置Local Rest API，并通过Cherry Studio启动MCP服务，最终让AI能够完全控制你的Obsidian。无论你是新手还是老玩家，这期硬核干货都将为你打开新世界的大门。",
+      "play": 13543,
+      "danmaku": 75,
+      "like": 283,
+      "duration": 348,
+      "pubdate": 1759151327,
+      "author": "杰森的效率工坊",
+      "mid": 3546884870244925,
+      "queries_hit": [
+        "MCP 入门"
+      ],
+      "age_days": 272
+    },
+    {
+      "bvid": "BV1odEbzGEo7",
+      "title": "【小智教程】虾哥MCP接入点入门教学",
+      "desc": "源码：https://github.com/78/mcp-calculator 文档：https://ccnphfhqs21z.feishu.cn/wiki/HiPEwZ37XiitnwktX13cEM5KnSb",
+      "play": 12181,
+      "danmaku": 0,
+      "like": 112,
+      "duration": 113,
+      "pubdate": 1747409274,
+      "author": "空白泡泡糖果",
+      "mid": 3546810853362135,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 入门"
+      ],
+      "age_days": 408
+    },
+    {
+      "bvid": "BV1yT8qzMEbd",
+      "title": "基于SpringAI开发Java版mcp服务",
+      "desc": "如何用Java开发一个mcp服务？如何把已有的spingboot微服务改造成mcp服务呢？如何在mcp客户端调用mcp服务？ 今天来一个保姆级教学",
+      "play": 11616,
+      "danmaku": 3,
+      "like": 296,
+      "duration": 779,
+      "pubdate": 1753887927,
+      "author": "程序员Cafe",
+      "mid": 3546614366997108,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 333
+    },
+    {
+      "bvid": "BV1rTAXzuEH3",
+      "title": "cocos creator mcp 1.6.0史诗级更新-完全自主的全新智能重构版本-一句话开发cocos creator游戏",
+      "desc": "cocos creator mcp迎来史诗级重构更新，完美解决场景搭建和脚本挂载、组件挂载等功能，结合figima等设计工具mcp可以一比一快速搭建游戏场景。 完整提示词： 当前项目为cocos creator 3.8版本项目，请参考所给的游戏三个场景参考图，设计和实现当前的打飞机游戏，当前游戏主要分为三个场景：1、开始场景，玩家可以点击Start Game按钮开始游戏，然后进入游戏场景。2、游戏中场景：用户可以分别通过键盘或鼠标控制玩家飞机的移动和发射子弹（点击空格键或者点击鼠标左键发射，移动鼠标会同",
+      "play": 10845,
+      "danmaku": 5,
+      "like": 198,
+      "duration": 890,
+      "pubdate": 1772218825,
+      "author": "李大仙AI",
+      "mid": 1527538555,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 121
+    },
+    {
+      "bvid": "BV1G3eJzjEzB",
+      "title": "【科目三系列】Diffusion Model进军自驾圈？DiffusionDrive重新解释端到端规划！原理+代码详细解读（上）",
+      "desc": "Diffusion在图像领域大火！！取得了很好的效果 端到端规划在自驾领域同样引起了很大的反响 两大热点能够碰撞出怎样的火花呢！！！ 本期给大家带来DiffusionDrive重磅解读！！干货满满！！ 点赞关注收藏！！",
+      "play": 10761,
+      "danmaku": 6,
+      "like": 183,
+      "duration": 3237,
+      "pubdate": 1756026430,
+      "author": "AUTO_EDU-自驾驾校",
+      "mid": 3546786536884534,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 308
+    },
+    {
+      "bvid": "BV1K4KWzyE9B",
+      "title": "MCP帮你做PPT！在Claude中一句话生成完整幻灯片！Office PowerPoint MCP Server",
+      "desc": "还在为制作PPT耗费大量时间而烦恼吗？本期视频，我们将为大家介绍并实战演示一款强大的MCP工具——Office PowerPoint MCP Server。 这款工具能让你在Claude、VS Code或Cursor等开发环境中，只用输入一个主题，就能自动搜索资料、整理内容、并生成一份包含图文、数据图表和专业设计的完整PPT！ 在本期视频中，你将看到： 00:07工具介绍： 深入了解Office PowerPoint MCP Server的核心功能，它如何利用python-pptx实现PPT的创建、管理",
+      "play": 9104,
+      "danmaku": 0,
+      "like": 111,
+      "duration": 427,
+      "pubdate": 1750644000,
+      "author": "去飞GoFly",
+      "mid": 52846118,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 371
+    },
+    {
+      "bvid": "BV1yfWVzXEKx",
+      "title": "在Claude Code中安装MCP很麻烦？这两种方法轻松搞定",
+      "desc": "大家在Claude Code中添加MCP的时候，是不是突然发现以前在Cursor里直接粘贴 mcp.json 的方法有时候会失效。 . 然后当你想要学习使用 Claude Code 的原生添加方法时，结果发现自己要记住的命令也太多太复杂了。 . 不过不用担心。今天 Claude Code 系列的第二期，就是来解决怎么轻松添加MCP这个问题的。我们后天第三期见 . 欢迎加入我的知识星球，分享AI编程、AI Agent相关实践、思考、优质信息源，有问必答：https://t.zsxq.com/fD4Fb",
+      "play": 8766,
+      "danmaku": 0,
+      "like": 76,
+      "duration": 387,
+      "pubdate": 1758281811,
+      "author": "Next蔡蔡",
+      "mid": 3546627946056357,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 282
+    },
+    {
+      "bvid": "BV1wXrcYQEvE",
+      "title": "Model Context Protocol 深度解析与实战｜01｜精简版",
+      "desc": "Koala 俱乐部新一期视频《Model Context Protocol 深度解析与实战｜01 》，将通过上下两期讲解其技术架构和实际场景下的开发实例。本期视频为上期，重点分析了 MCP 的协议设计、工程实现及其在 AI 系统中的作用。下期将通过实战展示如何利用 MCP 开发《科技周报》助手。",
+      "play": 8579,
+      "danmaku": 5,
+      "like": 188,
+      "duration": 1128,
+      "pubdate": 1735812000,
+      "author": "Koala聊开源",
+      "mid": 489667127,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 542
+    },
+    {
+      "bvid": "BV1GD7qzREVA",
+      "title": "【MCP部署实战】手把手教你把MCP接入各大热门工具，保姆级教学，我奶听了都能学会，CherryStudio配置MCP",
+      "desc": "全程干货无废话！MCP最新实战教程，从环境部署、原理详解到项目实战，带你彻底吃透MCP！MCPServer开发，mcp开发，mcp教程，mcp项目 完整视频教程+讲解课件+学习笔记+AI大模型知识库已打包可分享！",
+      "play": 8363,
+      "danmaku": 2,
+      "like": 51,
+      "duration": 3095,
+      "pubdate": 1749020938,
+      "author": "亿点点大模型",
+      "mid": 3546835570395440,
+      "queries_hit": [
+        "MCP 教程"
+      ],
+      "age_days": 390
+    },
+    {
+      "bvid": "BV1XaE96REta",
+      "title": "【2026最新版】这绝对是B站唯一将MCP入门+实战讲明白的教程，手把手带你从入门到代码实战开发，存下吧，比啃书好太多了！学完即就业，让你少走99%的弯路！",
+      "desc": "视频配套的学习资料已经整理好了，如需领取戳👉https://b23.tv/Qdi8fs5 无论是新手小白，还是有一定编码经验的选手，皆可学习",
+      "play": 8174,
+      "danmaku": 1,
+      "like": 33,
+      "duration": 4253,
+      "pubdate": 1781083350,
+      "author": "ollama本地部署",
+      "mid": 3546670639876326,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 18
+    },
+    {
+      "bvid": "BV1XYy8B7ExG",
+      "title": "【4.MCP使用】国内顶级编程工具Trae，从入门到实战，适合0基础体质，少写80%的代码！！！",
+      "desc": "1️⃣大模型就业面试题 2️⃣智能体企业级实战项目15个 3️⃣行业拓展必读电子书300本 4️⃣大模型、智能体开发学习路线思维导图 5️⃣大模型全套视频课+源码+课件",
+      "play": 7834,
+      "danmaku": 0,
+      "like": 52,
+      "duration": 1153,
+      "pubdate": 1762252200,
+      "author": "AI智能体工作流",
+      "mid": 3546900781337262,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 入门"
+      ],
+      "age_days": 236
+    },
+    {
+      "bvid": "BV1B64y1b7qk",
+      "title": "context capture软件自由训练详细教学",
+      "desc": "本次使用普通相机连拍功能随机拍摄一部分区域进行三维建模。 1连拍相片之间关系需要80%以上重叠度，同一区域至少两个角度照片才能拥有较好的精度（一个角度也可以） 2自由拍摄需要锁定焦距，自己也可以围绕一个物体拍摄一圈进行重建。 3自由拍摄相机没有rtk也就是没有pos信息，有些机器拍摄的照片pos信息不在照片属性力而是一个单独csv文件需要手动导入 4即使没有pos信息手动刺点依旧可以得到模型的坐标信息需要3个以上控制点，",
+      "play": 7034,
+      "danmaku": 0,
+      "like": 78,
+      "duration": 622,
+      "pubdate": 1625979182,
+      "author": "丶Frantic丶",
+      "mid": 378845873,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 1814
+    },
+    {
+      "bvid": "BV1gpyGBwErv",
+      "title": "小智接入MCP长期记忆、联网搜索等",
+      "desc": "小智长期记忆MCP教程：https://www.bilibili.com/video/BV1FhyBBQEPX/ MCP广场：https://imcp.pro/ 闪猫科技MCP：http://mcp.shanmaotech.cn/mcp-configs",
+      "play": 6533,
+      "danmaku": 0,
+      "like": 120,
+      "duration": 337,
+      "pubdate": 1763463583,
+      "author": "时肆-七安",
+      "mid": 394737620,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程"
+      ],
+      "age_days": 222
+    },
+    {
+      "bvid": "BV1u4G9zmEte",
+      "title": "什么是MCP？VS Code中使用MCP Server",
+      "desc": "什么是MCP，怎么样使用MCP Server，不用写SQL语句就可以查询数据库。 MCP Servers https://smithery.ai/ https://github.com/punkpeye/awesome-mcp-servers https://github.com/modelcontextprotocol/servers MCP Server for MySQL based on NodeJS https://www.npmjs.com/package/@benborla29/mcp-",
+      "play": 6330,
+      "danmaku": 0,
+      "like": 47,
+      "duration": 347,
+      "pubdate": 1746003090,
+      "author": "AI落地派",
+      "mid": 1154640096,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 424
+    },
+    {
+      "bvid": "BV1jLuAzGEzx",
+      "title": "[MCP] 以 sequencial thinking 为例，MCP 原理，修改源码，本地部署",
+      "desc": "本期code：https://github.com/chunhuizhang/llm_aigc/blob/main/tutorials/mcp/about_mcp.ipynb",
+      "play": 6125,
+      "danmaku": 2,
+      "like": 155,
+      "duration": 1039,
+      "pubdate": 1752403916,
+      "author": "五道口纳什",
+      "mid": 59807853,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 350
+    },
+    {
+      "bvid": "BV1TPwrzUEtq",
+      "title": "16-AI神器，一个MCP操作所有数据库",
+      "desc": "一个MCP操作所有数据库 数据库 MCP Server 瑞士军刀 https://github.com/apisql-dev/apisql-mcp",
+      "play": 6041,
+      "danmaku": 0,
+      "like": 157,
+      "duration": 1013,
+      "pubdate": 1773894626,
+      "author": "厦门艾科思",
+      "mid": 282182253,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 102
+    },
+    {
+      "bvid": "157422109",
+      "title": "大模型MCP+A2A技术实战课",
+      "desc": "",
+      "play": 5851,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "西瓜讲大模型",
+      "mid": 3546725841111250,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1W2E46hEuv",
+      "title": "Zotero MCP 接入 Claude + Codex 完整教程——本地文献库直连 / 引言深度写作 / PDF转Markdown实测对比",
+      "desc": "本期演示如何通过 Zotero MCP 将本地文献库接入 Claude 和 Codex，使 AI 能够在写作论文引言时直接检索、核验真实文献，而非依赖自身训练数据凭空生成引用。 视频涵盖以下核心内容。其一，前置配置：在 Zotero 高级设置中开启跨进程通讯权限，并做好文献夹与标签分类，便于模型快速定位目标文献。其二，MCP 安装方式：Claude 端推荐将项目地址直接交给模型，由其完成全局安装并验证是否能正常返回文献列表；Codex 端则在插件市场中直接搜索添加，操作更为简便。其三，与 ARS 指令组合",
+      "play": 5276,
+      "danmaku": 1,
+      "like": 163,
+      "duration": 347,
+      "pubdate": 1780816899,
+      "author": "旭光升",
+      "mid": 416909955,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 22
+    },
+    {
+      "bvid": "BV1E49ZBbE2o",
+      "title": "DeepSeekv4接入Claude桌面版增加MCP工具",
+      "desc": "DeepSeek-V4接入桌面版 Claude 后，我用 MCP 给这个壳子补上了图片识别和链接阅读",
+      "play": 5242,
+      "danmaku": 0,
+      "like": 62,
+      "duration": 148,
+      "pubdate": 1777784113,
+      "author": "锦颐jy",
+      "mid": 474561770,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 57
+    },
+    {
+      "bvid": "BV14m7Bz2EDg",
+      "title": "全程干货无废话！MCP最新实战教程，从环境部署、原理详解到项目实战，带你彻底吃透MCP！MCPServer开发，mcp开发，mcp教程，mcp项目",
+      "desc": "全程干货无废话！MCP最新实战教程，从环境部署、原理详解到项目实战，带你彻底吃透MCP！MCPServer开发，mcp开发，mcp教程，mcp项目 完整视频教程+讲解课件+学习笔记+AI大模型知识库已打包可分享！",
+      "play": 4834,
+      "danmaku": 62,
+      "like": 93,
+      "duration": 6833,
+      "pubdate": 1749016662,
+      "author": "阿然不秃然",
+      "mid": 3546908110883759,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 390
+    },
+    {
+      "bvid": "185185444",
+      "title": "MCP Java 开发实战",
+      "desc": "",
+      "play": 4716,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "成富_Alex",
+      "mid": 1094957548,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1HXXfBiEVw",
+      "title": "五分钟教会你配置 MCP！",
+      "desc": "通过这个视频教大家如何去配置各类的 MCP，并且告诉大家如何去寻找自己需要的 MCP",
+      "play": 4406,
+      "danmaku": 36,
+      "like": 49,
+      "duration": 322,
+      "pubdate": 1775138787,
+      "author": "小铭同学不想加班",
+      "mid": 1796420,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 入门"
+      ],
+      "age_days": 87
+    },
+    {
+      "bvid": "966863253",
+      "title": "AI工程化实战：MCP与Agent系统构建",
+      "desc": "",
+      "play": 4040,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "Code老猫",
+      "mid": 329985138,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战",
+        "MCP Claude"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1gb421771Z",
+      "title": "探索长序列并行：Megatron-Core 的 Context Parallelism 解析",
+      "desc": "本次分享将深入比较主流长序列并行技术，详解MCore的Context Parallelism方案及实际效果。",
+      "play": 3887,
+      "danmaku": 1,
+      "like": 72,
+      "duration": 2708,
+      "pubdate": 1721382913,
+      "author": "NVIDIA英伟达",
+      "mid": 1320140761,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 709
+    },
+    {
+      "bvid": "BV1TEo6YGEnk",
+      "title": "mcp协议原理解读,mcp server源码分析,保姆级教程。",
+      "desc": "这个视频和大家一起实践mcp的功能并分析底层原理，其中包括mcp的诞生由来，，mcp的架构设计，mcp文档介绍，mcp server的源码分析等。",
+      "play": 3803,
+      "danmaku": 15,
+      "like": 74,
+      "duration": 1766,
+      "pubdate": 1742750776,
+      "author": "猿大晖",
+      "mid": 46906722,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 462
+    },
+    {
+      "bvid": "BV1kGGZ6YEQA",
+      "title": "散户的终极外挂！ Claude 全自动炒股投研，一键抹平机构信息差",
+      "desc": "A股和美股的散户兄弟们，还在靠到处打听小道消息，或者凭感觉瞎买股票吗？ 这期视频阿陈阿陈带你白嫖机构级别的“终极炒股外挂”！Claude 这次直接发了神威，把以前只有大机构、大基金经理才用得起的专业投研工作台，硬生生塞进了咱们普通人的电脑里！ 不用花几十万去买 Wind 账号，也不用熬夜啃几百页的财报。只要在 Claude 里装上隐藏的金融插件，敲一条斜杠指令，不到 60 秒： 🔥 自动扒全网财报和隔夜新闻，秒出早盘简报！ 🔥 直接套用机构框架，一键筛选出基本面最硬的候选股票！ 不管你是做美股、港股，还是",
+      "play": 3584,
+      "danmaku": 0,
+      "like": 38,
+      "duration": 364,
+      "pubdate": 1779714736,
+      "author": "进化中的阿陈",
+      "mid": 2070038273,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 34
+    },
+    {
+      "bvid": "BV1EsQZYYEpP",
+      "title": "Claude+QGIS_MCP实操效果惊人，AI解放人类双手，感受科技的神奇",
+      "desc": "Claude+QGIS_mcp 可以实现使用cluade mcp协议让cluade操作qgis自动化完成空间分析和地图制作等功能 仓库：Github-jjsantos01/qgis_mcp",
+      "play": 3552,
+      "danmaku": 1,
+      "like": 58,
+      "duration": 118,
+      "pubdate": 1742375029,
+      "author": "GIS小呲花",
+      "mid": 481599322,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 466
+    },
+    {
+      "bvid": "BV1DgZZYeE4Y",
+      "title": "MCP模型上下文协议 MCP Inspector调试MCP Servers的使用方法 AI大模型｜AI Agent｜智能体Agent｜mcp教程",
+      "desc": "",
+      "play": 3481,
+      "danmaku": 1,
+      "like": 43,
+      "duration": 617,
+      "pubdate": 1743771531,
+      "author": "唐国梁Tommy",
+      "mid": 474347248,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战"
+      ],
+      "age_days": 450
+    },
+    {
+      "bvid": "BV1f57C6YErb",
+      "title": "手把手教你Codex安装和使用MCP！新手必备~",
+      "desc": "这一期给大家分享下在codex里面如何配置和使用MCP，和skill一样，MCP也是我们平时用得比较多的，所以建议大家也可以学一下它的基础配置和使用~ 步骤都不难，跟着操作就可以了",
+      "play": 3466,
+      "danmaku": 0,
+      "like": 48,
+      "duration": 198,
+      "pubdate": 1780745340,
+      "author": "Raina测试",
+      "mid": 471724959,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 22
+    },
+    {
+      "bvid": "BV1FNtzzhEL6",
+      "title": "Apifox MCP Server",
+      "desc": "Apifox MCP Server 解决了让 AI 能够直接访问项目对应的接口文档数据的问题，方便开发者通过 AI 助手根据接口文档完成生成或修改代码、搜索接口文档内容等工作。#MCP #Apifox #AI编程 #API文档",
+      "play": 3387,
+      "danmaku": 0,
+      "like": 77,
+      "duration": 72,
+      "pubdate": 1754605800,
+      "author": "二师兄说AI",
+      "mid": 12494395,
+      "queries_hit": [
+        "MCP 实战",
+        "MCP 原理"
+      ],
+      "age_days": 325
+    },
+    {
+      "bvid": "BV17QGJzYE4w",
+      "title": "Gemini CLI 从安装到MCP部署实战完整教学，快速上手！免费白嫖Gemini 2.5 Pro",
+      "desc": "",
+      "play": 3333,
+      "danmaku": 0,
+      "like": 53,
+      "duration": 464,
+      "pubdate": 1751969458,
+      "author": "码码评测",
+      "mid": 62613973,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 355
+    },
+    {
+      "bvid": "BV1BF756nE9F",
+      "title": "UE5 MCP-详细入门 新的时代来临",
+      "desc": "地址：https://www.aboutcg.org/courseDetails/3099/introduce",
+      "play": 3205,
+      "danmaku": 0,
+      "like": 25,
+      "duration": 193,
+      "pubdate": 1782474899,
+      "author": "人宅",
+      "mid": 29544409,
+      "queries_hit": [
+        "MCP 实战",
+        "MCP 入门"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "BV1SAdDYuETC",
+      "title": "使用 C# 创建和部署 MCP 服务器入门指南",
+      "desc": "",
+      "play": 3191,
+      "danmaku": 2,
+      "like": 48,
+      "duration": 1520,
+      "pubdate": 1744381356,
+      "author": "BazingaZexus",
+      "mid": 226440,
+      "queries_hit": [
+        "MCP",
+        "MCP 入门"
+      ],
+      "age_days": 443
+    },
+    {
+      "bvid": "BV1uobzzUEjg",
+      "title": "【MCP教程】Trae MCP配置",
+      "desc": "Coze平台系列教程，免费分享，包含智能体搭建、工作流拆解、插件使用讲解等，希望更多的人因AI而强大。",
+      "play": 3134,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 247,
+      "pubdate": 1755161295,
+      "author": "明知AI",
+      "mid": 87911991,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 入门"
+      ],
+      "age_days": 318
+    },
+    {
+      "bvid": "109613431",
+      "title": "MCP快速入门教程",
+      "desc": "",
+      "play": 3016,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "FutureAI实验室",
+      "mid": 3546724261956069,
+      "queries_hit": [
+        "MCP",
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 原理",
+        "MCP Claude",
+        "MCP 入门"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV14rJ56gES9",
+      "title": "深情版最新burp+mcp配置",
+      "desc": "工具获取或者培训咨询加v：azz_789",
+      "play": 2912,
+      "danmaku": 1,
+      "like": 71,
+      "duration": 4489,
+      "pubdate": 1781270431,
+      "author": "湘安无事-深情哥",
+      "mid": 393367039,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 16
+    },
+    {
+      "bvid": "BV1Zk7Z66EVn",
+      "title": "MT管理器 APK MCP 详细使用教程",
+      "desc": "MT管理器 APK MCP 详细使用教程",
+      "play": 2911,
+      "danmaku": 1,
+      "like": 103,
+      "duration": 331,
+      "pubdate": 1780535711,
+      "author": "梦然Zz",
+      "mid": 3546689696696622,
+      "queries_hit": [
+        "MCP 教程"
+      ],
+      "age_days": 25
+    },
+    {
+      "bvid": "BV13Kjo6WEWy",
+      "title": "Claude与全新UE｜5.8 MCP太疯狂了（但我让它更好了）中文解说 (中文配音)",
+      "desc": "【AI摘要】 UE5.8原生MCP实测！Claude+Cursor自动建城，但官方演示有坑？教你正确配置实现魔法效果。 自动翻译分发。",
+      "play": 2892,
+      "danmaku": 0,
+      "like": 57,
+      "duration": 1009,
+      "pubdate": 1782316940,
+      "author": "拍拍风",
+      "mid": 73553800,
+      "queries_hit": [
+        "MCP 实战",
+        "MCP Claude"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV1YmJ36BEsf",
+      "title": "告别手动，AI代劳：Claude Code + MCP 实现ABAQUS全自动建模",
+      "desc": "用Claude Code + MCP给ABAQUS装上“AI大脑”：从自然语言到仿真模型的全自动之路",
+      "play": 2767,
+      "danmaku": 0,
+      "like": 61,
+      "duration": 937,
+      "pubdate": 1781527628,
+      "author": "CAE老白",
+      "mid": 470866979,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 13
+    },
+    {
+      "bvid": "BV11vG669EEP",
+      "title": "Claude code接入Stata MCP",
+      "desc": "# 为 Claude Code 接入 Stata MCP 实现效果 准备工作： - 安装claude code，买官方账号，或者使用第三方api - 安装vscode，并安装插件claude code for vscode 安装stata-mcp：https://github.com/SepineTam/mcp-for-stata/blob/master/README.zh-CN.md vibe coding 演示 - 先编辑CLAUDE.md - 然后再vibe coding 参考： - ht",
+      "play": 2738,
+      "danmaku": 0,
+      "like": 64,
+      "duration": 713,
+      "pubdate": 1779548388,
+      "author": "卿明夕",
+      "mid": 381261685,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 36
+    },
+    {
+      "bvid": "BV1MvMhzuEph",
+      "title": "ICML 2025 5mins video: In-Context Deep Learning via Transformer Models",
+      "desc": "",
+      "play": 2712,
+      "danmaku": 0,
+      "like": 62,
+      "duration": 264,
+      "pubdate": 1750735800,
+      "author": "大一本科生",
+      "mid": 3546587376650961,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 370
+    },
+    {
+      "bvid": "BV1urREBzEu2",
+      "title": "深度测评 Claude 的 MCP 连接器 - 实测 Claude 在 Blender、Adobe 及 SketchUp 中的自动化表现",
+      "desc": "【视频简介】 Anthropic 近期推出了针对 Blender、Adobe 和 SketchUp 等创意软件的全新 MCP 连接器，引发了关于 AI 是否会取代创意工作者的激烈讨论。本视频通过实战测评，将 Claude 的智能体工作流应用于真实的创意项目：包括尝试用 Blender 重现经典的甜甜圈教程、进行 Adobe Express 的图像修图与色彩平衡处理，并对比了 AI 全自动生成与人工剪辑的短片效果。深度揭示了目前 AI 智能体在创意生产中的真实水平与短板。 【你将学到】 1. 理解什么是",
+      "play": 2293,
+      "danmaku": 2,
+      "like": 28,
+      "duration": 964,
+      "pubdate": 1777730100,
+      "author": "设计门外憨",
+      "mid": 672397532,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 57
+    },
+    {
+      "bvid": "BV1KYj96MEHP",
+      "title": "用AI做游戏真的靠谱吗（UE官方MCP使用体验教程）",
+      "desc": "",
+      "play": 2290,
+      "danmaku": 25,
+      "like": 39,
+      "duration": 857,
+      "pubdate": 1782272285,
+      "author": "华丽与沮丧",
+      "mid": 690638350,
+      "queries_hit": [
+        "MCP 教程"
+      ],
+      "age_days": 5
+    },
+    {
+      "bvid": "BV1xp7G6oE6K",
+      "title": "【动画讲解】Skill和MCP到底是什么？有什么区别？5分钟给你讲明白，定义/用途/差异对比全覆盖，超简单，零基础也能轻松学会！大模型|LLM",
+      "desc": "视频配套仔料+大模型入门到进阶全套仔料 已经整理打包好 如果视频对你有用的话请一键三连【长按点赞】支持一下up哦",
+      "play": 2283,
+      "danmaku": 91,
+      "like": 65,
+      "duration": 286,
+      "pubdate": 1782459222,
+      "author": "全栈AI开发",
+      "mid": 3546930653170443,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "BV1mLjm6xE48",
+      "title": "ClaudeCode必装6个MCP，裸用就亏了！",
+      "desc": "Playwright进浏览器、Filesystem读项目、Postgres连数据库、GitHub看协作、Context7查文档、Sequential Thinking推理难题。这才是Claude Code的完全体！",
+      "play": 2251,
+      "danmaku": 0,
+      "like": 76,
+      "duration": 139,
+      "pubdate": 1782223980,
+      "author": "阿森编程日记",
+      "mid": 3546691489761837,
+      "queries_hit": [
+        "MCP",
+        "MCP Claude",
+        "MCP 入门"
+      ],
+      "age_days": 5
+    },
+    {
+      "bvid": "BV1LQL16FEYw",
+      "title": "VSCode 扩展 Claude Code 添加 MCP Server 步骤详解",
+      "desc": "更多编程开发技术+项目实战，关注老周~ 为你一对一提供学习规划、系统提升、就业建议~",
+      "play": 2222,
+      "danmaku": 1,
+      "like": 33,
+      "duration": 454,
+      "pubdate": 1779265567,
+      "author": "老周聊golang",
+      "mid": 646640992,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 39
+    },
+    {
+      "bvid": "BV1AkcQzzE3x",
+      "title": "Anthropic《模型上下文协议（MCP）入门 | Introduction to Model Context Protocol》中英字幕",
+      "desc": "https://www.coursera.org/learn/introduction-to-model-context-protocol",
+      "play": 2177,
+      "danmaku": 0,
+      "like": 41,
+      "duration": 3702,
+      "pubdate": 1773705600,
+      "author": "GPT中英字幕课程资源",
+      "mid": 3493138152819508,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 104
+    },
+    {
+      "bvid": "BV1YEdKYnESG",
+      "title": "实现AI大模型与生产工具的交互：QGIS的Claude+MCP部署全流程！",
+      "desc": "感觉功能还比较有限，随便玩玩吧。",
+      "play": 2168,
+      "danmaku": 0,
+      "like": 40,
+      "duration": 515,
+      "pubdate": 1744223365,
+      "author": "星辰学长GeoLab",
+      "mid": 477771171,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 445
+    },
+    {
+      "bvid": "BV1ZYLuz1E2x",
+      "title": "【疯狂的Rust库】rmcp 官方实现的MCP库",
+      "desc": "https://github.com/modelcontextprotocol/rust-sdk",
+      "play": 2136,
+      "danmaku": 0,
+      "like": 41,
+      "duration": 146,
+      "pubdate": 1745218257,
+      "author": "沙漠在逃",
+      "mid": 52374219,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 434
+    },
+    {
+      "bvid": "BV1Hz421X7Td",
+      "title": "React Context基本使用讲解",
+      "desc": "React Context基本使用讲解 更多高质量课程，请访问后盾人 houdunren.com 后盾人不断更新优秀视频教程，感谢大家关注、分享、点赞、评论 无论你是学习 javascript、es6、node.js、vue.js、react.js 、nest.js、tailwindcss、vue3、reactjs、typescript、vite、vscode、electron 都会给你带来帮助。 晚八点直播 houdunren.com 在线文档库 doc.houdunren.com",
+      "play": 2093,
+      "danmaku": 0,
+      "like": 36,
+      "duration": 456,
+      "pubdate": 1708843646,
+      "author": "后盾人-前端后端编程",
+      "mid": 282190994,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 855
+    },
+    {
+      "bvid": "BV1JP9tYpEns",
+      "title": "Cursor中配置Docker MCP | Model Context Protocol",
+      "desc": "Cursor中配置Docker MCP | Model Context Protocol",
+      "play": 2048,
+      "danmaku": 0,
+      "like": 45,
+      "duration": 144,
+      "pubdate": 1741148062,
+      "author": "艾伦Tech",
+      "mid": 3546691881929701,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 481
+    },
+    {
+      "bvid": "BV1oXEe6zEHQ",
+      "title": "Hermes MCP 配置实例",
+      "desc": "Hermes配置MCP很简单的！",
+      "play": 1973,
+      "danmaku": 0,
+      "like": 49,
+      "duration": 484,
+      "pubdate": 1781166536,
+      "author": "SenSenSenSir",
+      "mid": 3706979195291863,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战"
+      ],
+      "age_days": 17
+    },
+    {
+      "bvid": "BV1CA4qzFEjG",
+      "title": "MCP整体架构解析",
+      "desc": "",
+      "play": 1929,
+      "danmaku": 0,
+      "like": 39,
+      "duration": 299,
+      "pubdate": 1760517672,
+      "author": "智步DataV",
+      "mid": 527432927,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 256
+    },
+    {
+      "bvid": "BV1HCcTeDEz2",
+      "title": "MCP能做什么？ model context protocol 看完之后你想用它做什么呢？",
+      "desc": "打开你的思路，model context protocol 看完之后豁然开朗，好像有好多东西可以接入； 快来动手吧~~~~",
+      "play": 1849,
+      "danmaku": 1,
+      "like": 11,
+      "duration": 165,
+      "pubdate": 1736648720,
+      "author": "哆啦AI大雄",
+      "mid": 1471839843,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 533
+    },
+    {
+      "bvid": "BV1GJL6zdEBF",
+      "title": "影刀RPA_AI客户端配置影刀MCP-本地模式_实战教程 有翻车",
+      "desc": "",
+      "play": 1793,
+      "danmaku": 2,
+      "like": 10,
+      "duration": 1540,
+      "pubdate": 1745770939,
+      "author": "小可耐教你学影刀RPA",
+      "mid": 415075524,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 427
+    },
+    {
+      "bvid": "BV19wcXzREqs",
+      "title": "Anthropic《模型上下文协议：高级专题 | Model Context Protocol: Advanced Topics》中英字幕",
+      "desc": "https://anthropic.skilljar.com/model-context-protocol-advanced-topics",
+      "play": 1700,
+      "danmaku": 0,
+      "like": 26,
+      "duration": 3476,
+      "pubdate": 1773792000,
+      "author": "GPT中英字幕课程资源",
+      "mid": 3493138152819508,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 103
+    },
+    {
+      "bvid": "BV1ka7A6fEDw",
+      "title": "【2026最新版】MCP+Agent开发：从MCP原理到到多智能体实战，一个视频吃透AI大模型应用开发核心难点。",
+      "desc": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！ 本视频配套课件笔记代码/学习大纲/大模型学习路线戳这里获取→https://www.bilibili.com/opus/1195847460814061571?spm_id_from=333.1387.0.0 另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
+      "play": 1640,
+      "danmaku": 37,
+      "like": 78,
+      "duration": 37912,
+      "pubdate": 1782120915,
+      "author": "AI大模型_",
+      "mid": 340810325,
+      "queries_hit": [
+        "MCP",
+        "MCP 原理"
+      ],
+      "age_days": 6
+    },
+    {
+      "bvid": "BV1sPGy6aEJH",
+      "title": "Model Context Protocol：AI圈的USB接口",
+      "desc": "MCP是AI时代的USB接口，Hermes内置了MCP，来看一下什么是MCP吧！",
+      "play": 1542,
+      "danmaku": 0,
+      "like": 23,
+      "duration": 620,
+      "pubdate": 1779845358,
+      "author": "SenSenSenSir",
+      "mid": 3706979195291863,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 33
+    },
+    {
+      "bvid": "BV1Mc411R7BC",
+      "title": "【新思小课堂】【Verdi】Transaction & Protocol Analyzer",
+      "desc": "手把手教你...",
+      "play": 1538,
+      "danmaku": 0,
+      "like": 18,
+      "duration": 986,
+      "pubdate": 1699531200,
+      "author": "新思小课堂",
+      "mid": 1833312766,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 962
+    },
+    {
+      "bvid": "BV1jBjo6aEhF",
+      "title": "Claude Tag 爆火，我用飞书连接 Claude Code 免费实现了",
+      "desc": "Anthropic 发布了 Claude Tag，Karpathy 称之为大模型第三次革命。但企业版每人每月$250，还只支持 Slack。我用飞书+Claude Code 免费复刻了它的核心功能：群聊@AI、搜索电脑文件、远程手机操控，全程实操一小时搞定，不需要服务器，不需要写代码。",
+      "play": 1467,
+      "danmaku": 2,
+      "like": 38,
+      "duration": 269,
+      "pubdate": 1782314220,
+      "author": "达姐说科技",
+      "mid": 8872789,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV185u7zuEnv",
+      "title": "【MC/MCP】如何通过简单的MCP让AI感知到你的Minecraft世界，原理很简单！",
+      "desc": "--视频当中有一个地方说错了，主要是录制的时候没仔细看忽略了，那个实体感知没有精确化描述是因为我没有把准星准确朝向猪实体，所以它没有侦测到。抱歉啦~ --需要下载MCLLM模组可直接在modrinth和CF平台搜索即可，相关配置在模组简介都有详细描述~",
+      "play": 1436,
+      "danmaku": 0,
+      "like": 33,
+      "duration": 691,
+      "pubdate": 1752295518,
+      "author": "灵夜风和",
+      "mid": 448042510,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 原理"
+      ],
+      "age_days": 352
+    },
+    {
+      "bvid": "BV1TxLV6oEiH",
+      "title": "Claude Code 上下文管理：/compact、/clear、/context 怎么用",
+      "desc": "这个视频用 4 分钟讲清 Claude Code 里的“上下文”到底是什么：它相当于 Claude 的工作记忆，读取文件、执行命令、工具返回结果和你的每条消息都会占用空间。视频重点演示了三个常用命令的使用场景：/context 用来查看当前上下文被哪些内容占用；/compact 适合在一个功能还没做完、但会话已经很长时压缩旧内容，保留关键记忆继续开发；/clear 则适合任务结束后开启新功能，避免旧对话影响新任务判断。还提到几个实用技巧：把跨会话要记住的项目规则写进 CLAUDE.md；提示词要具体，减少",
+      "play": 1372,
+      "danmaku": 0,
+      "like": 15,
+      "duration": 464,
+      "pubdate": 1778956676,
+      "author": "AI_Express",
+      "mid": 299341201,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 43
+    },
+    {
+      "bvid": "BV1XZ9iBoE6Y",
+      "title": "Claude Code+AE MCP教程：用AI自动生成表达式与自适应动画",
+      "desc": "本期教你将After Effects MCP连接到Claude Code，用自然语言生成AE动画和表达式，包括自动构建场景、自适应文本框等 / 适合人群：有AE基础但想用AI加速工作流的设计师/动效师 / 视频深度：实战演示",
+      "play": 1313,
+      "danmaku": 0,
+      "like": 15,
+      "duration": 1442,
+      "pubdate": 1777616520,
+      "author": "YTBeer",
+      "mid": 3691012075555787,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 59
+    },
+    {
+      "bvid": "BV1hRj46MEr3",
+      "title": "还在用CFG？这篇论文教你用‘交换Token’来引导扩散模型，效果惊人！",
+      "desc": "-",
+      "play": 1271,
+      "danmaku": 3,
+      "like": 55,
+      "duration": 188,
+      "pubdate": 1782008978,
+      "author": "LLM_paper_daily",
+      "mid": 3546833812981959,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 8
+    },
+    {
+      "bvid": "778084748",
+      "title": "零门槛玩转 MCP：从工具配置到自主开发实战课",
+      "desc": "",
+      "play": 1262,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "hallo128",
+      "mid": 104488375,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1YZjY68ERS",
+      "title": "AI agent 连接 TIA portal V21 AI操作博途编写PLC程序 #Openness#Trae#MCP#Deepseek",
+      "desc": "AI首先替代的就是各种程序员...更别说一个破搞工业自动化的. 我只提出需求,AI就自己写C#连博途,导入plc程序 变量表 注释 编译 查错. 整个流程就看它在忙,我根本插不上手,自己写代码 自己查错 自己玩自己的....",
+      "play": 1249,
+      "danmaku": 0,
+      "like": 21,
+      "duration": 75,
+      "pubdate": 1781814250,
+      "author": "kinghahahaha",
+      "mid": 97595226,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 10
+    },
+    {
+      "bvid": "BV1Wb7G6XEFP",
+      "title": "2026讲的最好的MCP零基础教程丨全程干货无废话，看完让你少走99%弯路！",
+      "desc": "如果视频对你有用的话，一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！",
+      "play": 1131,
+      "danmaku": 39,
+      "like": 87,
+      "duration": 30112,
+      "pubdate": 1782454398,
+      "author": "大模型晓晓",
+      "mid": 3546900131220414,
+      "queries_hit": [
+        "MCP",
+        "MCP 入门"
+      ],
+      "age_days": 3
+    },
+    {
+      "bvid": "516718513",
+      "title": "【2026版】1 小时吃透 MCP 开发全流程",
+      "desc": "",
+      "play": 1061,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "北大李晓华教人工智能",
+      "mid": 1343759259,
+      "queries_hit": [
+        "MCP 实战",
+        "MCP 原理",
+        "MCP Claude",
+        "MCP 入门"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1xR766zEKN",
+      "title": "CODESYS MCP 使用讲解",
+      "desc": "AI 时代的自动化开发，不只是工具升级，更是工程效率与协作方式的升级。",
+      "play": 1033,
+      "danmaku": 0,
+      "like": 24,
+      "duration": 3370,
+      "pubdate": 1780639732,
+      "author": "CODESYS智能自动化",
+      "mid": 514569015,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 入门"
+      ],
+      "age_days": 24
+    },
+    {
+      "bvid": "BV1VFjPzoEKx",
+      "title": "MCP架构详解：Server还是Client？揭秘MCP工具连接协议",
+      "desc": "本视频深入解析Model Context Protocol(MCP)的底层架构，演示Claude如何通过C/S结构连接AI工具生态。从Server注册机制、Client通信流程，到LLM感知工具全过程，用真实代码带你彻底理解MCP，避开开发陷阱。无论你是打造MCP Server还是Client应用，这期指南都能帮你明确产品定位，理清架构设计思路，确保无缝衔接MCP生态。手把手教学，纯干货分享！",
+      "play": 927,
+      "danmaku": 0,
+      "like": 17,
+      "duration": 573,
+      "pubdate": 1745738148,
+      "author": "暴躁哐哐",
+      "mid": 3493129193785432,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 428
+    },
+    {
+      "bvid": "BV1jJsPzpEzj",
+      "title": "以一个实例演示MCP的工作原理",
+      "desc": "码神社区：www.mszlu.com/",
+      "play": 908,
+      "danmaku": 0,
+      "like": 15,
+      "duration": 124,
+      "pubdate": 1760918400,
+      "author": "码神之路",
+      "mid": 473844125,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 252
+    },
+    {
+      "bvid": "BV15aptzyE66",
+      "title": "【Microsoft】Mcp协议入门 | Model Context Protocol (Mcp)",
+      "desc": "构建具有模型上下文协议 (MCP) 的 AI 代理！探索模型上下文协议 (MCP)——一个强大的框架，用于构建安全、可扩展和实际应用的 AI 应用程序。本播放列表将引导您了解核心概念、实践开发、高级实现和实际案例研究。学习如何在 Visual Studio Code 中使用 MCP 构建和部署 AI 代理，参与社区并应用来自各行业早期采用者的最佳实践。在这里找到完整的“初学者的 MCP”课程和代码示例。 https://github.com/microsoft/mcp-for-beginners/",
+      "play": 873,
+      "danmaku": 0,
+      "like": 16,
+      "duration": 3081,
+      "pubdate": 1758261900,
+      "author": "Mindofuture",
+      "mid": 1122798707,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 283
+    },
+    {
+      "bvid": "BV1bobzzUE7C",
+      "title": "【MCP教程】扣子空间MCP配置",
+      "desc": "Coze平台系列教程，免费分享，包含智能体搭建、工作流拆解、插件使用讲解等，希望更多的人因AI而强大。",
+      "play": 678,
+      "danmaku": 0,
+      "like": 4,
+      "duration": 146,
+      "pubdate": 1755161289,
+      "author": "明知AI",
+      "mid": 87911991,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战"
+      ],
+      "age_days": 318
+    },
+    {
+      "bvid": "BV1noYGzBEvt",
+      "title": "ShadCN MCP",
+      "desc": "",
+      "play": 626,
+      "danmaku": 0,
+      "like": 8,
+      "duration": 614,
+      "pubdate": 1757226924,
+      "author": "lllsdasd235",
+      "mid": 491328269,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 295
+    },
+    {
+      "bvid": "BV1PMJA6PEQ3",
+      "title": "为什么给Claude装个插件，它突然什么都会了？~MCP【AI世界08】",
+      "desc": "你第一次给Claude装了MCP之后，有没有被吓到？突然会查GitHub、会操作浏览器、会读飞书——明明模型没升级啊。 答案就一句话：MCP是AI世界的USB接口。以前每个AI和每个工具要单独对接，M×N的工程噩梦。现在统一了——AI只需要认识MCP，而MCP认识所有工具。 看完你就理解为什么2025年MCP突然炸了，以及为什么这是Agent时代来临前的最后一块拼图。",
+      "play": 593,
+      "danmaku": 0,
+      "like": 11,
+      "duration": 209,
+      "pubdate": 1781479601,
+      "author": "阿龙玩AI",
+      "mid": 688069659,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 14
+    },
+    {
+      "bvid": "BV1NwdFB7E2Z",
+      "title": "context_mode",
+      "desc": "今天拆一个 GitHub 热门项目：context-mode。 它不是让模型更强，而是帮 AI Coding Agent 管好上下文入口，把工具输出、日志、测试结果先过滤压缩，再把真正关键的信息交给模型。 适合经常用 Claude Code、Codex、Cursor 的人看看。 GitHub： https://github.com/mksglu/context-mode",
+      "play": 511,
+      "danmaku": 0,
+      "like": 5,
+      "duration": 103,
+      "pubdate": 1778136912,
+      "author": "AIlazy俊",
+      "mid": 44153211,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 53
+    },
+    {
+      "bvid": "BV1BsVfz7E4n",
+      "title": "TIA Portal MCP Server DeepSeek AI",
+      "desc": "TIA Portal MCP Server DeepSeek AI",
+      "play": 504,
+      "danmaku": 0,
+      "like": 16,
+      "duration": 945,
+      "pubdate": 1746879213,
+      "author": "这段时间忙得可怕",
+      "mid": 441693215,
+      "queries_hit": [
+        "MCP",
+        "MCP 实战"
+      ],
+      "age_days": 414
+    },
+    {
+      "bvid": "BV1Cb7Y6VE5e",
+      "title": "我实测了UE5.8的新MCP，用Claude Code驱动，结果……",
+      "desc": "课程官网：https://www.youtube.com/watch?v=I5WLl4MdK28 更多课程下载和福利：cgtuto.com 喜欢的记得三连+++关注",
+      "play": 503,
+      "danmaku": 0,
+      "like": 26,
+      "duration": 2012,
+      "pubdate": 1782384003,
+      "author": "LiuVFX",
+      "mid": 98989656,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 3
+    },
+    {
+      "bvid": "BV1rXGAzoEnA",
+      "title": "用嘴巴测：Claude Code + Mobile-MCP 的极简测试体验",
+      "desc": "// UP 是人机 Mobile-MCP测试框架集成简介 测试概述 成功完成了Claude Code与mobile-mcp测试框架的集成测试。 测试配置 工具: Claude Code 测试框架: mobile-mcp 项目地址: https://github.com/mobile-next/mobile-mcp 测试时间: 2025年7月 测试结果 连接状态: 成功建立 ✅ 框架集成: 运行正常 协议通信: MCP协议通信验证通过 技术特点 mobile-mcp作为专门的MCP测试框架，提供了完整的测试",
+      "play": 473,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 214,
+      "pubdate": 1752063996,
+      "author": "温尼伯鹅蛋脸",
+      "mid": 3546624200542989,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 354
+    },
+    {
+      "bvid": "BV1amRsBfEFR",
+      "title": "Context Mode：让 AI 代理少吃上下文，压缩后少忘事",
+      "desc": "Context Mode 是一个给 AI 编码代理用的第三方 MCP 插件和扩展层，不是官方自带功能。它的思路很直接：把大块日志、文档和工具输出先在本地执行或本地索引，再把真正有用的结果交给模型，并尽量保住压缩后的会话连续性。这里的本地处理不等于完全不落盘，关键索引和部分会话信息会保存在本地数据库里。它更适合日志多、文档多、长会话多的开发工作流；实际收益会受平台 hook 能力、使用方式和任务类型影响。",
+      "play": 453,
+      "danmaku": 0,
+      "like": 9,
+      "duration": 388,
+      "pubdate": 1778049052,
+      "author": "Charaplay",
+      "mid": 1635751951,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 54
+    },
+    {
+      "bvid": "BV1EyoCBhEHZ",
+      "title": "OpenClaw 接入MCP服务",
+      "desc": "本节课程配套学习籽聊，点击下方连结，快速令曲👇 https://www.bilibili.com/opus/1100126091579752452 包含AI智能体搭建/AI大模型应用开发/AI商业变现/AI图文漫剧生成全套籽聊， AI智能体搭建入门到精通(最新版)，完全零基础学习，全面精通智能体搭建技术， AI大模型企业级应用实战(最新版)，全网最通俗易懂，彻底掌握大模型开发技术， AI热门工具从入门到精通(最新版)，全面提高生产效率，快速掌握AI热门工具， 全程干货，无废话，通俗易懂，小白学了都直呼太简",
+      "play": 413,
+      "danmaku": 0,
+      "like": 1,
+      "duration": 120,
+      "pubdate": 1777292228,
+      "author": "龙虾讲AI",
+      "mid": 3546921436186643,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 62
+    },
+    {
+      "bvid": "BV1Y1duYbEHo",
+      "title": "Model Context Protocol（MCP）: AI交互标准化的创新与实践",
+      "desc": "本视频聚焦Model Context Protocol（MCP）展开讲解。对MCP基本概念进行阐释，探讨了MCP在构建智能体方面的重要意义。结合openai-agents等实际案例，从工具调用、服务器与客户端交互等方面，详细讲解MCP在实际应用中的操作方式与运行逻辑，帮助大家深入理解并掌握其具体实践。 报告人：丁安然",
+      "play": 396,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 2926,
+      "pubdate": 1744250414,
+      "author": "自邮之翼",
+      "mid": 553316250,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 445
+    },
+    {
+      "bvid": "BV1jz7g6MEw5",
+      "title": "AI agent 连接 博途V21 编写经典LAD程序_2 #Openness#Trae#MCP#Deepseek",
+      "desc": "",
+      "play": 379,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 158,
+      "pubdate": 1782181841,
+      "author": "kinghahahaha",
+      "mid": 97595226,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 6
+    },
+    {
+      "bvid": "BV1PeM4zWEet",
+      "title": "MCP篇-用MCP实现RPA",
+      "desc": "用AI+MCP实现RPA指令实操",
+      "play": 376,
+      "danmaku": 0,
+      "like": 5,
+      "duration": 450,
+      "pubdate": 1749965248,
+      "author": "DeAI实验室",
+      "mid": 3493269426146003,
+      "queries_hit": [
+        "MCP 教程"
+      ],
+      "age_days": 379
+    },
+    {
+      "bvid": "BV1UErYBCEFJ",
+      "title": "以Revit为例，深度解析MCP",
+      "desc": "用AI生成的一个视频教程",
+      "play": 344,
+      "danmaku": 0,
+      "like": 5,
+      "duration": 466,
+      "pubdate": 1768222478,
+      "author": "孔凯_BIM",
+      "mid": 31509231,
+      "queries_hit": [
+        "MCP 原理",
+        "MCP 入门"
+      ],
+      "age_days": 167
+    },
+    {
+      "bvid": "BV1STjp69Ezb",
+      "title": "Claude + Higgsfield MCP 现在可以构建真实 3D 游戏了！",
+      "desc": "【海外 AI 订阅】 国内直连，支付宝付款，不用代理， 一站订阅 ChatGPT / Codex / Claude Code / X 订阅链接：https://bewild.ai?code=SJZD 订阅时请填优惠邀请码：SJZD，优惠1美元。 【视频简介】 我用零代码在一个下午做出了 3 款真正的多人联机游戏——一觉醒来发现吸引了 4,000 名玩家和 120 次二次创作（Remixes）。以下是具体的 AI 工具组合。 在这期教程中，你将看到如何在周末免代码、免后端开发、免服务器地构建、发布并变现你",
+      "play": 327,
+      "danmaku": 0,
+      "like": 11,
+      "duration": 721,
+      "pubdate": 1781959588,
+      "author": "设计之道",
+      "mid": 393059167,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 8
+    },
+    {
+      "bvid": "BV1VVJK64EkE",
+      "title": "claude code也能用image2来生图的MCP工具",
+      "desc": "仓库地址：https://github.com/EDMOK/images-tool-mcp",
+      "play": 300,
+      "danmaku": 0,
+      "like": 6,
+      "duration": 52,
+      "pubdate": 1781453524,
+      "author": "EdM0K",
+      "mid": 291892724,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 14
+    },
+    {
+      "bvid": "BV1DB7V6vEuL",
+      "title": "Claude + Higgsfield MCP 现在可以构建真实 3D 游戏了！",
+      "desc": "【海外 AI 订阅】 国内直连，支付宝付款，不用代理， 一站订阅 ChatGPT / Codex / Claude Code / X 订阅链接：https://bewild.ai?code=SJZD 订阅时请填优惠邀请码：SJZD，优惠1美元。 【视频简介】 Seedance 2.0 4K 刚刚发布——于是我用笔记本电脑完全通过 AI 制作了一部全电影级的 4K 商业广告。产品、演员、场景，全都是生成的。 在本教程中，你将学习如何完全用 AI 制作一部电影级的产品商业广告——无需摄像机、无需剧组、无需演",
+      "play": 278,
+      "danmaku": 0,
+      "like": 13,
+      "duration": 2137,
+      "pubdate": 1782479543,
+      "author": "设计之道",
+      "mid": 393059167,
+      "queries_hit": [
+        "MCP Claude"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "934519404",
+      "title": "Agent MCP基础教程(连接工具)",
+      "desc": "",
+      "play": 230,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "亢老师-AIRTC",
+      "mid": 394612055,
+      "queries_hit": [
+        "MCP 入门"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1h57G6AEMA",
+      "title": "Model Context Protocol（MCP）到底怎么工作？",
+      "desc": "视频标题 Model Context Protocol（MCP）到底怎么工作？ 原视频链接 https://youtu.be/cGuyrANVi4A?si=_Go2v6leg-k1x-f- 原视频发布时间 2026-06-24 传统 API 为确定性程序而生，但大模型本质是概率推理——如何让 AI 智能体无需每次重写杂乱定制代码，就能可靠调用工具与数据？答案是 Model Context Protocol（MCP）。 本视频中，Smitha Kolan 清晰拆解：MCP 是什么、它如何统一 AI",
+      "play": 203,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 478,
+      "pubdate": 1782459794,
+      "author": "GoldenSpiderAI",
+      "mid": 3546838527380108,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "BV14T7s64EEG",
+      "title": "Codex && Figma MCP 实战分享",
+      "desc": "使用 figma make 功能生成优化后的 UI 界面，再使用 codex + figma mcp插件 去完成代码",
+      "play": 196,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 587,
+      "pubdate": 1782570510,
+      "author": "菊次郎の夏天1024",
+      "mid": 353283086,
+      "queries_hit": [
+        "MCP 实战"
+      ],
+      "age_days": 1
+    },
+    {
+      "bvid": "BV1PHoPYeEgr",
+      "title": "为什么有Model Context Protocol？",
+      "desc": "什么是MCP？为什么有MCP？",
+      "play": 180,
+      "danmaku": 0,
+      "like": 1,
+      "duration": 251,
+      "pubdate": 1744777522,
+      "author": "UP进化论",
+      "mid": 16696495,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 439
+    },
+    {
+      "bvid": "BV1ca72zfEWP",
+      "title": "Secure_Protocol_Data_Model-SPDM",
+      "desc": "转自 youtube",
+      "play": 125,
+      "danmaku": 0,
+      "like": 1,
+      "duration": 2215,
+      "pubdate": 1748839533,
+      "author": "duanzhang512",
+      "mid": 281188152,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 392
+    },
+    {
+      "bvid": "BV1ft7b6tEhu",
+      "title": "MCP是个好东西",
+      "desc": "-",
+      "play": 108,
+      "danmaku": 0,
+      "like": 6,
+      "duration": 22,
+      "pubdate": 1782359843,
+      "author": "为什么需要六个啊喂",
+      "mid": 514776602,
+      "queries_hit": [
+        "MCP"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV14dayzvEPe",
+      "title": "Model Context Protocol: An Introduction",
+      "desc": "Model Context Protocol: An Introduction",
+      "play": 74,
+      "danmaku": 0,
+      "like": 1,
+      "duration": 1245,
+      "pubdate": 1756939598,
+      "author": "dalaska的欢愉",
+      "mid": 505239550,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 298
+    },
+    {
+      "bvid": "BV1N9jR6CEWQ",
+      "title": "EpicAI – Master the Model Context Protocol (MCP) part2",
+      "desc": "https://www.epicai.pro/cohorts/master-mcp EpicAI – Master the Model Context Protocol (MCP) 2025-10",
+      "play": 71,
+      "danmaku": 0,
+      "like": 2,
+      "duration": 7151,
+      "pubdate": 1782297590,
+      "author": "lmt831",
+      "mid": 27174700,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV121EyzNEqY",
+      "title": "二十分钟解释Model Context Protocol (MCP)",
+      "desc": "",
+      "play": 66,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 1189,
+      "pubdate": 1747289600,
+      "author": "bili_91276238573",
+      "mid": 3546891914578126,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 410
+    },
+    {
+      "bvid": "BV11jJn6DEVq",
+      "title": "39.Reference-Model Context Protocol (MCP)-MCP Server Boot Starters-STDIO and SSE",
+      "desc": "该项目旨在简化包含人工智能功能的应用程序的开发，避免不必要的复杂性。 该项目的灵感源自一些知名的Python项目，例如LangChain和LlamaIndex，但Spring AI并非这些项目的直接移植。我们创立该项目的初衷是相信，生成式AI应用的下一波浪潮将不仅面向Python开发者，更将在多种编程语言中广泛普及。 Spring AI 解决了人工智能集成的根本挑战：Connecting your enterprise Data and APIs with AI Models. Spring AI 提供了",
+      "play": 55,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 3305,
+      "pubdate": 1782597600,
+      "author": "程序员张伟",
+      "mid": 3546829457197408,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 1
+    },
+    {
+      "bvid": "BV16RTV6tE1f",
+      "title": "7分钟搞懂MCP：AI模型与外部工具交互的通用协议",
+      "desc": "AI模型调用外部工具为何总是一团糟？MCP（模型上下文协议）作为Anthropic推出的开放标准，正彻底改变智能体与工具交互的方式。本视频深入解析MCP的核心原理、与传统API的本质区别，并通过实战演示如何构建基于MCP的AI助手，是开发者必看的新一代AI集成方案。 🎬 章节 00:00 API与AI的集成难题 00:48 什么是MCP 01:26 MCP连接哪些资源 02:43 MCP工作原理 客户端与服务器 04:03 MCP核心组件 工具 提示 资源 05:20 MCP vs API 关键区别 0",
+      "play": 46,
+      "danmaku": 1,
+      "like": 7,
+      "duration": 956,
+      "pubdate": 1782704640,
+      "author": "程序员-智能译站",
+      "mid": 2061186491,
+      "queries_hit": [
+        "MCP 原理"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV17V786oEaV",
+      "title": "Workbuddy MCP配置",
+      "desc": "",
+      "play": 41,
+      "danmaku": 0,
+      "like": 6,
+      "duration": 289,
+      "pubdate": 1782351004,
+      "author": "随拍旅人",
+      "mid": 39022990,
+      "queries_hit": [
+        "MCP 教程",
+        "MCP 实战",
+        "MCP 入门"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV1dhenzHEdB",
+      "title": "The Model Context Protocol (MCP)",
+      "desc": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+      "play": 30,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 1175,
+      "pubdate": 1756046283,
+      "author": "AlphaSu的科技频道",
+      "mid": 401635655,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 308
+    },
+    {
+      "bvid": "BV1okJP6ZEtu",
+      "title": "41.Reference-Model Context Protocol (MCP)-MCP Server Boot Starters-STDIO and SSE",
+      "desc": "该项目旨在简化包含人工智能功能的应用程序的开发，避免不必要的复杂性。 该项目的灵感源自一些知名的Python项目，例如LangChain和LlamaIndex，但Spring AI并非这些项目的直接移植。我们创立该项目的初衷是相信，生成式AI应用的下一波浪潮将不仅面向Python开发者，更将在多种编程语言中广泛普及。 Spring AI 解决了人工智能集成的根本挑战：Connecting your enterprise Data and APIs with AI Models. Spring AI 提供了",
+      "play": 29,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 3157,
+      "pubdate": 1782684000,
+      "author": "程序员张伟",
+      "mid": 3546829457197408,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV17R7E6FEZv",
+      "title": "Building AI Integrations with Model Context Protocol (MCP)",
+      "desc": "本课程是一门实践性强的动手课程，教授如何设计、构建和部署基于MCP的高级AI集成，实现AI模型与应用之间的结构化通信。您将学习MCP的工作原理、在模型调用中维护清晰上下文的优势，以及如何利用它构建结合多个AI模型、服务和数据源的可靠工作流。课程涵盖MCP系统搭建、上下文数据管理、动态输入输出处理，以及与外部API和工具的集成。 MCP正成为AI系统连接外部工具、数据和能力的重要标准。本课程从基础到实际集成，帮助您设计可在工具、模型和环境间清晰扩展的AI代理。您将首先了解MCP诞生的背景——解决困扰现代AI",
+      "play": 8,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 4663,
+      "pubdate": 1782524103,
+      "author": "笨佳明",
+      "mid": 516648363,
+      "queries_hit": [
+        "Model Context Protocol"
+      ],
+      "age_days": 2
+    }
+  ],
+  "comments_by_bvid": {
+    "BV14rzQB9EJj": [
+      {
+        "message": "视频看完，做个思维导图加深下印象，需要的可以自取",
+        "like": 218,
+        "ctime": 1774319648,
+        "uname": "北鸟南游"
+      },
+      {
+        "message": "最新的Claude Code Tasks能不能讲解一下，跟workflow有什么区别啊",
+        "like": 55,
+        "ctime": 1769473722,
+        "uname": "叶文洁111"
+      },
+      {
+        "message": "UP，你的这期视频被盗用至b站某付费课程作为试看课。https://www.bilibili.com/cheese/play/ss485516796?bsource=link_copy",
+        "like": 34,
+        "ctime": 1779206178,
+        "uname": "建筑师LYF"
+      }
+    ],
+    "BV1KY411t75D": [
+      {
+        "message": "多亏了中国人的聪明才智，相关技术与通信协议全球领先[藏狐]",
+        "like": 14864,
+        "ctime": 1643369880,
+        "uname": "生化环材"
+      },
+      {
+        "message": "根据《计算机信息网络国际联网管理暂行规定》第六条，计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何单位和个人不得自行建立或者使用其他信道进行国际联网。但是事实上司法解释里“信道”指的是“物理信道”，现在绝大部分梯子虽然使用的境外服务器绕开屏蔽，但是在访问境外服务器时，仍然使用的是三大运营商（也就是国家）提供的信道，并不违反这条法规。 所以，通过在边境假设网线，与境外假设无线网桥才算非法建立国际信道。",
+        "like": 712,
+        "ctime": 1643472231,
+        "uname": "モ_さんです"
+      },
+      {
+        "message": "在下有一个设想，现在云手机云电脑很多，用外国云手机进行上网是不是就完美了呢？己方没有使用任何工具翻墙，只是合法访问了一个外国网页，云手机的本体又在国外可以访问所有网站，在通过画面形式传过来，相当于外国友人在给我发视频，只不过这个视频可操作。",
+        "like": 19,
+        "ctime": 1643538898,
+        "uname": "白衣世卿"
+      }
+    ],
+    "BV1aeLqzUE6L": [
+      {
+        "message": "agent：代理，指代表他人行事的人。前两年，AI工具的功能还局限于问答形式：我抛出一个问题，AI告诉我怎么做，我自己去做。 如今，AI工具的功能已经进化成为：我抛出一个问题，并提出要求，AI代替我去做。 这就切合了agent（代理）这个单词的含义，所以此类 能够代替用户完成任务的工具 就叫做AI agent。 由于这种工具比起早期开发的产品更加智能，于是agent又有了一种称呼：智能体 以上是我自己的理解，供大家参考",
+        "like": 782,
+        "ctime": 1746435596,
+        "uname": "贺少侠来也"
+      },
+      {
+        "message": "老师，这个作为 SystemPrompt怎么样？",
+        "like": 566,
+        "ctime": 1750391393,
+        "uname": "幸运小蚂蚁_"
+      },
+      {
+        "message": "一张图搞清楚各种概念",
+        "like": 53,
+        "ctime": 1748326179,
+        "uname": "B站用户骚神"
+      }
+    ],
+    "BV1AnQNYxEsy": [
+      {
+        "message": "爬爬虾挺跟时事的，虽然去年就出了，用的人挺少，最近外网讨论热度挺高的。本来这周末我打算把 Anthropic 的开源 MCP 协议看一下，也准备写一篇文章，具体介绍，具体为什么这样弄。和 ReAct 和 FunctionCalling 区别是什么。",
+        "like": 256,
+        "ctime": 1741873998,
+        "uname": "young1lin"
+      },
+      {
+        "message": "blibli为数不多用windows演示的良心博主[打call][打call]",
+        "like": 175,
+        "ctime": 1741872053,
+        "uname": "前韵律"
+      },
+      {
+        "message": "CherryStudio有即用的MCP",
+        "like": 38,
+        "ctime": 1741877362,
+        "uname": "Xiaoiec的塔迪斯"
+      }
+    ],
+    "BV1eK5DzHEWu": [
+      {
+        "message": "学会啦[星星眼]",
+        "like": 51,
+        "ctime": 1745376192,
+        "uname": "我爱喝假酒丶"
+      },
+      {
+        "message": "这个才是正确的链接，有需要的自取 https://pan.baidu.com/s/1eZSTzhcn_BkOzv6MxP2L0g?pwd=yyds 提取码: yyds",
+        "like": 24,
+        "ctime": 1772614602,
+        "uname": "一ta"
+      },
+      {
+        "message": "赞！",
+        "like": 0,
+        "ctime": 1760086122,
+        "uname": "喜欢划火柴"
+      }
+    ],
+    "BV1HFd6YhErb": [
+      {
+        "message": "秋芝姐姐，能不能讲讲fastmcp[星星眼][星星眼]",
+        "like": 1122,
+        "ctime": 1744552351,
+        "uname": "那该怎么办呢"
+      },
+      {
+        "message": "不想开 cursor 会员可以试试 vscode 的 roo code 插件，也支持mcp，可以使用通用openai接口的API，或者自行了解一下这个项目 https://github.com/yeongpin/cursor-free-vip ，虽然有1万多的star，不过项目已经声明了后果自负[doge]个人建议还是使用roo code，自行配置API key，低成本方案就是使用openrouter免费额度的deepseek-v3-0324，除了不支持多模态，代码性能基本上在claude3.5和3.7之间，即使付费官网性价比也非常高，命中缓存输入只有5毛钱，具体代码性能可以参考https://lmarena.ai/?ref=www.tudingai.com 的 webdev 榜单",
+        "like": 236,
+        "ctime": 1744607978,
+        "uname": "竹鼠免疫中暑蛋白"
+      },
+      {
+        "message": "我之所以现在不考虑实用化MCP，就是因为服务太不可靠了。 除非能看懂代码，否则根本不知道后台的MCP做了些什么。 哪怕本地部署，也是危险重重。 特别是 AI 进入实体化普及后， MCP会立刻成为安全管制和信息鉴别的首道防火墙。 个人觉得，现在急需国家对此类应用的立法和管制，之后才能有效推广。",
+        "like": 92,
+        "ctime": 1744612337,
+        "uname": "1ightmagic"
+      }
+    ],
+    "BV1uronYREWR": [
+      {
+        "message": "你整个视频是我全网搜索之后最清晰的，尤其是user mcp和llm的通讯过程。其他的无论的csdn还是知乎之类的，都是从官方文档翻译过来的，包括取天气的tool都是。你做得很用心，坚持下去，我在关注你。--我从油管跟过来的",
+        "like": 261,
+        "ctime": 1744896692,
+        "uname": "魔法师之怒"
+      },
+      {
+        "message": "视频讨论了 MCP 协议的基础概念、使用方法、MCP Server 相关知识及实操演示等内容，具体如下： MCP 协议介绍： 定义：MCP 全称 Mode...",
+        "like": 13,
+        "ctime": 1778075963,
+        "uname": "Ron1991"
+      },
+      {
+        "message": "话说它怎么知道要用这个MCP中的这个函数呢？是因为python代码中的注释吗？",
+        "like": 4,
+        "ctime": 1774694573,
+        "uname": "huster_fei"
+      }
+    ],
+    "BV1MjZ5YrESn": [
+      {
+        "message": "MCP最近很火，正好想看看有哪些實用的[星星眼]",
+        "like": 38,
+        "ctime": 1743081902,
+        "uname": "KiD-KiD-KiD"
+      },
+      {
+        "message": "我发现了用MCP还存在一定的障碍，mcp服务器要依靠调用库的，库能下载到本地还好，或者找到国内镜像还好，不然用在线的库，或github上python上的，基本会被提示异墙，另我发现很多mcp服务都是中看不中用，不过绝对是未来可期，想要靠MCP实现Manus一种的通用智能体目前还不可行。",
+        "like": 28,
+        "ctime": 1743170521,
+        "uname": "RABIN-X"
+      },
+      {
+        "message": "虾哥，这种问题怎么搞？我看了\\.cherrystudio\\bin目录下是正常的",
+        "like": 8,
+        "ctime": 1743138552,
+        "uname": "刘大RichardLiu"
+      }
+    ],
+    "BV1KwdAYvEQB": [
+      {
+        "message": "上次的tripo我就被忽悠了，不管是图片生成还是文字生成效果都很一般，就算不考虑布线问题模型也和预期效果差别很大，生成以后也不能迭代优化，而且我因为相信up还实实在在花了钱充会员。你想要靠分享邀请码赚网站积分没毛病，但你不能选择性忽略它的问题还故意不说。",
+        "like": 474,
+        "ctime": 1744201836,
+        "uname": "羊毛毛就是我"
+      },
+      {
+        "message": "[吃瓜]",
+        "like": 43,
+        "ctime": 1744246566,
+        "uname": "大大猫BIGCATCAT"
+      },
+      {
+        "message": "只适合自己玩玩 ai这快也就做点异形瓶子或者打个形还可以",
+        "like": 8,
+        "ctime": 1744467670,
+        "uname": "不知名bubu"
+      }
+    ]
+  }
+}

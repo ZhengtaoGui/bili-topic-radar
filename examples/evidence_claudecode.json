@@ -1,0 +1,2331 @@
+{
+  "keyword": "Claude Code",
+  "extra_queries": [
+    "Claude Code 教程",
+    "Claude Code 实战",
+    "Claude Code MCP",
+    "Claude Code 配置",
+    "claude code 入门",
+    "Claude Code Cursor"
+  ],
+  "queries": [
+    "Claude Code",
+    "Claude Code 教程",
+    "Claude Code 实战",
+    "Claude Code MCP",
+    "Claude Code 配置",
+    "claude code 入门",
+    "Claude Code Cursor"
+  ],
+  "collected_at": 1782719142,
+  "total_unique_videos": 126,
+  "near_90d_count": 85,
+  "near_90d_ratio": 0.6746031746031746,
+  "top3_play_share": 0.32210066559123296,
+  "max_play": 1358871,
+  "median_play": 4481.0,
+  "videos": [
+    {
+      "bvid": "BV1KjoxBoEQJ",
+      "title": "9分钟搞定！Claude Code 保姆级安装+原理+真实用法（国内直连）",
+      "desc": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）",
+      "play": 1358871,
+      "danmaku": 14156,
+      "like": 47141,
+      "duration": 2099,
+      "pubdate": 1776848545,
+      "author": "人工大黑",
+      "mid": 2475977,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "Claude Code 配置",
+        "claude code 入门",
+        "Claude Code Cursor"
+      ],
+      "age_days": 67
+    },
+    {
+      "bvid": "BV1NvRyBzEhq",
+      "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】",
+      "desc": "Claude Code保姆级教学【收藏起来不会错！】 从上手安装，到高级用法，这期一次讲全～ 花了三周做教程，希望能帮到你嘻嘻，感谢朋友们的三连+关注啦～",
+      "play": 1285145,
+      "danmaku": 4841,
+      "like": 75052,
+      "duration": 3369,
+      "pubdate": 1777990105,
+      "author": "秋芝2046",
+      "mid": 385670211,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "claude code 入门"
+      ],
+      "age_days": 54
+    },
+    {
+      "bvid": "BV14rzQB9EJj",
+      "title": "Claude Code 从 0 到 1 全攻略：MCP / SubAgent / Agent Skill / Hook / 图片 / 上下文处理/ 后台任务",
+      "desc": "时间戳如下，方便大家跳转观看： 第一部分：环境搭建与基础交互 - 01:09 安装 Claude Code - 01:43 登录与授权 - 02:55 第一个实战问题 - 03:12 三种模式详解 (默认/自动/规划) 第二部分：复杂任务处理与终端控制 - 06:00 执行终端命令 (Bash) - 06:49 使用规划模式 (Plan Mode) - 11:06 跳过所有权限检测 (dangerously-skip-permissions) - 13:53 后台任务管理 (Background",
+      "play": 1197869,
+      "danmaku": 1426,
+      "like": 45134,
+      "duration": 2685,
+      "pubdate": 1769331320,
+      "author": "马克的技术工作坊",
+      "mid": 1815948385,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code MCP",
+        "claude code 入门"
+      ],
+      "age_days": 154
+    },
+    {
+      "bvid": "BV16YRLB7Exd",
+      "title": "5分钟安装ClaudeCode并接入DeepSeek",
+      "desc": "5分钟教你安装ClaudeCode并接入DeepSeekV4 用到的命令： node版本检查：node -v npm版本检查：npm -v npm国内镜像：npm config set registry https://registry.npmmirror.com/ git版本检查：git -v ClaudeCode安装命令：npm install -g @anthropic-ai/claude-code ClaudeCode版本检查：claude --version 启动ClaudeCode：claud",
+      "play": 1082290,
+      "danmaku": 400,
+      "like": 35856,
+      "duration": 327,
+      "pubdate": 1777709652,
+      "author": "Yin_Code",
+      "mid": 3706940936948128,
+      "queries_hit": [
+        "Claude Code 配置",
+        "claude code 入门"
+      ],
+      "age_days": 57
+    },
+    {
+      "bvid": "BV1kX546QEjG",
+      "title": "保姆级Claude Code速成，必学！简单！【附完整文档】",
+      "desc": "文档链接：https://lcnaoyjp4e3z.feishu.cn/wiki/MtJlwX0B5iy6y9k5GZTcdjSknTd",
+      "play": 902514,
+      "danmaku": 2294,
+      "like": 45043,
+      "duration": 623,
+      "pubdate": 1778490135,
+      "author": "数字游牧人",
+      "mid": 4848323,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "Claude Code 配置",
+        "claude code 入门"
+      ],
+      "age_days": 48
+    },
+    {
+      "bvid": "BV1ty4y1S7mC",
+      "title": "VS Code 零基础教程 | 持续更新中",
+      "desc": "不卖课，不广告。 VS Code 基础教程，求点赞，求投币，求分享，求收藏。 谢谢大家。",
+      "play": 637622,
+      "danmaku": 1122,
+      "like": 15114,
+      "duration": 9604,
+      "pubdate": 1607601608,
+      "author": "兔子不吃米饭",
+      "mid": 5758693,
+      "queries_hit": [
+        "Claude Code 教程"
+      ],
+      "age_days": 2026
+    },
+    {
+      "bvid": "BV1RPET6tEp2",
+      "title": "零基础Vibe Coding教程，vibecoding实战，Claude Code+Codex+Cursor",
+      "desc": "【配套资料】关注公众号：尚硅谷教育，回复“VibeCoding”免费获取 【课程简介】从零开始，用自然语言指挥AI开发真实软件项目！",
+      "play": 626072,
+      "danmaku": 1994,
+      "like": 5843,
+      "duration": 48790,
+      "pubdate": 1780970400,
+      "author": "尚硅谷",
+      "mid": 302417610,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code Cursor"
+      ],
+      "age_days": 20
+    },
+    {
+      "bvid": "BV1mzFVzPEB6",
+      "title": "（比刷剧爽！）2026公认最好的《Claude Code》教程，附课件代码—Claude Code探索-测试-重构-调试代码库",
+      "desc": "视频来源：DeepLearning.AI 课件代码：评论区自取 本课程我们将学习到： 1.使用 Claude 代码来探索、开发、测试、重构和调试代码库。 2.使用 MCP 服务器（例如 Playwright 和 Figma MCP 服务器）扩展 Claude Code 的功能。 3.将 Claude Code 最佳实践应用于三个项目：探索和开发 RAG 聊天机器人的代码库，重构电子商务数据的 Jupyter 笔记本并将其转换为仪表板，以及从 Figma 模型构建 Web 应用程序。",
+      "play": 552097,
+      "danmaku": 169,
+      "like": 5147,
+      "duration": 13836,
+      "pubdate": 1770110970,
+      "author": "吴恩达Agentic",
+      "mid": 3546982291343656,
+      "queries_hit": [
+        "Claude Code 教程"
+      ],
+      "age_days": 145
+    },
+    {
+      "bvid": "BV1RSFUzVEAG",
+      "title": "【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码",
+      "desc": "【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码",
+      "play": 542200,
+      "danmaku": 195,
+      "like": 6943,
+      "duration": 6173,
+      "pubdate": 1770713968,
+      "author": "吴恩达的AI课",
+      "mid": 536369261,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 138
+    },
+    {
+      "bvid": "BV1KJ61BBEB1",
+      "title": "15分钟Claude Code小白入门",
+      "desc": "一个入门教程",
+      "play": 516627,
+      "danmaku": 284,
+      "like": 11677,
+      "duration": 929,
+      "pubdate": 1769858781,
+      "author": "第四种黑猩猩CHIMP",
+      "mid": 3546830396721763,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 148
+    },
+    {
+      "bvid": "BV1Yi5M6DERk",
+      "title": "【Claude Code】这绝对是b站讲的最好的Claude Code教程，手把手教你在国内从安装到代码实战的保姆级教程！!让你少走99%弯路！AI大模型",
+      "desc": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！ 【视频配套籽料+问题解答请看”平论区置顶”自取哦】",
+      "play": 473254,
+      "danmaku": 336,
+      "like": 4740,
+      "duration": 27045,
+      "pubdate": 1778567059,
+      "author": "双非本想做大模型",
+      "mid": 3691002246203736,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "Claude Code MCP",
+        "Claude Code 配置",
+        "claude code 入门",
+        "Claude Code Cursor"
+      ],
+      "age_days": 48
+    },
+    {
+      "bvid": "BV1BFouBYERu",
+      "title": "手把手教你在Claude Code中熟练使用SKILL技能！",
+      "desc": "本期视频耗时半个月制作，希望大家能够点赞三连加关注，感谢！ 内容包括了一下几个方面： 00:27 Skill简介 01:39 Skill和Plugin的区别 02:51 安装他人的Skill 04:44 手动创建自己的SKill 07:30 控制Skill的触发行为 08:01 Skill的查看和管理 08:20 Skill的停用和删除 08:55 找优质Skill的三种渠道",
+      "play": 334313,
+      "danmaku": 153,
+      "like": 16757,
+      "duration": 600,
+      "pubdate": 1776946197,
+      "author": "我是阿众",
+      "mid": 281120100,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 66
+    },
+    {
+      "bvid": "BV1SddcBFESs",
+      "title": "10分钟学会24个ClaudeCode使用技巧",
+      "desc": "10分钟24个ClaudeCode使用技巧 本教程适合新手学习ClaudeCode 没有安装ClaudeCode可以查看UP上一期视频 关注UP，学习更多AI知识",
+      "play": 295682,
+      "danmaku": 116,
+      "like": 13974,
+      "duration": 656,
+      "pubdate": 1778153852,
+      "author": "Yin_Code",
+      "mid": 3706940936948128,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 52
+    },
+    {
+      "bvid": "BV1KJySBfEjW",
+      "title": "我抛弃了 Cursor，用 Claude Code 写了 99% 的代码 （Claude Code 深度体验）",
+      "desc": "本视频不构成任何投资建议。DYOR。",
+      "play": 242208,
+      "danmaku": 74,
+      "like": 2483,
+      "duration": 1084,
+      "pubdate": 1761727023,
+      "author": "数字黑魔法",
+      "mid": 1235535223,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 242
+    },
+    {
+      "bvid": "BV1RAEz6EE98",
+      "title": "为什么Claude Code+DeepSeekV4是最有性价比的个人AI Agent?",
+      "desc": "官方文档地址：https://api-docs.deepseek.com/zh-cn/quick_start/agent_integrations/claude_code",
+      "play": 196281,
+      "danmaku": 140,
+      "like": 2501,
+      "duration": 479,
+      "pubdate": 1781191626,
+      "author": "呱声一片",
+      "mid": 14593294,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 配置"
+      ],
+      "age_days": 17
+    },
+    {
+      "bvid": "BV1h4DkBaEu1",
+      "title": "Claude Code、Codex (ChatGPT)、Cursor该怎么选？Max/Pro/Ultra Plan亲身经验分享",
+      "desc": "Claude Code、Cursor、ChatGPT——编程 Agent 怎么选？ 我目前同时订阅了 Claude Max、Cursor Ultra 和 ChatGPT Pro 三家最高档，",
+      "play": 183954,
+      "danmaku": 72,
+      "like": 2557,
+      "duration": 331,
+      "pubdate": 1775907474,
+      "author": "HexUp",
+      "mid": 687410230,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 78
+    },
+    {
+      "bvid": "BV14JEj6uEdG",
+      "title": "国内爽用 Claude Code + Codex，2分钟搞定！",
+      "desc": "2 分钟，教你国内爽用 Claude Code + Codex，保姆级教程，还能省掉上百块订阅费。 编程学习教程+实战项目+简历模板：codefather.cn 开源 AI 编程教程：github.com/liyupi/ai-guide 核心是使用 CC Switch 开源工具，让国内用户也能使用 Claude Code 和 Codex 这两款先进的 AI 编程工具，手把手带你配置接入 DeepSeek 模型、开启百万上下文，还能学到一些小知识哦。 记得三连支持、关注鱼皮，让更多朋友学到知识哦~",
+      "play": 179236,
+      "danmaku": 185,
+      "like": 5726,
+      "duration": 179,
+      "pubdate": 1780981926,
+      "author": "程序员鱼皮",
+      "mid": 12890453,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 20
+    },
+    {
+      "bvid": "BV1TTR8BaEnL",
+      "title": "Claude Code 零基础终极教程：安装、换模型、插件、Hooks、Skills、Subagents、实战项目一次讲透！",
+      "desc": "这是你能看到的最完整的 Claude Code 零基础系统教程。 我们将深度拆解： 1️⃣ 基础入门：安装、第三方模型接入、权限系统。 2️⃣ 核心进阶：Tools、Hooks、Skills、Subagents 及自动化流程。 3️⃣ 项目实战：从零构建一个真实可用的 AI 网页 App。 视频跟到最后，你不只是学会写代码，而是掌握 AI 智能体的工作逻辑。我是木子，只提供 AI 时代的解决方案。我们现在开始。",
+      "play": 122934,
+      "danmaku": 80,
+      "like": 5718,
+      "duration": 3180,
+      "pubdate": 1778140800,
+      "author": "木子不写代码",
+      "mid": 13416784,
+      "queries_hit": [
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 52
+    },
+    {
+      "bvid": "BV1ExV36wEsE",
+      "title": "VS Code 安装 Claude Code 并接入 DeepSeek！Claude Code for VS Code！VSCode使用ClaudeCode插件",
+      "desc": "本节视频编号71，评论区自助领取配套文档，记得一键三连哦！",
+      "play": 106715,
+      "danmaku": 22,
+      "like": 1737,
+      "duration": 609,
+      "pubdate": 1780134292,
+      "author": "FutureAI实验室",
+      "mid": 3546724261956069,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 29
+    },
+    {
+      "bvid": "BV1yaRQB9EeQ",
+      "title": "2026 AI效率组合神器：Superpowers + Claude Code 保姆级教程",
+      "desc": "Superpowers，它是由 Jesse Vincent（obra）打造的开源 AI 编程工作流框架，核心理念是：流程大于提示词，给 AI 套上软件工程的 “纪律与护栏”，让它像资深工程师一样先思考、再规划、后编码、必验证。 该项目于 2025 年 10 月开源，2026 年初进入 Anthropic 官方插件市场后迅速爆发，截止目前，总星数突破 183K，且一度成为 GitHub Trending 榜首。",
+      "play": 76336,
+      "danmaku": 7,
+      "like": 2965,
+      "duration": 331,
+      "pubdate": 1778320800,
+      "author": "全栈斌少",
+      "mid": 398085660,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 50
+    },
+    {
+      "bvid": "BV1A24y1J7Dt",
+      "title": "如何在VS Code中使用Cursor自动生成代码",
+      "desc": "",
+      "play": 73415,
+      "danmaku": 7,
+      "like": 500,
+      "duration": 77,
+      "pubdate": 1679571143,
+      "author": "许你再少年",
+      "mid": 402807916,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 1193
+    },
+    {
+      "bvid": "BV1xBrDB9E42",
+      "title": "独立开发太累？Godot + Claude Code 搭建 AI 辅助工作流，效率直接起飞！ | 地块召唤师开发实战 #01",
+      "desc": "大家好，这里是饼干！🍪 这是我的新坑——**《地块召唤师》**开发实战分享的第一期。 很多朋友问独立开发如何提升效率？这期视频我不聊虚的，直接公开我从 0 到 1 搭建的 AI + Godot 高效工作流。 从游戏引擎的选择，到 Claude Code、Copilot 等 AI 工具的实战配置，再到如何用“明确需求”的方法论（SMART原则+双钻模型）来驾驭 AI，让它不仅仅是写代码的工具，更成为你的“策划合伙人”。 如果你对 Godot 引擎、AI 辅助编程 或者 独立游戏开发流程 感兴趣，这期视频一定",
+      "play": 65773,
+      "danmaku": 2,
+      "like": 1547,
+      "duration": 411,
+      "pubdate": 1768706700,
+      "author": "像素夹心饼干",
+      "mid": 20777389,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 162
+    },
+    {
+      "bvid": "BV1KocTzHE3Z",
+      "title": "2027版 Cursor+Claude AI编程 1天快速上手 视频教程",
+      "desc": "本课程主要讲解Cursor简介，Cursor下载安装，Cursor生成helloWorld网页，Cursor会话里的Cursor会话里的Agent,Plan,Debug,Ask区别以及使用，Cursor常用模型介绍，Cursor模型会话上下文介绍，以及最后利用Cursor Opus4.6快速生成一个Java项目 -SpringBoot4+Vue3的学生信息管理系统，利用Cursor Opus4.6快速生成一个Python项目 - Flask2+Vue3的学生信息管理系统。这个作为Cursor入门介绍和简单",
+      "play": 64374,
+      "danmaku": 6,
+      "like": 506,
+      "duration": 4035,
+      "pubdate": 1770634675,
+      "author": "java1234官方",
+      "mid": 430390834,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 139
+    },
+    {
+      "bvid": "BV1ZEJA6xEds",
+      "title": "最新方法！国内免费无限制，使用Claude Code！",
+      "desc": "",
+      "play": 53451,
+      "danmaku": 127,
+      "like": 2435,
+      "duration": 404,
+      "pubdate": 1781496000,
+      "author": "我是阿众",
+      "mid": 281120100,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 实战",
+        "claude code 入门",
+        "Claude Code Cursor"
+      ],
+      "age_days": 14
+    },
+    {
+      "bvid": "BV1ZdcQzfEWz",
+      "title": "claude code是什么？",
+      "desc": "",
+      "play": 51275,
+      "danmaku": 9,
+      "like": 666,
+      "duration": 327,
+      "pubdate": 1773395100,
+      "author": "计算机大白呀",
+      "mid": 3690987316578579,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 107
+    },
+    {
+      "bvid": "BV1pewJzUEQY",
+      "title": "claude code实现simulink仿真模型的搭建",
+      "desc": "MCP：https://ww2.mathworks.cn/matlabcentral/fileexchange/183314-matlab-mcp-core-server claude添加MCP：claude mcp add --transport stdio matlab -- \"E:\\APP\\MATLAB2025\\matlab-mcp-core-server-win64.exe\" --matlab-root=E:\\APP\\MATLAB2025 --initialize-matlab-on-startu",
+      "play": 44866,
+      "danmaku": 6,
+      "like": 679,
+      "duration": 399,
+      "pubdate": 1773410466,
+      "author": "掌上明猪z",
+      "mid": 693103756,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程"
+      ],
+      "age_days": 107
+    },
+    {
+      "bvid": "873245000",
+      "title": "Claude Code保姆级入门课程",
+      "desc": "",
+      "play": 36911,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "小由和小迪",
+      "mid": 3546882471102972,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "Claude Code MCP",
+        "Claude Code 配置",
+        "claude code 入门",
+        "Claude Code Cursor"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "100913266",
+      "title": "go从入门到通天+Agent开发+Claude",
+      "desc": "",
+      "play": 35976,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "张朝阳讲编程",
+      "mid": 692817426,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1cCj2ztEf5",
+      "title": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%",
+      "desc": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%，告别传统开发模式！小白也能轻松开发商业项目 🚀🚀🚀视频简介： ✅【保姆级教程】从技术栈分析到功能实现：Claude Code完整开发流程深度解析！从零开始为微软开源智能体项目添加完整用户认证功能，支持注册登录退出，让你的AI应用瞬间变身多用户平台的神级操作！ 🚀 本期视频详细演示了如何使用Anthropic最新发布的Claude Code工具，结合",
+      "play": 34764,
+      "danmaku": 9,
+      "like": 456,
+      "duration": 605,
+      "pubdate": 1748269215,
+      "author": "AI超元域",
+      "mid": 3493277319825652,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 398
+    },
+    {
+      "bvid": "BV1NddKBvEsY",
+      "title": "claude code 桌面端安装并且配置第三方api使用教程，想体验的尽早吧，因为这公司可能不知道哪天抽风就会禁用了！#claude #ai #人工智能",
+      "desc": "claude code 桌面端安装并且配置第三方api使用教程，想体验的尽早吧，因为这公司可能不知道哪天抽风就会禁用了！#claude #ai #人工智能 #agent",
+      "play": 34671,
+      "danmaku": 4,
+      "like": 327,
+      "duration": 733,
+      "pubdate": 1778198188,
+      "author": "菜鸡的老黎",
+      "mid": 3546723177728502,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 52
+    },
+    {
+      "bvid": "BV1uyLjzHEMS",
+      "title": "VSCode原生支持MCP了！几千个MCP工具，这下可有得玩了",
+      "desc": "VSCode最新版已经原生支持MCP！本期视频通过一个实际例子教会大家如何通过VSCode实现MCP的调用",
+      "play": 33586,
+      "danmaku": 0,
+      "like": 468,
+      "duration": 120,
+      "pubdate": 1745538375,
+      "author": "神秘的鱼仔",
+      "mid": 319759808,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 430
+    },
+    {
+      "bvid": "BV1XiD5BQEAj",
+      "title": "Claude Code 接入微信、一行命令把Claude Code装进微信、保姆级教程、微信支持Claude Code（cc-connect）远程开发",
+      "desc": "【别再看电脑了！】一行命令，让Claude Code实现远程调用🔥 还在守着电脑终端敲Prompt？太Low了！今天手把手教你用 cc-connect 把Claude Code接入即时通讯工具，实现远程开发。 👉 本期视频你将学到： 1️⃣ 一行命令极速部署，无需复杂后端 2️⃣ 手机端直接操控：发语音、发文字，AI帮你写代码、修Bug 3️⃣ 远程开发实战：躺在沙发上用手机调优项目 从此手机就是你的移动工作站，不再被电脑束缚！真正的保姆级教程，小白也能跟得上",
+      "play": 33146,
+      "danmaku": 9,
+      "like": 439,
+      "duration": 458,
+      "pubdate": 1775361736,
+      "author": "下班学AI",
+      "mid": 3546599351388553,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 85
+    },
+    {
+      "bvid": "795147773",
+      "title": "Claude Code 快速入门到精通",
+      "desc": "",
+      "play": 32262,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "众创AI",
+      "mid": 3546630768822919,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "claude code 入门",
+        "Claude Code Cursor"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV13tuqzwEm9",
+      "title": "一个视频彻底掌握ClaudeCode使用MCP",
+      "desc": "Claude Code命令行的方式，让MCP的操作也令很多朋友感觉不适，这个视频专门做了一些介绍。 希望能帮助到大家。",
+      "play": 26668,
+      "danmaku": 2,
+      "like": 293,
+      "duration": 556,
+      "pubdate": 1752496375,
+      "author": "创哥的AI实验室",
+      "mid": 52807953,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 349
+    },
+    {
+      "bvid": "821183208",
+      "title": "Codex+Claude Code 企业级实战营",
+      "desc": "",
+      "play": 25321,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "众创AI",
+      "mid": 3546630768822919,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "Claude Code MCP",
+        "Claude Code 配置",
+        "Claude Code Cursor"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1AGRtBnE3S",
+      "title": "别手动写测试用例了!2026最新Claude Code+Skills实现需求文档生成全量用例|全流程AI驱动软件测试落地方案,测试效率翻10倍！",
+      "desc": "全栈课一共分为6大块内容 第一块：AI智能体开发基础(AI大模型、工具、记忆、MCP、中间件、Skills等核心内容) 第二块：Claude Code,Trea+skills实现基于需求文档生成用例，基于OpenClaw实现接口自动化落地，基于hermes Agent实现web自动化落地 第三块：功能测试的智能体开发(项目RAG知识库搭建+Agent搭建+skills开发，实现用例生成的Agent) 第四块：web自动化测试智能体搭建(封装工具+skills集成到Agent实现功能用例自动转web自动化用",
+      "play": 25027,
+      "danmaku": 22,
+      "like": 610,
+      "duration": 6703,
+      "pubdate": 1778112000,
+      "author": "清风说测试开发",
+      "mid": 2068468653,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 53
+    },
+    {
+      "bvid": "BV1XxXpBEEHU",
+      "title": "Claude Code远程开发终极方案！手机改代码+实时预览~【小白教程】",
+      "desc": "之前，我一直在研究怎么远程使用 Claude Code 开发项目，并且能实时预览效果。但是一直都没有找到合适的解决方案，要么就是给一个临时公网链接预览，每次都需要再配置，要么就是购买云服务器来配置，都感觉挺麻烦的~ 最近，我发现这个蒲公英异地组网的方案，用来做远程开发 Claude Code 项目，感觉非常方便，不仅能修改代码，而且我实时预览的需求也很好的满足了。 这样我随时随地都可以用 AI 写代码，这才是真正的 Vibe Coindg 呀~ 🎉 有远程使用 Claude Code 的朋友，可以试",
+      "play": 20438,
+      "danmaku": 86,
+      "like": 219,
+      "duration": 293,
+      "pubdate": 1774526400,
+      "author": "爱听书的程序员阿超",
+      "mid": 521041866,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 94
+    },
+    {
+      "bvid": "BV19Cj16tEPT",
+      "title": "【2026版】这绝对是B站唯一将Hermes Agent从入门到精通讲明白的教程，手把手带你从入门到代码实战开发，比付费效果强百倍！让你少走99%弯路！",
+      "desc": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！ 【视频配套籽料+问题解答请看”平论区置顶”自取哦】",
+      "play": 16317,
+      "danmaku": 2,
+      "like": 954,
+      "duration": 32642,
+      "pubdate": 1782188425,
+      "author": "AI大模型老张",
+      "mid": 3691001675778282,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 6
+    },
+    {
+      "bvid": "BV1JfT4zVEa5",
+      "title": "Cursor1.0新特性BugBot自动化代码Code Review使用教程+实测",
+      "desc": "Cursor推出了新的1.0版本，本视频对新特性Bugbot做了一个教程+实测 BugBot可以在Github进行PR (Pull Request) 的时候，通过AI大模型帮助我们进行CR (Code Review) 本视频用一个例子演示了如何使用Bugbot功能，并且最后给出了实测的结果 感谢支持！！！欢迎三连 个人公众号 【码里奥】",
+      "play": 15486,
+      "danmaku": 0,
+      "like": 47,
+      "duration": 296,
+      "pubdate": 1749128730,
+      "author": "码里奥Ziho",
+      "mid": 3546804396230870,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 388
+    },
+    {
+      "bvid": "BV1ZHAozLE7b",
+      "title": "【SynthPilot】Claude Code FPGA开发通关教程",
+      "desc": "全网首个AI Agent FPGA开发教程。SynthPilot通过MCP协议打通Vivado全链路，AI自主写码、综合、读报告、改Bug、迭代——真正的Agent模式闭环开发。从零开始，带你见证FPGA开发方式的代际变革。 获取工具:synthpilot.dev 晓川交流群:1007696121",
+      "play": 14655,
+      "danmaku": 2,
+      "like": 233,
+      "duration": 2387,
+      "pubdate": 1772533593,
+      "author": "晓川科研站",
+      "mid": 30462799,
+      "queries_hit": [
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 117
+    },
+    {
+      "bvid": "BV1iDRQBrEF6",
+      "title": "Claude + Blender 现在太强了 —— 完整免费设置",
+      "desc": "【简介】 Anthropic 刚刚发布了用于创意工具的官方 Claude Connectors —— 其中 Blender 连接器对 3D 艺术家来说最重要。在本视频中，我将展示最佳的 Claude + Blender 免费设置，以及为什么这次更新可能会改变我们构建 3D 场景的方式。 【你将学到】 01:13 步骤 1：安装 Blender MCP 和 Claude Code 02:31 步骤 2：连接 fal.ai（Patina PBR） 05:09 步骤 3：添加 3D AI Studio（Tri",
+      "play": 14361,
+      "danmaku": 4,
+      "like": 280,
+      "duration": 857,
+      "pubdate": 1778310696,
+      "author": "设计之道",
+      "mid": 393059167,
+      "queries_hit": [
+        "Claude Code 教程",
+        "Claude Code 配置"
+      ],
+      "age_days": 51
+    },
+    {
+      "bvid": "BV15i7K69EN7",
+      "title": "【6.22最新发布】claude桌面版安装教程！一周快速入门claude code保姆级教程！",
+      "desc": "求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连",
+      "play": 13109,
+      "danmaku": 5,
+      "like": 184,
+      "duration": 9181,
+      "pubdate": 1782122834,
+      "author": "是蒜七丫",
+      "mid": 1781466211,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战",
+        "Claude Code 配置",
+        "claude code 入门"
+      ],
+      "age_days": 6
+    },
+    {
+      "bvid": "BV1XGgjzyESK",
+      "title": "简单几步把原生claude code装在Cursor中",
+      "desc": "简单几步把原生claude code装在Cursor中，就可以实现可视化操作了",
+      "play": 12479,
+      "danmaku": 0,
+      "like": 61,
+      "duration": 64,
+      "pubdate": 1753145100,
+      "author": "AI樟榆树",
+      "mid": 1463655031,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 342
+    },
+    {
+      "bvid": "485516796",
+      "title": "Claude Code 从 0 到 1 全攻略",
+      "desc": "",
+      "play": 11759,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "Python官方课程学习",
+      "mid": 3546635130898458,
+      "queries_hit": [
+        "Claude Code 教程",
+        "Claude Code MCP",
+        "Claude Code 配置",
+        "claude code 入门"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1F5QhYxENy",
+      "title": "Cursor+Claude3.7+Stm32：零代码嵌入式开发实战",
+      "desc": "Cursor黑科技+Claude3.7，陀螺仪代码自动生成实测 深度评测：Cursor+Claude3.7在STM32开发中的真实表现——以MPU6050项目为例",
+      "play": 11304,
+      "danmaku": 0,
+      "like": 140,
+      "duration": 630,
+      "pubdate": 1742113267,
+      "author": "AI炼丹之陆",
+      "mid": 480678238,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 469
+    },
+    {
+      "bvid": "BV1WS5B6WECp",
+      "title": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型",
+      "desc": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型 代金券领取链接：https://cloud.siliconflow.cn/i/hkV35uvp nodejs下载链接：Node.js — Download Node.js® cc-switch下载链接：github.com/farion1231/cc-switch/releases 安装包和笔记下载链接：https://pan.baidu.com/s/12IDm7vXhr-o8kL65S6tEyA?pwd=1029",
+      "play": 10711,
+      "danmaku": 2,
+      "like": 112,
+      "duration": 700,
+      "pubdate": 1778868079,
+      "author": "穷在街头无人问lhj",
+      "mid": 1105018344,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 44
+    },
+    {
+      "bvid": "BV12kjt6KE8R",
+      "title": "【首发】3分钟速通Claude code安装+接入DeepSeek最简教程！ 全程无需科学上网 无需账号 最适合小白的教程，不要听别的教程的废话了，直接看我",
+      "desc": "Ai Switch一键安装Claude code并接入DeepSeek官网下载网址：https://sherryccai.com/",
+      "play": 10299,
+      "danmaku": 46,
+      "like": 221,
+      "duration": 239,
+      "pubdate": 1782033904,
+      "author": "孙煲",
+      "mid": 517775010,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 7
+    },
+    {
+      "bvid": "BV1JU7E6PEar",
+      "title": "Cursor 已死？我为什么要退订 Cursor ？",
+      "desc": "当了一年多的 Cursor 重度用户，最近把它退订了。 不是它变差了，是 Claude Code 和 Codex 真的太好用了。 几个真实感受： ① 大模型越来越强，我已经不怎么手写代码了 ② Cursor 套的是 VS Code 壳子，只属于程序员 ③ 底层模型不在一个量级——Claude 有 Opus 和 Fable 5，Codex 有 GPT 5.5/5.6，Cursor 的 Composer 2.5 只能算替补 被 SpaceX 收购后，Cursor 正在向\"类 GPT 聊天式\"转型，但新模",
+      "play": 9577,
+      "danmaku": 2,
+      "like": 41,
+      "duration": 160,
+      "pubdate": 1782525120,
+      "author": "小狗瑞恩Ryan",
+      "mid": 8594947,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "BV1rq7A6xEP1",
+      "title": "【Claude Code】B站唯一将Claude Code从入门到精通讲明白的教程，手把手带你从入门到实战使用，【吴恩达】保姆级教程",
+      "desc": "这绝对是B站唯一将Claude Code从入门到精通讲明白的教程，手把手带你从入门到实战使用，保姆级教程，存下吧，比啃书好太多了！ 【视频配套籽料+问题解答】请看”平论区置顶”自取哦！！！ 视频制作不易，如果视频对你有用的话❤请一键三莲【长按点赞】支持一下up哦，拜托，这对我真的很重要！",
+      "play": 9125,
+      "danmaku": 1,
+      "like": 64,
+      "duration": 11876,
+      "pubdate": 1782117070,
+      "author": "LLM大模型原理",
+      "mid": 3546860920769226,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程"
+      ],
+      "age_days": 6
+    },
+    {
+      "bvid": "BV1yfWVzXEKx",
+      "title": "在Claude Code中安装MCP很麻烦？这两种方法轻松搞定",
+      "desc": "大家在Claude Code中添加MCP的时候，是不是突然发现以前在Cursor里直接粘贴 mcp.json 的方法有时候会失效。 . 然后当你想要学习使用 Claude Code 的原生添加方法时，结果发现自己要记住的命令也太多太复杂了。 . 不过不用担心。今天 Claude Code 系列的第二期，就是来解决怎么轻松添加MCP这个问题的。我们后天第三期见 . 欢迎加入我的知识星球，分享AI编程、AI Agent相关实践、思考、优质信息源，有问必答：https://t.zsxq.com/fD4Fb",
+      "play": 8767,
+      "danmaku": 0,
+      "like": 76,
+      "duration": 387,
+      "pubdate": 1758281811,
+      "author": "Next蔡蔡",
+      "mid": 3546627946056357,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 282
+    },
+    {
+      "bvid": "BV1FXLJ6YELZ",
+      "title": "Cursor无限薅最强大模型claude4.7，gpt5.5使用方法",
+      "desc": "一键三连吧！在主页 自动回复私信要1000粉丝呜呜呜呜求帮忙",
+      "play": 8463,
+      "danmaku": 1,
+      "like": 179,
+      "duration": 267,
+      "pubdate": 1779022918,
+      "author": "长青来了奥",
+      "mid": 516722817,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 42
+    },
+    {
+      "bvid": "BV1VY576yEva",
+      "title": "手机也能装 Claude Code | 摆脱电脑！",
+      "desc": "-",
+      "play": 7929,
+      "danmaku": 0,
+      "like": 150,
+      "duration": 98,
+      "pubdate": 1778410545,
+      "author": "晴天AI实战",
+      "mid": 263554645,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 49
+    },
+    {
+      "bvid": "BV1rhdgBMEK2",
+      "title": "Claude Code + Figma MCP：传统 UI 开发流程已死？",
+      "desc": "▬▬▬▬▬ 🏆️ 犬哥专业服务 🏆️ ▬▬▬▬▬ 网页设计＆数位行销服务 ➜ https://frankknow.com WordPress 优质主机：https://frankknow.com/wordpress-hosting/ ▬▬▬▬▬ 🏆️ 精选架站系列 🏆️ ▬▬▬▬▬ 新手自学架站（网域＋主机＋WordPress 架站，一次学会）➜ https://frankknow.com/wp-web-doing/ 优质主机挑选 ➜ https://frankknow.com/wordpress-ho",
+      "play": 7843,
+      "danmaku": 0,
+      "like": 144,
+      "duration": 484,
+      "pubdate": 1778241600,
+      "author": "犬哥网站",
+      "mid": 1322340543,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 51
+    },
+    {
+      "bvid": "BV1wEzvBvE2f",
+      "title": "Claude Code 实战配置集合，Everything Claude Code ，提升效率，规范ai编程！",
+      "desc": "我的知识星球，https://t.zsxq.com/jVAk9 莱卡云： https://www.lcayun.com/aff/GEYCYCZE",
+      "play": 7398,
+      "danmaku": 3,
+      "like": 97,
+      "duration": 268,
+      "pubdate": 1769429975,
+      "author": "三少科技",
+      "mid": 484719715,
+      "queries_hit": [
+        "Claude Code 教程",
+        "Claude Code 配置"
+      ],
+      "age_days": 153
+    },
+    {
+      "bvid": "BV11EJn6JEk9",
+      "title": "claude+ccswitch配置glm5.2",
+      "desc": "智谱文档：https://docs.bigmodel.cn/cn/coding-plan/latest-model",
+      "play": 7132,
+      "danmaku": 1,
+      "like": 61,
+      "duration": 171,
+      "pubdate": 1781349225,
+      "author": "蛋蛋开课",
+      "mid": 502621471,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 15
+    },
+    {
+      "bvid": "BV1NCfDBAEsh",
+      "title": "【Agent入门】9.(开源项目分享)learn-claude-code-1",
+      "desc": "",
+      "play": 6905,
+      "danmaku": 1,
+      "like": 117,
+      "duration": 1878,
+      "pubdate": 1770128528,
+      "author": "花里胡哨的汤无际",
+      "mid": 407527662,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 145
+    },
+    {
+      "bvid": "BV1k3QEBEExg",
+      "title": "《火山引擎方舟Coding Plan配置教程：Claude Code、OpenCode、Trae、Cursor全攻略》",
+      "desc": "一、 产品亮点：高性价比的AI编程模型套餐 火山引擎推出的“Coding Plan”是一项面向开发者的AI编程模型服务，目前已集成豆包、Minimax、GLM、DeepSeek、Kimi等国内主流代码模型。该服务提供两个套餐：Lite版（每月1.8万次调用）和Pro版（调用次数为Lite的5倍），可满足不同强度需求。其最大优势是极高的性价比，目前首月活动价仅需9元，是获取稳定、高质量代码生成服务的低成本方案。 二、 实战教学：四款主流AI编程工具接入指南 1. 本视频核心是手把手教学，将火山引擎Codin",
+      "play": 6325,
+      "danmaku": 57,
+      "like": 35,
+      "duration": 398,
+      "pubdate": 1776247800,
+      "author": "AI后端Marion",
+      "mid": 269097482,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 74
+    },
+    {
+      "bvid": "BV13dQkBiE6M",
+      "title": "600行代码让AI学会自我约束！Claude Code内置插件Hookify深度解读",
+      "desc": "该视频使用https://github.com/Agents365-ai/video-podcast-maker SKILL 生成 Claude Code 内置了一个被严重低估的插件 Hookify，仅600行代码就能用 Markdown 文件定义行为约束规则，让 AI 学会自我约束。本期视频深度解析它的工作原理、四大组件、失效开放设计、六大匹配方式和四大应用场景，带你理解无代码 Hook 框架的优雅设计。",
+      "play": 5977,
+      "danmaku": 0,
+      "like": 123,
+      "duration": 284,
+      "pubdate": 1774370883,
+      "author": "探索未至之境",
+      "mid": 441831884,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 96
+    },
+    {
+      "bvid": "BV1i8m8BcE7H",
+      "title": "cursor与Claude Code的完美结合，指哪打哪，高效又神奇！",
+      "desc": "-",
+      "play": 5856,
+      "danmaku": 0,
+      "like": 36,
+      "duration": 97,
+      "pubdate": 1765388109,
+      "author": "奇点贝壳",
+      "mid": 1228787535,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 200
+    },
+    {
+      "bvid": "BV1XCcEzfE3Q",
+      "title": "10分钟在你的手机上使用Claude Code",
+      "desc": "Claude Code 是一个终端应用……问题就在这里。手机没有终端。 所以在这个视频里，我在云端搭建了一个“永久终端”，让你可以在任何地方用手机运行 Claude Code。 机场。沙发上。飞机上。厕所里。随便哪儿都行。 资源 / 链接 💻 GitHub 指南：https://github.com/theNetworkChuck/remote-claude-code ☁️ Termius（手机终端应用）：https://termius.com 📺 我之前讲 Tmux 的视频：https://www.y",
+      "play": 5448,
+      "danmaku": 0,
+      "like": 69,
+      "duration": 627,
+      "pubdate": 1771041600,
+      "author": "硬件教程",
+      "mid": 208118619,
+      "queries_hit": [
+        "Claude Code 教程"
+      ],
+      "age_days": 135
+    },
+    {
+      "bvid": "BV1W2E46hEuv",
+      "title": "Zotero MCP 接入 Claude + Codex 完整教程——本地文献库直连 / 引言深度写作 / PDF转Markdown实测对比",
+      "desc": "本期演示如何通过 Zotero MCP 将本地文献库接入 Claude 和 Codex，使 AI 能够在写作论文引言时直接检索、核验真实文献，而非依赖自身训练数据凭空生成引用。 视频涵盖以下核心内容。其一，前置配置：在 Zotero 高级设置中开启跨进程通讯权限，并做好文献夹与标签分类，便于模型快速定位目标文献。其二，MCP 安装方式：Claude 端推荐将项目地址直接交给模型，由其完成全局安装并验证是否能正常返回文献列表；Codex 端则在插件市场中直接搜索添加，操作更为简便。其三，与 ARS 指令组合",
+      "play": 5280,
+      "danmaku": 1,
+      "like": 163,
+      "duration": 347,
+      "pubdate": 1780816899,
+      "author": "旭光升",
+      "mid": 416909955,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 22
+    },
+    {
+      "bvid": "BV1E49ZBbE2o",
+      "title": "DeepSeekv4接入Claude桌面版增加MCP工具",
+      "desc": "DeepSeek-V4接入桌面版 Claude 后，我用 MCP 给这个壳子补上了图片识别和链接阅读",
+      "play": 5242,
+      "danmaku": 0,
+      "like": 62,
+      "duration": 148,
+      "pubdate": 1777784113,
+      "author": "锦颐jy",
+      "mid": 474561770,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 57
+    },
+    {
+      "bvid": "BV13cmnBFEP9",
+      "title": "Claude Code教程9：Claude Code与GitHub的高效联动",
+      "desc": "【Claude Code教程第9集中文翻译】Net Ninja带你解锁Claude Code与GitHub的高效联动！本集聚焦实用核心功能：无需复杂配置，在Claude聊天会话中即可设置GitHub集成——安装后自动创建两个关键GitHub Action：①自动审查拉取请求（PR）并给出精准反馈；②当仓库问题提及Claude时，自动在新功能分支处理该问题。注意：需先安装GitHub CLI（附官方安装指引）。作为AI辅助开发的落地技巧，本翻译视频帮中文开发者跳过英文文档门槛，快速掌握Claude Code",
+      "play": 4523,
+      "danmaku": 0,
+      "like": 40,
+      "duration": 347,
+      "pubdate": 1765282643,
+      "author": "木乐乐的异想世界",
+      "mid": 420718414,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 201
+    },
+    {
+      "bvid": "BV1S9Et6yEL8",
+      "title": "claude code在量化交易方面的应用",
+      "desc": "AI或者量化方面的交流可以邮箱交流：965418170@qq.com",
+      "play": 4439,
+      "danmaku": 0,
+      "like": 96,
+      "duration": 1209,
+      "pubdate": 1780838371,
+      "author": "xxy的大迷弟",
+      "mid": 144074011,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 21
+    },
+    {
+      "bvid": "BV1fM7r6fE5m",
+      "title": "速通 ！Claude Code 安装配置全过程",
+      "desc": "一个视频教会你，安装配置 Claude Code 的全流程！",
+      "play": 4437,
+      "danmaku": 0,
+      "like": 80,
+      "duration": 341,
+      "pubdate": 1780640111,
+      "author": "阳春喜哥",
+      "mid": 335842839,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 24
+    },
+    {
+      "bvid": "BV1aSR4BKESW",
+      "title": "安卓手机部署Claude Code",
+      "desc": "通过Termux安装Claude Code并且接入国内大模型",
+      "play": 4338,
+      "danmaku": 0,
+      "like": 93,
+      "duration": 461,
+      "pubdate": 1778059454,
+      "author": "中国小骑士",
+      "mid": 398174104,
+      "queries_hit": [
+        "Claude Code 实战",
+        "Claude Code 配置"
+      ],
+      "age_days": 53
+    },
+    {
+      "bvid": "BV11Ejo65Eqo",
+      "title": "Claude 官方指南：指令不要只放在 CLAUDE.md，七种途径，放对才有效 | Claude《Steering Claude Code》①",
+      "desc": "Claude Code 不是只有 CLAUDE.md 一种配置方式。claude发布了一篇官方指南把 CLAUDE.md、Rules、Skills、Subagents、Hooks、Output Styles、System Prompt Append 放到同一张工程坐标系里比较。本期用四层过滤框架讲清楚：什么指令该常驻，什么该按路径触发，什么该做 Skill，什么该交给 Subagent，避免 token 浪费和指令稀释。",
+      "play": 4080,
+      "danmaku": 0,
+      "like": 121,
+      "duration": 746,
+      "pubdate": 1782310759,
+      "author": "慢学AI",
+      "mid": 28321599,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV17RG96EEg5",
+      "title": "Claude实现solidworks绘制法兰零件图",
+      "desc": "技术路径Claude+ccswitch（Dv4pro），提示词手搓skill并完成绘制。",
+      "play": 3690,
+      "danmaku": 0,
+      "like": 44,
+      "duration": 232,
+      "pubdate": 1779944221,
+      "author": "风间树叶",
+      "mid": 553407937,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 32
+    },
+    {
+      "bvid": "BV1qhzZBREdA",
+      "title": "[Claude 教程] 如何把claude接入到vscode/cursor里面",
+      "desc": "中转站地址：https://api.mcxhm.cn",
+      "play": 3372,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 191,
+      "pubdate": 1769662228,
+      "author": "愿雪时yes",
+      "mid": 470179964,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 151
+    },
+    {
+      "bvid": "BV1dK756jEfz",
+      "title": "霸榜GitHub！Claude Code、Cursor集体转岗,组团给你做视频",
+      "desc": "Github持续霸榜第一的，是一个AI视频剪辑项目OpenMontage，短短几天狂揽2万星标，60秒皮克斯动画只需1.33刀。",
+      "play": 3318,
+      "danmaku": 0,
+      "like": 179,
+      "duration": 81,
+      "pubdate": 1782619500,
+      "author": "量子位Daily",
+      "mid": 3546619041548912,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 1
+    },
+    {
+      "bvid": "BV1xsJV6AEVF",
+      "title": "Claude/Codex/Cursor/Trae 深度对比，一步选对",
+      "desc": "AI 编程工具分终端智能体（Claude Code、Codex）与 AI 增强 IDE（Cursor、Trae）。智能体接收目标自主改项目、跑测试；IDE 侧重实时代码辅助。新手预算有限用免费 Trae；开箱即用选 Cursor；大型项目主力 Claude Code；ChatGPT 用户可用自带 Codex，多工具搭配效率更高。",
+      "play": 3152,
+      "danmaku": 1,
+      "like": 44,
+      "duration": 220,
+      "pubdate": 1781282537,
+      "author": "罗叨叨叨数码",
+      "mid": 293613824,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 16
+    },
+    {
+      "bvid": "BV1pZ7f6JEBf",
+      "title": "我用手机远程操控了 Claude Code",
+      "desc": "AI Coding 不是一次输入就结束的，很多任务需要多轮交互。Claude Code 在 thinking，Codex 还在跑，你却被迫坐在电脑前等。 Corterm 是一个开源 App，让你可以用手机远程操作电脑上的 Terminal，随时继续推进 AI Coding 任务。 目前架构分为三部分：Worker（C# Native AOT）、Gateway（.NET 10）、Corterm（MAUI + Ionic）。支持 iOS 和 Android。 项目已开源：corterm.rwecho.t",
+      "play": 3050,
+      "danmaku": 0,
+      "like": 31,
+      "duration": 267,
+      "pubdate": 1780556074,
+      "author": "百法难治",
+      "mid": 8213179,
+      "queries_hit": [
+        "Claude Code 实战",
+        "Claude Code 配置"
+      ],
+      "age_days": 25
+    },
+    {
+      "bvid": "BV1QH5n6UEVe",
+      "title": "保姆级Claude code+Cursor+DeepSeek-V4-pro 实现AI自动编程",
+      "desc": "Claude code+Cursor+DeepSeek-V4-pro 实现AI自动编程，整体流程环境搭建",
+      "play": 2995,
+      "danmaku": 0,
+      "like": 37,
+      "duration": 374,
+      "pubdate": 1778421305,
+      "author": "cmasj",
+      "mid": 2068449347,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 49
+    },
+    {
+      "bvid": "BV1YmJ36BEsf",
+      "title": "告别手动，AI代劳：Claude Code + MCP 实现ABAQUS全自动建模",
+      "desc": "用Claude Code + MCP给ABAQUS装上“AI大脑”：从自然语言到仿真模型的全自动之路",
+      "play": 2769,
+      "danmaku": 0,
+      "like": 61,
+      "duration": 937,
+      "pubdate": 1781527628,
+      "author": "CAE老白",
+      "mid": 470866979,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 13
+    },
+    {
+      "bvid": "BV11vG669EEP",
+      "title": "Claude code接入Stata MCP",
+      "desc": "# 为 Claude Code 接入 Stata MCP 实现效果 准备工作： - 安装claude code，买官方账号，或者使用第三方api - 安装vscode，并安装插件claude code for vscode 安装stata-mcp：https://github.com/SepineTam/mcp-for-stata/blob/master/README.zh-CN.md vibe coding 演示 - 先编辑CLAUDE.md - 然后再vibe coding 参考： - ht",
+      "play": 2740,
+      "danmaku": 0,
+      "like": 64,
+      "duration": 713,
+      "pubdate": 1779548388,
+      "author": "卿明夕",
+      "mid": 381261685,
+      "queries_hit": [
+        "Claude Code MCP",
+        "Claude Code Cursor"
+      ],
+      "age_days": 36
+    },
+    {
+      "bvid": "BV1LZjd6fEk4",
+      "title": "Claude 官方指南：怎么给 CLAUDE.md 瘦身 | Claude《Steering Claude Code》②",
+      "desc": "Claude 官方指南：怎么给 CLAUDE.md 瘦身 | Claude《Steering Claude Code》② 这期是实操篇。我们用一个 8 人工程团队的真实化案例，演示怎么把 500 行 CLAUDE.md 瘦到 150 行：哪些内容该留在根文件，哪些该搬到 Path-Scoped Rule、Skill、Subagent，哪些属于个人配置。看完你会明白，CLAUDE.md 瘦身不是少写指令，而是让每条指令在正确的时间、正确的位置生效。",
+      "play": 2463,
+      "danmaku": 0,
+      "like": 70,
+      "duration": 453,
+      "pubdate": 1782387900,
+      "author": "慢学AI",
+      "mid": 28321599,
+      "queries_hit": [
+        "claude code 入门"
+      ],
+      "age_days": 3
+    },
+    {
+      "bvid": "253843857",
+      "title": "Claude Code开发详解",
+      "desc": "",
+      "play": 2352,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "郭宏志-老郭",
+      "mid": 474769086,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1mLjm6xE48",
+      "title": "ClaudeCode必装6个MCP，裸用就亏了！",
+      "desc": "Playwright进浏览器、Filesystem读项目、Postgres连数据库、GitHub看协作、Context7查文档、Sequential Thinking推理难题。这才是Claude Code的完全体！",
+      "play": 2257,
+      "danmaku": 0,
+      "like": 76,
+      "duration": 139,
+      "pubdate": 1782223980,
+      "author": "阿森编程日记",
+      "mid": 3546691489761837,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 5
+    },
+    {
+      "bvid": "BV1LQL16FEYw",
+      "title": "VSCode 扩展 Claude Code 添加 MCP Server 步骤详解",
+      "desc": "更多编程开发技术+项目实战，关注老周~ 为你一对一提供学习规划、系统提升、就业建议~",
+      "play": 2224,
+      "danmaku": 1,
+      "like": 33,
+      "duration": 454,
+      "pubdate": 1779265567,
+      "author": "老周聊golang",
+      "mid": 646640992,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 39
+    },
+    {
+      "bvid": "BV1CnjR6NEPH",
+      "title": "【2026全网最新】2026 全网最优 Claude Code 教程！零基础从入门到精通，手把手实战教学Cladecode！",
+      "desc": "视频中的安装文档，整合包，模型，工作流，请查看置顶评论获取。",
+      "play": 2026,
+      "danmaku": 0,
+      "like": 22,
+      "duration": 24965,
+      "pubdate": 1782299126,
+      "author": "阿飞教你学编程",
+      "mid": 3546592795691288,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "416507419",
+      "title": "WorkBuddy+ClaudeCode 实战营",
+      "desc": "",
+      "play": 2006,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "众创AI",
+      "mid": 3546630768822919,
+      "queries_hit": [
+        "Claude Code 实战",
+        "Claude Code MCP",
+        "Claude Code Cursor"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1ConPzpEuy",
+      "title": "解脱了：Claude Code 帮我自动运维k8s里的微服务",
+      "desc": "第一步，编写CLAUDE.md 第二步，安装k8s-mcp-server 第三步，指定namespace和回答语言 第四步，数学计算不准，使用calculator工具增加准确度 第五步，接下来就可以让这个AI agent根据我们的指令进行服务诊断、资源配置诊断和性能分析了",
+      "play": 1973,
+      "danmaku": 0,
+      "like": 26,
+      "duration": 806,
+      "pubdate": 1758713400,
+      "author": "简说linux",
+      "mid": 646178510,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 277
+    },
+    {
+      "bvid": "BV1w9BVBMEe4",
+      "title": "Claude Code Tutorial",
+      "desc": "了解如何在开发工作流程中使用 Claude Code。了解提示词、CLAUDE.md 文件、上下文、MCP 服务器、子代理等内容。 https://www.youtube.com/playlist?list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY",
+      "play": 1712,
+      "danmaku": 1,
+      "like": 29,
+      "duration": 6037,
+      "pubdate": 1766729640,
+      "author": "Mindofuture",
+      "mid": 1122798707,
+      "queries_hit": [
+        "Claude Code 教程",
+        "Claude Code 实战"
+      ],
+      "age_days": 185
+    },
+    {
+      "bvid": "BV1QeXfBUELK",
+      "title": "通过 Skill 和 MCP 连接操作 MySQL",
+      "desc": "",
+      "play": 1601,
+      "danmaku": 0,
+      "like": 8,
+      "duration": 258,
+      "pubdate": 1775109000,
+      "author": "乘云数字DATABUFF",
+      "mid": 3537113710594796,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 88
+    },
+    {
+      "bvid": "BV1Bj7p6rEoA",
+      "title": "Claude Code保姆级教程，10分钟入门",
+      "desc": "Claude Code保姆级教程，10分钟入门",
+      "play": 1470,
+      "danmaku": 12,
+      "like": 42,
+      "duration": 26582,
+      "pubdate": 1782551920,
+      "author": "字节软件测试",
+      "mid": 3546654493903437,
+      "queries_hit": [
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 1
+    },
+    {
+      "bvid": "BV1jBjo6aEhF",
+      "title": "Claude Tag 爆火，我用飞书连接 Claude Code 免费实现了",
+      "desc": "Anthropic 发布了 Claude Tag，Karpathy 称之为大模型第三次革命。但企业版每人每月$250，还只支持 Slack。我用飞书+Claude Code 免费复刻了它的核心功能：群聊@AI、搜索电脑文件、远程手机操控，全程实操一小时搞定，不需要服务器，不需要写代码。",
+      "play": 1467,
+      "danmaku": 2,
+      "like": 38,
+      "duration": 269,
+      "pubdate": 1782314220,
+      "author": "达姐说科技",
+      "mid": 8872789,
+      "queries_hit": [
+        "Claude Code MCP",
+        "Claude Code 配置"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV12E7h6GEHB",
+      "title": "【2026胎教级】Claude Code全栈教程，从入门到精通，搞定所有开发场景，小白10分钟搞定，全程干货无废话，存下吧，很难找全的！",
+      "desc": "",
+      "play": 1446,
+      "danmaku": 1,
+      "like": 29,
+      "duration": 10779,
+      "pubdate": 1782471600,
+      "author": "程序员黑梦",
+      "mid": 498373196,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "BV1R5ZKBJEWU",
+      "title": "在手机无缝操作Cursor Codex Cldude code",
+      "desc": "github:https://github.com/ls2046/vibe-go.git",
+      "play": 1443,
+      "danmaku": 0,
+      "like": 14,
+      "duration": 44,
+      "pubdate": 1771215412,
+      "author": "FutureChat",
+      "mid": 167471451,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 133
+    },
+    {
+      "bvid": "BV1XZ9iBoE6Y",
+      "title": "Claude Code+AE MCP教程：用AI自动生成表达式与自适应动画",
+      "desc": "本期教你将After Effects MCP连接到Claude Code，用自然语言生成AE动画和表达式，包括自动构建场景、自适应文本框等 / 适合人群：有AE基础但想用AI加速工作流的设计师/动效师 / 视频深度：实战演示",
+      "play": 1313,
+      "danmaku": 0,
+      "like": 15,
+      "duration": 1442,
+      "pubdate": 1777616520,
+      "author": "YTBeer",
+      "mid": 3691012075555787,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 59
+    },
+    {
+      "bvid": "BV1YZjY68ERS",
+      "title": "AI agent 连接 TIA portal V21 AI操作博途编写PLC程序 #Openness#Trae#MCP#Deepseek",
+      "desc": "AI首先替代的就是各种程序员...更别说一个破搞工业自动化的. 我只提出需求,AI就自己写C#连博途,导入plc程序 变量表 注释 编译 查错. 整个流程就看它在忙,我根本插不上手,自己写代码 自己查错 自己玩自己的....",
+      "play": 1250,
+      "danmaku": 0,
+      "like": 21,
+      "duration": 75,
+      "pubdate": 1781814250,
+      "author": "kinghahahaha",
+      "mid": 97595226,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 10
+    },
+    {
+      "bvid": "BV1SXKS6rENN",
+      "title": "Claude Code零基础关联测试：安装→连项目→生成第一个Web自动化脚本，1小时入门精通Claude Code安装与Skill基础",
+      "desc": "勉费领取视频全套资料/文档/学习笔记点旁边这个链接哦→https://www.bilibili.com/opus/918700823271178265?spm_id_from=333.1387.0.0",
+      "play": 1110,
+      "danmaku": 25,
+      "like": 38,
+      "duration": 21689,
+      "pubdate": 1782712392,
+      "author": "字节软件测试",
+      "mid": 3546654493903437,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "Claude Code 实战"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1xrJG6aEaj",
+      "title": "Claude Code + R“零代码”复现医学顶刊论文训练营（私信UP领全部视频+资料包）",
+      "desc": "人工智能飞速发展，对于研究生、科研工作者而言，只需要聚焦研究问题创新，统计实操、图表制作、结果呈现等等SCI论文中涉及的工作都有工具可以帮你…… 我们团队最新开设：“零基础掌握SCI论文全流程：Claude Code+R零代码复现医学顶刊论文”训练营，5月17日正式开启，一周一训，每周日上午9点-12点直播。 系统讲解如何用Claude Code 配合 R 语言独立复现医学SCI论文，从工具安装、需求表达、代码生成、调试迭代到完整跑通。你不需要会写代码，只需要学会\"怎么指挥它\"。",
+      "play": 879,
+      "danmaku": 0,
+      "like": 15,
+      "duration": 18728,
+      "pubdate": 1781519039,
+      "author": "临床医学科研统计分析",
+      "mid": 3537104392948645,
+      "queries_hit": [
+        "Claude Code 教程",
+        "Claude Code 实战"
+      ],
+      "age_days": 13
+    },
+    {
+      "bvid": "BV1z8ymBVEX2",
+      "title": "claude code：使用 canva MCP 为文章创建插图",
+      "desc": "claude code canva MCP 做平面设计，海报，插图非常给力。不讲究的效率很高 Claude Code 永久免费体验 Key，官方 Calude sonnet 4.5 大模型，无需魔法直连。 领取秘籍：claude-code.club",
+      "play": 749,
+      "danmaku": 0,
+      "like": 8,
+      "duration": 441,
+      "pubdate": 1761716548,
+      "author": "ClaudeEvangelist",
+      "mid": 356067191,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 243
+    },
+    {
+      "bvid": "BV1im7A6UEgr",
+      "title": "【UE5.8】 01-MCP设置Claude Code",
+      "desc": "",
+      "play": 746,
+      "danmaku": 0,
+      "like": 14,
+      "duration": 709,
+      "pubdate": 1782176400,
+      "author": "CG干货铺",
+      "mid": 1851348033,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 6
+    },
+    {
+      "bvid": "BV1X5jk6DE2X",
+      "title": "全网首发：我把 Claude 接入 TradingView开启 AI 交易上帝模式",
+      "desc": "把 ClaudeCode 变成你的私人交易员！本视频手把手教你利用 MCP 协议将 Claude Code 深度接入 TradingView，实现从分析到下单的全流程自动化。不用写量化代码，用自然语言就能操控全球市场。 #ClaudeCode #TradingView #AI交易 #全自动交易 #MCP协议 #Anthropic #人工智能搞钱 #量化交易",
+      "play": 713,
+      "danmaku": 0,
+      "like": 30,
+      "duration": 372,
+      "pubdate": 1781899319,
+      "author": "我爱喝健力宝",
+      "mid": 235411035,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 9
+    },
+    {
+      "bvid": "BV156E26TE43",
+      "title": "用Claude code + stata-skill做计量分析",
+      "desc": "准备工作： - 安装Stata 17+，并把安装路径添加到 系统环境变量-Path 中。安装路径如“D:\\D1\\Program Files\\stata19” - 安装claude code，买官方账号，或者使用第三方api - 安装stata-mcp：https://github.com/SepineTam/mcp-for-stata/blob/master/README.zh-CN.md 安装 `dylantmoore/stata-skill`，见：https://github.com/dylantm",
+      "play": 698,
+      "danmaku": 0,
+      "like": 17,
+      "duration": 1021,
+      "pubdate": 1781015692,
+      "author": "卿明夕",
+      "mid": 381261685,
+      "queries_hit": [
+        "Claude Code 实战",
+        "Claude Code MCP",
+        "claude code 入门",
+        "Claude Code Cursor"
+      ],
+      "age_days": 19
+    },
+    {
+      "bvid": "BV1SFj86kEK6",
+      "title": "Claude Code 桌面版 + 第三方中转配置教程",
+      "desc": "有朋友说想用 Claude Code，但用不明白命令行、不太习惯。这期就教大家用图形化的方式上手 Claude Code 桌面版，并配置第三方 inference 接口。 完整步骤： 1️⃣ 官方地址下载并安装桌面版 2️⃣ 在「帮助 → Troubleshooting」里开启开发者模式（Developer Mode） 3️⃣ 在开发者模式里配置第三方 inference，选择 Gateway 形式、credential 选 static 4️⃣ 在鱼鱼连线 yylx.io 中转站创建密钥（CC",
+      "play": 694,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 115,
+      "pubdate": 1782054568,
+      "author": "小鱼币币机",
+      "mid": 3546938572016024,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 7
+    },
+    {
+      "bvid": "BV1zZ7V6QEUE",
+      "title": "不需要魔法即可使用Claude Code！Claude Code+R语言环境配置手把手教学实操演示--AI时代零代码学生信（2）",
+      "desc": "不需要魔法即可使用Claude Code全流程安装配置教学来啦！ Claude Code+Deepseek-v4-pro+R语言环境配置，开启零代码学生信第一步！",
+      "play": 676,
+      "danmaku": 1,
+      "like": 24,
+      "duration": 733,
+      "pubdate": 1782475185,
+      "author": "医学SCI文献解读",
+      "mid": 3546898392680749,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 配置"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "BV1QS7H6FEJF",
+      "title": "告别命令行！在 VSCode 中丝滑使用 Claude Code",
+      "desc": "",
+      "play": 648,
+      "danmaku": 0,
+      "like": 17,
+      "duration": 163,
+      "pubdate": 1782637260,
+      "author": "科研小猪莹",
+      "mid": 453053638,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1JNTu6jEom",
+      "title": "【6.28最新】B站讲的最好的Claude Code实战教程，一周快速入门Claude Code，桌面端快速部署！建议收藏学习!",
+      "desc": "【视频配套籽料+问题解答请看”平论区置顶”自取哦】 视频制作不易，如果视频对你有用的话请一键三连【长按点赞】支持一下up哦，拜托，这对我真的很重要！",
+      "play": 611,
+      "danmaku": 26,
+      "like": 6,
+      "duration": 52859,
+      "pubdate": 1782632683,
+      "author": "凉也要学AI",
+      "mid": 3706993684515148,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 1
+    },
+    {
+      "bvid": "BV1bfT56yE3z",
+      "title": "提示词过时了？Agent 循环到底怎么写：Claude Code 与 Codex 实战",
+      "desc": "https://www.youtube.com/watch?v=JoXbk2fm7jM 本期基于 How I AI 的公开视频标题和简介整理，主题是如何在 Claude Code 与 Codex 中设计 AI Agent 循环。视频从 heartbeat、cron、hook、goal 四类循环讲起，并用两个实战例子展示如何让自动化提示词真正进入可持续工作流。原视频来源：How I AI。仅作学习交流与信息整理。",
+      "play": 540,
+      "danmaku": 0,
+      "like": 13,
+      "duration": 1747,
+      "pubdate": 1782699312,
+      "author": "KrillinAI小林",
+      "mid": 242124650,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 实战",
+        "Claude Code MCP",
+        "Claude Code 配置",
+        "claude code 入门"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1Lytvz7Etm",
+      "title": "Lesson 07:Claude Code玩转Jupyter笔记本：从凌乱数据处理到Streamlit仪表板的高效转换",
+      "desc": "https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/33kzr/refactoring-a-jupyter-notebook-&-creating-a-dashboard 本节课聚焦于使用Claude Code重构Jupyter笔记本并将其转换为交互式Streamlit仪表板，核心展示了如何通过工具优化数据处理流程与可视化呈现，实现从“混乱代码”到“结构化应用”的升级。 首先",
+      "play": 495,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 765,
+      "pubdate": 1754538344,
+      "author": "风哥AI-Cursor编程",
+      "mid": 51547507,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 326
+    },
+    {
+      "bvid": "BV1rXGAzoEnA",
+      "title": "用嘴巴测：Claude Code + Mobile-MCP 的极简测试体验",
+      "desc": "// UP 是人机 Mobile-MCP测试框架集成简介 测试概述 成功完成了Claude Code与mobile-mcp测试框架的集成测试。 测试配置 工具: Claude Code 测试框架: mobile-mcp 项目地址: https://github.com/mobile-next/mobile-mcp 测试时间: 2025年7月 测试结果 连接状态: 成功建立 ✅ 框架集成: 运行正常 协议通信: MCP协议通信验证通过 技术特点 mobile-mcp作为专门的MCP测试框架，提供了完整的测试",
+      "play": 473,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 214,
+      "pubdate": 1752063996,
+      "author": "温尼伯鹅蛋脸",
+      "mid": 3546624200542989,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 354
+    },
+    {
+      "bvid": "BV1zcjQ6HEq3",
+      "title": "Claude Code 大升级：Claude Tag 把 AI 放进 Slack 团队流",
+      "desc": "Claude Code 大升级：Claude Tag 把 AI 放进 Slack 团队流",
+      "play": 447,
+      "danmaku": 0,
+      "like": 5,
+      "duration": 68,
+      "pubdate": 1782265014,
+      "author": "Claw小龙虾",
+      "mid": 3546946214038265,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 5
+    },
+    {
+      "bvid": "BV1C7TM6EEbz",
+      "title": "Claude Code 接入飞书 超越codex 实现电商产品自动化分析",
+      "desc": "",
+      "play": 311,
+      "danmaku": 0,
+      "like": 12,
+      "duration": 352,
+      "pubdate": 1782640243,
+      "author": "aigc测评员",
+      "mid": 1013421645,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1VVJK64EkE",
+      "title": "claude code也能用image2来生图的MCP工具",
+      "desc": "仓库地址：https://github.com/EDMOK/images-tool-mcp",
+      "play": 300,
+      "danmaku": 0,
+      "like": 6,
+      "duration": 52,
+      "pubdate": 1781453524,
+      "author": "EdM0K",
+      "mid": 291892724,
+      "queries_hit": [
+        "Claude Code MCP"
+      ],
+      "age_days": 14
+    },
+    {
+      "bvid": "BV1997q6kEEN",
+      "title": "基于Claude Code+Codex双AI协同论文写作撰写【私信up主获取全套视频】",
+      "desc": "AI科研新范式不是让模型替你写论文，而是把论文变成一条可追踪、可审稿、可迭代的科研生产线——数据→写作依据文件→AI初稿→独立AI压测→逐轮提分→投稿包，全程文件可复查、责任在人。",
+      "play": 263,
+      "danmaku": 0,
+      "like": 10,
+      "duration": 13297,
+      "pubdate": 1782442360,
+      "author": "医学科研生信sci",
+      "mid": 3546804356385001,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 实战"
+      ],
+      "age_days": 3
+    },
+    {
+      "bvid": "BV1Sj7Y6HEFs",
+      "title": "Claude code 安装配置",
+      "desc": "本节课程配套学习籽聊，点击下方连结，快速令曲👇 https://www.bilibili.com/opus/1100126091579752452 包含AI智能体搭建/AI大模型应用开发/AI图文漫剧生成全套籽聊， AI智能体搭建入门到精通(最新版)，完全零基础学习，全面精通智能体搭建技术， AI大模型企业级应用实战(最新版)，全网最通俗易懂，彻底掌握大模型开发技术， AI热门工具从入门到精通(最新版)，全面提高生产效率，快速掌握AI热门工具， 全程干货，无废话，通俗易懂，小白学了都直呼太简单",
+      "play": 217,
+      "danmaku": 0,
+      "like": 11,
+      "duration": 156,
+      "pubdate": 1782390096,
+      "author": "安迪讲AI",
+      "mid": 505112753,
+      "queries_hit": [
+        "Claude Code 教程",
+        "Claude Code 配置"
+      ],
+      "age_days": 3
+    },
+    {
+      "bvid": "BV1hs7E6SEzX",
+      "title": "Claude code 项目实战入门",
+      "desc": "本节课程配套学习籽聊，点击下方连结，快速令曲👇 https://www.bilibili.com/opus/1100126091579752452 包含AI智能体搭建/AI大模型应用开发/AI商业变现/AI图文漫剧生成全套籽聊， AI智能体搭建入门到精通(最新版)，完全零基础学习，全面精通智能体搭建技术， AI大模型企业级应用实战(最新版)，全网最通俗易懂，彻底掌握大模型开发技术， AI热门工具从入门到精通(最新版)，全面提高生产效率，快速掌握AI热门工具， 全程干货，无废话，通俗易懂，小白学了都直呼太简",
+      "play": 182,
+      "danmaku": 0,
+      "like": 6,
+      "duration": 161,
+      "pubdate": 1782530063,
+      "author": "龙虾讲AI",
+      "mid": 3546921436186643,
+      "queries_hit": [
+        "Claude Code 实战",
+        "claude code 入门"
+      ],
+      "age_days": 2
+    },
+    {
+      "bvid": "217848430",
+      "title": "3小时搞定Claude Code-李晓华博士",
+      "desc": "",
+      "play": 147,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 0,
+      "pubdate": 0,
+      "author": "北大李晓华教人工智能",
+      "mid": 1343759259,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": null
+    },
+    {
+      "bvid": "BV1b9jo6nEbi",
+      "title": "claude code生成报告",
+      "desc": "",
+      "play": 115,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 349,
+      "pubdate": 1782306459,
+      "author": "巨概动车",
+      "mid": 1925080669,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV1TqGk6wEJb",
+      "title": "VibeCoding AI编程实战课二期一期完结资料，木羽， Cursor +Claude Code +OpenCode实战",
+      "desc": "学习资源代找\\/（hcce1024） #资料 VibeCoding AI编程实战课二期一期完结资料，木羽， Cursor +Claude Code +OpenCode实战",
+      "play": 107,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 214,
+      "pubdate": 1779855831,
+      "author": "一起玩虾Openclaw",
+      "mid": 3546738038147161,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 33
+    },
+    {
+      "bvid": "BV1qm7q62EuA",
+      "title": "【Claude Code安装教程】Claude Code安装前，这些npm命令不能随意用！",
+      "desc": "",
+      "play": 103,
+      "danmaku": 0,
+      "like": 1,
+      "duration": 77,
+      "pubdate": 1782443177,
+      "author": "Claude安装教程",
+      "mid": 3546743494937042,
+      "queries_hit": [
+        "Claude Code Cursor"
+      ],
+      "age_days": 3
+    },
+    {
+      "bvid": "BV11JTg6REtw",
+      "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】_Claude code最新安装教程",
+      "desc": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！ 【视频配套籽料+问题解答请看”平论区置顶”自取哦】",
+      "play": 69,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 7647,
+      "pubdate": 1782652613,
+      "author": "杨淑娟Python",
+      "mid": 387595958,
+      "queries_hit": [
+        "Claude Code",
+        "Claude Code 教程"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV13Tjf6hEvL",
+      "title": "我是用的 Claude Code 的 CLI 端，居然能打开wps自动化制作ppt",
+      "desc": "-",
+      "play": 69,
+      "danmaku": 0,
+      "like": 15,
+      "duration": 11,
+      "pubdate": 1782063724,
+      "author": "bili_41880127717",
+      "mid": 3546733827066541,
+      "queries_hit": [
+        "Claude Code 教程"
+      ],
+      "age_days": 7
+    },
+    {
+      "bvid": "BV1fHTL6ZEqv",
+      "title": "Claude Code管理会话新手入门指南、Claude Code教程、Claude教程",
+      "desc": "欢迎参加本次关于Claude Code会话管理的新手入门指南。在今天的分享中，我们将一起探索如何高效地管理您的会话，从而在复杂的开发任务中保持清晰的思路和高效的工作流程。无论您是刚接触Claude Code的新手，还是希望提升现有工作流的开发者，本指南都将为您提供实用的技巧和方法。",
+      "play": 64,
+      "danmaku": 0,
+      "like": 8,
+      "duration": 297,
+      "pubdate": 1782695221,
+      "author": "杭州黄老师",
+      "mid": 406739173,
+      "queries_hit": [
+        "Claude Code 教程",
+        "claude code 入门"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1FDTu61EpC",
+      "title": "Claude Code为六个月后的模型做工具",
+      "desc": "这期聊 Claude Code 的产品思路。我的核心判断是：Claude Code 不是在做一个更快的 IDE，而是在给未来六个月后的模型准备一套能真正干活的工具环境。 我会讲三个问题： 为什么它的重点不是编辑器速度，而是工具链和上下文。 为什么模型能力提高以后，软件形态会从“人点按钮”变成“人给目标，Agent 执行”。 为什么现在做 Claude Code，本质上是在提前适配下一代模型的工作方式。 来源说明： 本期引用公开访谈/演示中的短片段，作为评论、解释和事实依据。主体观点和解读为袁工智能原创表达",
+      "play": 56,
+      "danmaku": 0,
+      "like": 4,
+      "duration": 1010,
+      "pubdate": 1782685800,
+      "author": "袁工智能",
+      "mid": 375522256,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1amJ36BEtf",
+      "title": "Claude Code 高级实战班",
+      "desc": "自己熬夜找文献、自己整理资料、自己清洗数据、自己画图、自己写初稿……时间全花在重复劳动上。 现在，顶尖研究者已经开始这样做： ✅ 让 AI 团队自动监测最新文献 ✅ 让 AI 团队自动提取与分析数据 ✅ 让 AI 团队自动生成专业级图表 ✅ 让 AI 团队协助你撰写、润色论文 这不是一个普通的 AI 工具课！ 这是一套为你量身打造的 AI-Native 科研工作流，帮你打通 文献阅读 → 研究设计 → 数据分析 → 论文写作 → 投稿发表 的完整链条。 学完这门课，你将立刻拥有： 1. 一位懂你的“科研大",
+      "play": 50,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 105,
+      "pubdate": 1781527738,
+      "author": "学术苑",
+      "mid": 480682506,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 13
+    },
+    {
+      "bvid": "BV13RT567E28",
+      "title": "国内首个！把Claude Code Skills装进BI产品，一句话生成数据大屏",
+      "desc": "积木大屏 AI 助手三大核心能力全覆盖： 1.自然语言一键生成完整数据大屏； 2.文字指令快速新增各类图表组件； 3.对话聊天式实时调整大屏样式与布局。 全程仅靠自然语言描述即可完成搭建、增改全流程，极大降低数据大屏制作门槛，成倍提升开发效率。",
+      "play": 45,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 2281,
+      "pubdate": 1782704964,
+      "author": "JEECG官方号",
+      "mid": 454617261,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV12ZKS6MEtz",
+      "title": "Udemy - AI Coder: Complete Claude Code & Coding Agents Course",
+      "desc": "https://www.udemy.com/course/ai-coder-from-vibe-coder-to-agentic-engineer/ Udemy - AI Coder: Complete Claude Code & Coding Agents Course 2026-6",
+      "play": 39,
+      "danmaku": 0,
+      "like": 3,
+      "duration": 58614,
+      "pubdate": 1782712421,
+      "author": "lmt831",
+      "mid": 27174700,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1E7jt6pEqo",
+      "title": "Claude Code 高级实战班",
+      "desc": "自己熬夜找文献、自己整理资料、自己清洗数据、自己画图、自己写初稿……时间全花在重复劳动上。 现在，顶尖研究者已经开始这样做： ✅ 让 AI 团队自动监测最新文献 ✅ 让 AI 团队自动提取与分析数据 ✅ 让 AI 团队自动生成专业级图表 ✅ 让 AI 团队协助你撰写、润色论文 这不是一个普通的 AI 工具课！ 这是一套为你量身打造的 AI-Native 科研工作流，帮你打通 文献阅读 → 研究设计 → 数据分析 → 论文写作 → 投稿发表 的完整链条。 学完这门课，你将立刻拥有： 1. 一位懂你的“科研大",
+      "play": 39,
+      "danmaku": 0,
+      "like": 1,
+      "duration": 105,
+      "pubdate": 1782037859,
+      "author": "学术苑",
+      "mid": 480682506,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 7
+    },
+    {
+      "bvid": "BV1xF7a65Eds",
+      "title": "最近爆火的claude-code下载以及配置教程",
+      "desc": "",
+      "play": 37,
+      "danmaku": 0,
+      "like": 11,
+      "duration": 423,
+      "pubdate": 1782367438,
+      "author": "ruowuh",
+      "mid": 1088169354,
+      "queries_hit": [
+        "Claude Code 配置"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV16x7b6fEMZ",
+      "title": "Claude Code 高级实战班",
+      "desc": "这不是一个普通的 AI 工具课！ 这是一套为你量身打造的 AI-Native 科研工作流，帮你打通 文献阅读 → 研究设计 → 数据分析 → 论文写作 → 投稿发表 的完整链条。 学完这门课，你将立刻拥有： 1. 一位懂你的“科研大脑” 让 AI 长期记住你的研究方向、文献积累和项目背景，从此告别“每次都要重新解释”的烦恼，实现真正理解你研究的 AI 协作者。 2. 一支专属的“科研智能体天团” 文献阅读助手 - 自动抓取、提炼关键信息 数据分析助手 - 用自然语言指挥数据工作 图表生成助手 - 一键生成",
+      "play": 33,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 105,
+      "pubdate": 1782360065,
+      "author": "学术苑",
+      "mid": 480682506,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 4
+    },
+    {
+      "bvid": "BV1yqTu6sEQq",
+      "title": "Claude Code装上这4个Skill，我一天只写2小时代码",
+      "desc": "Claude Code装上这4个Skill，我一天只写2小时代码",
+      "play": 27,
+      "danmaku": 0,
+      "like": 7,
+      "duration": 163,
+      "pubdate": 1782659960,
+      "author": "openclaw部署老师",
+      "mid": 3706925369789330,
+      "queries_hit": [
+        "Claude Code"
+      ],
+      "age_days": 0
+    },
+    {
+      "bvid": "BV1ah7p6wE2K",
+      "title": "Claude Code 高级实战班",
+      "desc": "",
+      "play": 23,
+      "danmaku": 0,
+      "like": 0,
+      "duration": 105,
+      "pubdate": 1782554578,
+      "author": "学术苑",
+      "mid": 480682506,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 1
+    },
+    {
+      "bvid": "BV1aA7J69Egg",
+      "title": "#Claude code 实战",
+      "desc": "#Claude code 实战",
+      "play": 19,
+      "danmaku": 0,
+      "like": 11,
+      "duration": 492,
+      "pubdate": 1782519396,
+      "author": "bili_molc",
+      "mid": 3690996393052947,
+      "queries_hit": [
+        "Claude Code 实战"
+      ],
+      "age_days": 2
+    }
+  ],
+  "comments_by_bvid": {
+    "BV1KjoxBoEQJ": [
+      {
+        "message": "下载太慢，我问deepseek的方案,以下都是deepseek说的: 使用 WinGet 安装（强烈推荐） 这是目前国内成功率最高的官方安装方式。WinGet 是 Windows 官方的包管理器，它不直接从 claude.ai 拉取脚本，而是通过微软商店的 CDN 网络下载，在国内通常可以直连。powershell winget install Anthropic.ClaudeCode 如果提示 winget 不存在，先去 Microsoft Store 安装\"应用安装程序\"。",
+        "like": 868,
+        "ctime": 1778848275,
+        "uname": "libra6666"
+      },
+      {
+        "message": "有没有好哥们能告诉我这咋回事啊",
+        "like": 14,
+        "ctime": 1779783684,
+        "uname": "偷偷地暗恋"
+      },
+      {
+        "message": "这是什么情况？",
+        "like": 0,
+        "ctime": 1782706486,
+        "uname": "柯沁妍"
+      }
+    ],
+    "BV1NvRyBzEhq": [
+      {
+        "message": "有没有老兄解决了这个问题，Claude这一关都过不去了",
+        "like": 24,
+        "ctime": 1778344809,
+        "uname": "尘世间的妖"
+      },
+      {
+        "message": "Ai资料ita cv49047720",
+        "like": 14,
+        "ctime": 1782713668,
+        "uname": "超级甜甜草莓糯糯团子"
+      },
+      {
+        "message": "这是怎么回事 我把东西都装在J盘 为什么终端还是在C盘啊 有没有大佬教我一下",
+        "like": 0,
+        "ctime": 1782718595,
+        "uname": "十月寒秋"
+      }
+    ],
+    "BV14rzQB9EJj": [
+      {
+        "message": "视频看完，做个思维导图加深下印象，需要的可以自取",
+        "like": 218,
+        "ctime": 1774319648,
+        "uname": "北鸟南游"
+      },
+      {
+        "message": "最新的Claude Code Tasks能不能讲解一下，跟workflow有什么区别啊",
+        "like": 55,
+        "ctime": 1769473722,
+        "uname": "叶文洁111"
+      },
+      {
+        "message": "UP，你的这期视频被盗用至b站某付费课程作为试看课。https://www.bilibili.com/cheese/play/ss485516796?bsource=link_copy",
+        "like": 34,
+        "ctime": 1779206178,
+        "uname": "建筑师LYF"
+      }
+    ],
+    "BV16YRLB7Exd": [
+      {
+        "message": "[doge_金箍]大家可以下载一个trae，然后跟agent说“帮我安装claude code，再安装cc switch”，确保可以访问互联网，坐等结果就行了",
+        "like": 2649,
+        "ctime": 1778158704,
+        "uname": "-太摆金星-"
+      },
+      {
+        "message": "请问这个是什么问题哇[生病]",
+        "like": 10,
+        "ctime": 1782271962,
+        "uname": "炒鸡蛋大王"
+      },
+      {
+        "message": "有没有大佬告诉我为什么我按主包一步一步操作的 但是就是用npm install -g @anthropic-ai/claude-code安装不了 一直报错是什么原因？是因为和主播使用的版本不同嘛？[大哭]",
+        "like": 0,
+        "ctime": 1782714724,
+        "uname": "dfydy0604"
+      }
+    ],
+    "BV1kX546QEjG": [
+      {
+        "message": "很多人在用AI的时候都没整明白一个问题。 AI的“上限”是使用者的上限，而不是你给几个概念就可以帮你完成的东西。 总的来说，本事多大，就能发挥多大的作用。 想空手套白狼，浪费一堆token，永远都原地踏步",
+        "like": 571,
+        "ctime": 1778582027,
+        "uname": "Cole丂力"
+      },
+      {
+        "message": "总算是用上了，总结一下安装经验： 1. winget安装方式目前也基本无了，可能基于网络上对国内IP的封锁或者啥的，至少我这边都是报错 2. 使用windows装确实是吃亏的，不如mac和linux。win环境配置上问题很多。但大多数人估计和我一样，只会使用windows，所以推荐使用npm安装方式，目前依然有效。选择有2： a）先自己安装好git和node.js，一搜就有，安装全是下一步点到底，然后在powershell里用npm命令安装，不过可能会遇到其他问题，比如组策略拦截，还有其他环境问题之类，懂的可以自己解决，不懂就看下一个方式 b）安装一个agent让它帮你搞定，比如trae，你安装好trae后，只要在对话框里输入“帮我安装最新版的claude code”，它就会帮你搞定一切，包括git，nodejs，环境，设置，策略等等，但是注意，它会在安装过程中一直询问你一些东西，你只要一直放行就好。 3.如果你和我一样，使用视频中的kimi作为后台大模型，那么注意2点： a）按月订阅和一般充值订阅使用的URL不一样，在写配置文件.claude.json的时候要注意。UP的新文档里面有说明。不行就下个CC-SWITCH用图形界面配置，不难，而且高效。 b) kimi的最低会员阶级Tire 0会限制你的会话文本长度和访问频率，以及每天的访问频率。而且限制给的挺低。解决办法就是充50变Tire 1，一般使用大致是没问题了。",
+        "like": 147,
+        "ctime": 1781248576,
+        "uname": "Zeal-Star"
+      },
+      {
+        "message": "求文档",
+        "like": 0,
+        "ctime": 1782718440,
+        "uname": "只留一滴泪"
+      }
+    ],
+    "BV1ty4y1S7mC": [
+      {
+        "message": "无需投币，在线求赞。 [doge]",
+        "like": 391,
+        "ctime": 1615106815,
+        "uname": "兔子不吃米饭"
+      },
+      {
+        "message": "收藏从未停止，学习不曾开始",
+        "like": 243,
+        "ctime": 1608021220,
+        "uname": "没有存在感的某"
+      },
+      {
+        "message": "[热词系列_咕咕] 大家好，我是鸽子不吃米饭。",
+        "like": 92,
+        "ctime": 1607606456,
+        "uname": "兔子不吃米饭"
+      }
+    ],
+    "BV1RPET6tEp2": [
+      {
+        "message": "唉，我宁愿没有这个教程，真的是历史的车轮，职业生涯刚开始2，3年AI就在给我倒计时了，真的好艰难又迷茫，熬的那么多个夜晚，AI一句话就可以打败我，写的比我更好更漂亮，我真没招了 [生病]",
+        "like": 15,
+        "ctime": 1782401667,
+        "uname": "阿姨我累啦"
+      },
+      {
+        "message": "先提醒一下，学生找开发实习或者应届找工作先打基础，你学个这企业不认的，建议感兴趣或者即将入职或工作的人优先学习",
+        "like": 10,
+        "ctime": 1781374906,
+        "uname": "粉色达妮娅小姐"
+      },
+      {
+        "message": "你们怎么访问github的？同学们求助一下",
+        "like": 0,
+        "ctime": 1782699921,
+        "uname": "卡洛斯1998"
+      }
+    ],
+    "BV1mzFVzPEB6": [
+      {
+        "message": "claude code源码网上已经泄露[tv_doge]",
+        "like": 19,
+        "ctime": 1775011017,
+        "uname": "上官司马奕"
+      },
+      {
+        "message": "claude又不让中国人用，这课学完了也没法用",
+        "like": 16,
+        "ctime": 1772303377,
+        "uname": "抵抗光环136"
+      },
+      {
+        "message": "这是不是属于全栈了？不太适合小白看[喜极而泣]",
+        "like": 5,
+        "ctime": 1773623767,
+        "uname": "希冀如浪"
+      }
+    ],
+    "BV1RSFUzVEAG": [
+      {
+        "message": "🌟课程收获： 1. 使用 Claude Code 探索、开发、测试、重构和调试代码库。 2. 借助 Playwright 和 Figma 等 MCP 服务器扩展 Claude Code 的功能。 3. 将 Claude Code 的最佳实践应用于三个项目：探索和开发检索增强生成（RAG）聊天机器人的代码库、重构电商数据的 Jupyter 笔记本并将其转化为仪表盘，以及基于 Figma 原型构建 Web 应用。",
+        "like": 31,
+        "ctime": 1772437933,
+        "uname": "吴恩达的AI课"
+      },
+      {
+        "message": "已经用上，极大的提升了工作效率，同时有更多的时间留给自己",
+        "like": 9,
+        "ctime": 1772639595,
+        "uname": "特仑suusus"
+      },
+      {
+        "message": "ClaudeCode【配套课程笔记+代码文件】+进阶学习路线",
+        "like": 4,
+        "ctime": 1782180680,
+        "uname": "出现又离开喔"
+      }
+    ],
+    "BV1KJ61BBEB1": [
+      {
+        "message": "有个很致命的问题，下载插件后，打开需要你登录 Claude 不是本身国内就有限制吗？大佬们求助，怎么选，怎么操作下一步？",
+        "like": 55,
+        "ctime": 1770548109,
+        "uname": "bili_kevinxu"
+      },
+      {
+        "message": "回答一个问题花了我10块钱，明抢吗",
+        "like": 47,
+        "ctime": 1770871085,
+        "uname": "屁猴子2021"
+      },
+      {
+        "message": "UP你好，VsCode里面的claude code插件只能使用API去使用嘛？我点击授权我的MAX订阅额度，但是回到窗口这边问话又弹出这个窗口；VsCode的终端窗口我都配置了按订阅额度使用（不敢用API了）",
+        "like": 18,
+        "ctime": 1771955017,
+        "uname": "活着真好还能等死_"
+      }
+    ]
+  }
+}

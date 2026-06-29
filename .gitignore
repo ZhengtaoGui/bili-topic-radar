@@ -1,0 +1,9 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+/reports/
+/evidence_*.json
+/tmp_*.json
