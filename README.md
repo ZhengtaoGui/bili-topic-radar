@@ -1,140 +1,139 @@
-# B站选题撞车雷达 🎯
+# B站选题撞车雷达 · Bilibili Topic Radar
 
-**做视频之前,先扫一眼这个选题该不该做。**
+![license](https://img.shields.io/badge/license-MIT-blue)
+![python](https://img.shields.io/badge/python-3.11%2B-blue)
+![status](https://img.shields.io/badge/version-0.1.0-brightgreen)
+![readonly](https://img.shields.io/badge/data-read--only-success)
 
-输入一个选题想法,它会去 B站 把同主题的视频全捞出来,告诉你:这题**撞不撞车**、哪个角度**还没人做**、观众在评论区**反复求什么没被满足**;再(可选)用你电脑上的 AI 给一句**做 / 改角度 / 延后 / 放弃**的判断。
+> 做视频之前的本地选题尽调工具。输入一个选题想法,它会扫遍 B站 同主题视频,
+> 判断**撞不撞车**、哪个角度**还没人做**,并从高赞评论里挖出观众**没被满足的真实需求**;
+> 可选调用本机 AI 给出 **做 / 改角度 / 延后 / 放弃** 的判断。
 
-> 纯**只读**公开数据。不登录你的账号、不发任何评论或动态、不碰你的后台。
+**纯只读公开数据 —— 不登录账号、不发任何内容、零封号风险。**
 
-![看板截图](docs/screenshots/dashboard.png)
-
----
-
-## 它不是
-
-- ❌ 不是 B站热榜(热榜告诉你"现在什么火",它告诉你"你这题还有没有空子")
-- ❌ 不是标题党生成器
-- ❌ 不是承诺播放量的玄学工具
-- ❌ 不是爬你账号数据的运营后台
-
-## 它独特在哪(目前没见过同类)
-
-- **撞车雷达** —— 同题视频有多少、播放怎么分布、近 90 天还火不火、头部有没有把流量垄断
-- **评论真需求挖掘** —— 不是只看播放量,而是从**高赞评论**里挖观众反复求、但没人做的点(还会把玩梗、吐槽、求资源这些**假需求过滤掉**)
-- **本地 AI 判断** —— 证据先落在你自己电脑上,再交给本机的 AI 给选题建议,**不用配 key、不花钱**
-- **可降级** —— 没装 AI 也能用,看板和评论照常看
-- **只读、不碰账号** —— 不用登录 B站,不发任何东西
+![看板](docs/screenshots/dashboard.png)
 
 ---
 
-## 适合谁
+## 为什么需要它
 
-知识区 / 数码区 / 游戏区等**靠选题吃饭的中小 UP 主**,以及帮 UP 主做选题调研的人。
-需要你会用一点点终端(或者照着下面双击启动)。
+选题是创作里投入产出比最悬的一步:做完才发现满地同题视频、流量被头部锁死,几天白干。
+避免撞车需要的信息其实都在 B站 公开数据里,只是没人有精力逐条去查。本工具把这份尽调自动化,
+并把"原始数据"提炼成**可执行的判断**。
 
-## 你能得到什么
+| | 热榜工具 | 本工具 |
+|---|---|---|
+| 回答的问题 | "现在什么火" | "**你这题还有没有空子,该怎么切**" |
+| 评论 | 不看 | **挖高赞评论里的真实需求(过滤玩梗/吐槽)** |
+| AI 判断 | 无 | **本地 AI 给做/改/延/弃建议** |
+| 数据 | — | 只读公开数据,不碰账号 |
 
-1. **竞争态势**:这题全站多少视频、最高/中位播放、近 90 天占比、头部垄断度
-2. **视频清单**:同题视频按播放排序,点开看每个视频的高赞评论
-3. **AI 选题建议**(可选):一句话结论 + 角度地图(哪格挤/哪格空)+ 观众真需求 + 3 个能做的方案
+## 核心能力
+
+- **撞车雷达** —— 同题视频数量、播放分布、近 90 天活跃度、头部垄断度,一眼看清竞争态势。
+- **评论真需求挖掘** —— 不只看播放量,从高赞评论提炼观众反复求、却没人做的内容点;自动过滤玩梗、吐槽、求资源等噪声。
+- **本地 AI 判断(可选)** —— 证据先落本机,再交给本机 [Codex CLI](https://github.com/openai/codex)(GPT-5)产出结论、角度地图、三套差异化选题方案。无需 API key、零额外成本。
+- **优雅降级** —— 未安装 AI 也能用证据看板;AI 仅作为增强项。
+
+## 工作原理
+
+```
+关键词 ──▶ [采集层] 搜索 + 去重 + 拉热评 ──▶ 证据包 ──▶ [AI 分析] 读证据做判断 ──▶ 选题建议
+          确定性程序(collect.py)          evidence.json   本机 Codex(analyzer.py)
+```
+
+1. **采集层**(`collect.py`):用 `bilibili-api` 调公开搜索/评论接口(WBI 签名、限流、本地缓存),把视频与热评聚合成证据包。纯程序,不含 AI。
+2. **AI 分析**(`analyzer.py`):把证据浓缩后交给本机 Codex,用结构化输出(`--output-schema`)产出固定格式的判断——剔噪、角度聚类、缺口挖掘、生成方案。
+3. **看板**(`web.py`):深色 Web 界面,可视化证据并触发 AI 分析。
+
+技术栈:Python 3.11+ · `bilibili-api-python` · Starlette · 本机 Codex CLI(可选)。
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
-### 前置(一次性)
+### 环境要求
 
-- **Python 3.11+** 和 **[uv](https://docs.astral.sh/uv/)**(包管理器)。没装 uv 就跑一句:
+- **Python 3.11+** 与 **[uv](https://docs.astral.sh/uv/)**。未安装 uv:
   ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
   ```
-- **能访问 B站**:在中国大陆以外,通常要开本地代理(见下方「代理设置」)。
-- **(可选)AI 分析**:要用 AI 建议,得装并登录 [Codex CLI](https://github.com/openai/codex)。**不装也能用看板。**
+- **访问 B站**:在中国大陆以外通常需本地代理(见「代理配置」)。
+- **(可选)AI 分析**:需安装并登录 [Codex CLI](https://github.com/openai/codex);不安装亦可使用看板。
 
 ### 启动
 
-**Mac**:在 Finder 里双击 `scripts/start.command`,等浏览器自动打开。
-
-**或命令行**(Mac/Linux 通用):
 ```bash
+git clone git@github.com:ZhengtaoGui/bili-topic-radar.git
 cd bili-topic-radar
-./scripts/start.sh
+./scripts/start.sh           # macOS 亦可在 Finder 双击 scripts/start.command
 ```
 
-脚本会自动装依赖、起服务、打开浏览器到 **http://127.0.0.1:8848**。
-第一次用?直接点页面上的 **「📊 看示例:MCP」**,秒看效果,不用等。
+脚本自动安装依赖、启动服务并打开浏览器至 **http://127.0.0.1:8848**。
+首次使用可直接点击页面上的 **「看示例:MCP」** 即时查看效果。
+
+详细图文步骤见 **[使用教程.md](使用教程.md)**。
 
 ---
 
-## 🌐 代理设置(访问 B站)
+## 代理配置(访问 B站)
 
-本工具用 `httpx` 拉 B站 数据,会自动读取系统代理环境变量。在中国大陆以外,先开好你的代理(Clash/V2Ray 等),确保有类似环境变量:
+本工具基于 `httpx`,会自动读取系统代理环境变量。在中国大陆以外,请先开启本地代理并确保设置:
 
 ```bash
 export ALL_PROXY=socks5://127.0.0.1:7890
 export HTTPS_PROXY=http://127.0.0.1:7890
 ```
 
-> SOCKS 代理需要 `socksio`(已在依赖里,`uv sync` 会自动装)。
-> 打开本地看板若被代理拦,多数浏览器会自动跳过 localhost;命令行测试加 `curl --noproxy '*'`,或把 `127.0.0.1` 加进代理白名单。
+SOCKS 代理依赖 `socksio`(已包含在依赖中)。中国大陆直连用户通常无需代理。
 
-在中国大陆直连 B站 的用户通常不需要代理。
+## AI 智能分析说明
 
----
+看板中的 **「AI 智能分析」** 会将刚采集的证据交给本机 Codex,产出一句话结论、角度地图、观众真需求与三套选题方案。
 
-## 🤖 AI 智能分析说明
-
-点看板上的 **「🤖 AI 智能分析」** 按钮,会把刚扫到的证据交给 AI,产出一句话结论、角度地图、观众真需求和 3 个选题方案。
-
-- **后端用你本机的 [Codex CLI](https://github.com/openai/codex)(GPT-5)** —— 装好并 `codex login` 登录后即可用,**不需要额外 API key、不额外花钱**。
-- **没装 Codex 也不影响看板** —— 点 AI 按钮会提示你"需要本机 Codex",证据看板照常用。
-- 分析一次约 **30–60 秒**(本地模型在思考),请耐心等。
-- 结论**仅供参考**,最终拍板还是你。
-
-> 进阶:`analyzer.py` 预留了 Claude / DeepSeek API 后端(v2),以后设个 key 就能切换。
+- 后端使用本机 **Codex CLI(GPT-5)**:`codex login` 登录一次即可,**无需额外 API key、零额外成本**。
+- 未安装 Codex 时,点击会给出友好提示,证据看板不受影响。
+- 单次分析约 30–60 秒;结论仅供参考。
+- `analyzer.py` 预留 Claude / DeepSeek API 后端接口(规划中)。
 
 ---
 
-## ❓ 常见问题
+## 常见问题
 
-**Q:点了扫描很久没反应?**
-A:扫描会真去 B站 搜 + 抓评论,限速对 B站 友好(每次请求间隔 1.5–2 秒),一次约 30–60 秒。结果会缓存,重复查很快。
+**扫描很慢?** 采集会真实请求 B站 并限速(每次间隔 1.5–2 秒),单次约 30–60 秒;结果会缓存,重复查询很快。
 
-**Q:搜出来有些视频明显跑题?**
-A:广词搜索会带进噪声(比如搜"MCP"召回到《VPN概念》)。AI 分析会**主动剔除**这些并在"数据提醒"里说明。
+**搜出无关视频?** 广词检索会引入噪声;AI 分析会主动剔除并在「数据提醒」中说明。
 
-**Q:AI 把玩梗当真需求了?**
-A:已修。AI 会过滤玩梗、吐槽、求资源、跑题这类假需求,挖不到真需求时宁可留空。
+**会被封号吗?** 不会。全程只读公开数据,不登录、不发布任何内容。
 
-**Q:会不会被封号?**
-A:不会。全程只读公开数据,不登录、不发任何东西。
+## 数据与隐私
 
-## 🔒 数据与隐私
+- 仅读取 B站 公开数据(搜索、视频信息、公开评论),**不登录账号**。
+- 数据缓存于本地 `.cache/bili-topic-radar`(可用 `BILI_TOPIC_RADAR_CACHE` 自定义路径)。
+- AI 分析在**本机**运行,证据不上传第三方服务器。
 
-- 只读 B站 公开数据(搜索、视频信息、公开评论),**不登录你的账号**。
-- 数据缓存在本地 `.cache/bili-topic-radar`(可设 `BILI_TOPIC_RADAR_CACHE` 改路径)。
-- AI 分析在**你本机**跑(Codex),证据不上传到第三方服务器。
-
----
-
-## 🛠 开发 / 测试
+## 开发与测试
 
 ```bash
 uv sync --extra dev
-PYTHONPATH=src .venv/bin/python -m pytest -q          # 跑测试(全离线)
-PYTHONPATH=src .venv/bin/python -m bili_topic_radar.probe "MCP"        # 连通性探针
-PYTHONPATH=src .venv/bin/python -m bili_topic_radar.collect "MCP" --extra "MCP 教程" --out evidence.json   # 采集
-PYTHONPATH=src .venv/bin/python -m bili_topic_radar.analyze evidence.json   # AI 分析(需 Codex)
+PYTHONPATH=src .venv/bin/python -m pytest -q                              # 测试(全离线)
+PYTHONPATH=src .venv/bin/python -m bili_topic_radar.probe "MCP"           # 连通性探针
+PYTHONPATH=src .venv/bin/python -m bili_topic_radar.collect "MCP" --out evidence.json   # 采集
+PYTHONPATH=src .venv/bin/python -m bili_topic_radar.analyze evidence.json # AI 分析(需 Codex)
 ```
 
-架构与设计背景见 [DESIGN.md](DESIGN.md);详细使用步骤见 [使用教程.md](使用教程.md)。
+项目结构:`src/`(采集层、看板、分析器)· `examples/`(内置示例)· `skills/`(MCP skill)· `tests/`。
 
-## 🗺 路线图
+## 路线图
 
-- **v1(当前)**:撞车雷达 + 评论真需求挖掘 + 本地 Codex AI 判断 + 深色看板 + 一键启动
-- **v1.x**:扫完自动出 AI 建议、一键导出 markdown 报告、可选 Claude/DeepSeek API 后端
-- **v2**:机会分打分、选题生命周期/时机预测、爆款基因拆解、持续监控预警、跨平台先行指标(详见 DESIGN.md §7.5)
+- **v0.1(当前)**:撞车雷达 · 评论真需求挖掘 · 本地 Codex AI 判断 · 深色看板 · 一键启动。
+- **v0.2**:扫描后自动分析 · 一键导出 Markdown 报告 · 可选 Claude / DeepSeek API 后端。
+- **v1.0**:机会分打分 · 选题生命周期/时机预测 · 持续监控预警 · 跨平台先行指标。
+
+## 许可
+
+[MIT](LICENSE)。选题判断仅供参考,使用者自行决策。
 
 ---
 
-由 **Claude + Codex 协作开发**。只读公开数据,选题判断仅供参考。
+<sub>由 Claude + Codex 协作开发。</sub>

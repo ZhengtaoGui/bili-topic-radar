@@ -144,4 +144,4 @@ whether to expand the search. Don't auto-proceed.
 
 v0 skips fine-grained 饱和度 scoring and precise 时机预测 (uses rough version: counts +
 near-90-day ratio). Advanced modules (机会分 / 生命周期 / 爆款基因 / 个性化 / 跨平台 /
-持续监控) come in v1–v3 — see DESIGN.md §7.5 / §11.
+持续监控) are planned for later versions — see the Roadmap in README.md.
