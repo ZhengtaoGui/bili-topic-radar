@@ -13,6 +13,8 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Callable, Sequence
 
+from . import opportunity
+
 
 AI_PROMPT = """你是一个懂行的老朋友,帮一个普通 B站 UP 主判断这个选题该不该做。下面是同主题视频 + 高赞评论 + 几个数字。
 
@@ -596,7 +598,7 @@ def _amain(argv: Sequence[str] | None = None) -> int:
 
     pack = json.loads(args.evidence.read_text(encoding="utf-8"))
     result = analyze_evidence(pack, backend=args.backend, now=int(time.time()))
-    print(json.dumps(result.to_dict(), ensure_ascii=False, indent=2))
+    print(json.dumps(opportunity.merge_result(pack, result), ensure_ascii=False, indent=2))
     return 0
 
 

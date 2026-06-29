@@ -210,6 +210,7 @@ def test_api_analyze_returns_mock_result(monkeypatch) -> None:
     data = response.json()
     assert data["verdict"] == "do"
     assert data["angles"][0]["name"] == "项目实战"
+    assert isinstance(data["opportunity_window"]["score"], int)
     assert seen["pack"]["keyword"] == "MCP"
     assert seen["backend"] == "codex"
 

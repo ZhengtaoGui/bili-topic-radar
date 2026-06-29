@@ -136,6 +136,7 @@ def test_api_analyze_passes_selected_backend(monkeypatch) -> None:
     assert response.status_code == 200
     data = response.json()
     assert data["backend"] == "openai-compatible"
+    assert isinstance(data["opportunity_window"]["score"], int)
     assert seen["backend"] == "openai-compatible"
 
 

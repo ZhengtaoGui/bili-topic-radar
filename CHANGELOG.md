@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.3.0 — 机会窗口雷达
+
+- 新增确定性 `opportunity_window`:机会分、四因子拆解、生命周期阶段和角度机会排序。
+- Web AI 结果区新增机会窗口卡片,展示大号机会分、阶段、因子条和现在最该做的 Top 3 角度。
+- `/api/analyze` 与 CLI 分析输出追加可选顶层字段 `opportunity_window`,不改变 `AnalysisResult` 必填字段。
+- 补充机会窗口单元测试,覆盖公式、生命周期、排序和空数据边界。
+
 ## 0.2.0 — 多后端 AI
 
 - 多后端 AI 分析器:可选 `codex`(本地默认)/ `claude`(Anthropic)/ `openai-compatible`(OpenAI、DeepSeek、Kimi、GLM、Ollama,靠 base_url+model+key)。

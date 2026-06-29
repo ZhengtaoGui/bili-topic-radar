@@ -10,7 +10,7 @@ from starlette.requests import Request
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.routing import Route
 
-from . import analyzer
+from . import analyzer, opportunity
 from .collect import collect_evidence
 
 
@@ -531,6 +531,129 @@ HTML = """<!doctype html>
       gap: 10px;
     }
 
+    .opportunity-window {
+      display: grid;
+      grid-template-columns: minmax(160px, 0.55fr) minmax(220px, 0.85fr) minmax(260px, 1.2fr);
+      gap: 12px;
+      align-items: stretch;
+      border: 1px solid rgba(45, 212, 191, 0.22);
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(45, 212, 191, 0.08), rgba(129, 140, 248, 0.05)),
+        rgba(15, 20, 28, 0.70);
+      padding: 12px;
+    }
+
+    .opportunity-score {
+      display: grid;
+      align-content: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .opportunity-score-value {
+      color: #f8fafc;
+      font-size: 42px;
+      font-weight: 900;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      text-shadow: 0 0 24px rgba(34, 211, 238, 0.20);
+    }
+
+    .opportunity-score-value small {
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .opportunity-stage,
+    .opportunity-factors,
+    .opportunity-top {
+      display: grid;
+      gap: 8px;
+      align-content: start;
+      min-width: 0;
+    }
+
+    .opportunity-badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .ow-badge {
+      display: inline-flex;
+      width: fit-content;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid currentColor;
+      font-size: 12px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .ow-badge.good { color: var(--green); background: var(--green-bg); }
+    .ow-badge.neutral { color: var(--amber); background: var(--amber-bg); }
+    .ow-badge.bad { color: var(--red); background: var(--red-bg); }
+
+    .factor-row {
+      display: grid;
+      grid-template-columns: 74px 1fr 36px;
+      gap: 8px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .factor-track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .factor-fill {
+      height: 100%;
+      width: 0%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+    }
+
+    .opportunity-angle-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .opportunity-angle {
+      display: grid;
+      gap: 3px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .opportunity-angle-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: #f8fafc;
+      font-weight: 900;
+    }
+
+    .opportunity-angle-head span {
+      overflow-wrap: anywhere;
+    }
+
+    .opportunity-angle-score {
+      flex: 0 0 auto;
+      color: var(--accent-strong);
+      font-variant-numeric: tabular-nums;
+    }
+
     .ai-summary-item,
     .proposal-card,
     .gap-item {
@@ -874,7 +997,8 @@ HTML = """<!doctype html>
       }
 
       .ai-summary-grid,
-      .proposal-grid {
+      .proposal-grid,
+      .opportunity-window {
         grid-template-columns: 1fr;
       }
     }
@@ -1220,11 +1344,128 @@ HTML = """<!doctype html>
       summary.append(summaryItem("态势", result.situation), summaryItem("时机", result.timing));
 
       wrap.append(verdict, summary);
+      const opportunityWindow = renderOpportunityWindow(result.opportunity_window);
+      if (opportunityWindow) wrap.append(opportunityWindow);
       wrap.append(renderAngles(result.angles || []));
       wrap.append(renderGaps(result.gaps || []));
       wrap.append(renderProposals(result.proposals || []));
       wrap.append(renderCaveats(result.caveats || []));
       return wrap;
+    }
+
+    function renderOpportunityWindow(windowData) {
+      if (!windowData || typeof windowData !== "object") return null;
+      const section = document.createElement("section");
+      section.className = "opportunity-window";
+
+      const score = Math.max(0, Math.min(100, Math.round(Number(windowData.score || 0))));
+      const scorePanel = document.createElement("div");
+      scorePanel.className = "opportunity-score";
+      scorePanel.append(sectionTitle("机会窗口"));
+      const scoreValue = document.createElement("div");
+      scoreValue.className = "opportunity-score-value";
+      scoreValue.append(document.createTextNode(String(score)), document.createElement("small"));
+      scoreValue.lastChild.textContent = " / 100";
+      const scoreBadge = document.createElement("span");
+      scoreBadge.className = `ow-badge ${opportunityTone(score)}`;
+      scoreBadge.textContent = windowData.label || "-";
+      scorePanel.append(scoreValue, scoreBadge);
+
+      const stagePanel = document.createElement("div");
+      stagePanel.className = "opportunity-stage";
+      stagePanel.append(sectionTitle("阶段"));
+      const badges = document.createElement("div");
+      badges.className = "opportunity-badges";
+      const stage = (windowData.lifecycle && windowData.lifecycle.stage) || "谨慎观察";
+      const stageBadge = document.createElement("span");
+      stageBadge.className = `ow-badge ${stageTone(stage)}`;
+      stageBadge.textContent = stage;
+      badges.append(stageBadge);
+      const reason = document.createElement("p");
+      reason.className = "ai-muted";
+      reason.textContent = (windowData.lifecycle && windowData.lifecycle.reason) || "";
+      stagePanel.append(badges, reason, renderFactorBars(windowData.factors || {}));
+
+      const topPanel = document.createElement("div");
+      topPanel.className = "opportunity-top";
+      topPanel.append(sectionTitle("现在最该做"));
+      const list = document.createElement("div");
+      list.className = "opportunity-angle-list";
+      const ranked = Array.isArray(windowData.ranked_angles) ? windowData.ranked_angles.slice(0, 3) : [];
+      if (ranked.length === 0) {
+        const empty = document.createElement("p");
+        empty.className = "ai-muted";
+        empty.textContent = "暂无可排序角度。";
+        list.append(empty);
+      }
+      for (const angle of ranked) {
+        const item = document.createElement("article");
+        item.className = "opportunity-angle";
+        const head = document.createElement("div");
+        head.className = "opportunity-angle-head";
+        const name = document.createElement("span");
+        name.textContent = `${angle.rank || "-"} · ${angle.name || angle.proposal_title || "-"}`;
+        const angleScore = document.createElement("strong");
+        angleScore.className = "opportunity-angle-score";
+        angleScore.textContent = `${Math.round(Number(angle.score || 0))}`;
+        head.append(name, angleScore);
+        const why = document.createElement("p");
+        why.className = "proposal-meta";
+        why.textContent = angle.why_now || "";
+        item.append(head, why);
+        if (angle.risk) {
+          const risk = document.createElement("p");
+          risk.className = "proposal-risk";
+          risk.textContent = `风险: ${angle.risk}`;
+          item.append(risk);
+        }
+        list.append(item);
+      }
+      topPanel.append(list);
+
+      section.append(scorePanel, stagePanel, topPanel);
+      return section;
+    }
+
+    function renderFactorBars(factors) {
+      const names = [
+        ["freshness", "活跃度"],
+        ["headroom", "头部空间"],
+        ["angle_vacancy", "角度空缺"],
+        ["real_demand", "真需求"],
+      ];
+      const wrap = document.createElement("div");
+      wrap.className = "opportunity-factors";
+      for (const [key, label] of names) {
+        const value = Math.max(0, Math.min(100, Math.round(Number(factors[key] || 0))));
+        const row = document.createElement("div");
+        row.className = "factor-row";
+        const labelEl = document.createElement("span");
+        labelEl.textContent = label;
+        const track = document.createElement("div");
+        track.className = "factor-track";
+        const fill = document.createElement("div");
+        fill.className = "factor-fill";
+        fill.style.width = `${value}%`;
+        track.append(fill);
+        const valueEl = document.createElement("span");
+        valueEl.textContent = String(value);
+        row.append(labelEl, track, valueEl);
+        wrap.append(row);
+      }
+      return wrap;
+    }
+
+    function opportunityTone(score) {
+      if (score >= 60) return "good";
+      if (score >= 40) return "neutral";
+      return "bad";
+    }
+
+    function stageTone(stage) {
+      if (stage === "上升" || stage === "爆发") return "good";
+      if (stage === "衰退") return "bad";
+      return "neutral";
     }
 
     function summaryItem(label, text) {
@@ -1800,7 +2041,7 @@ async def api_analyze(request: Request) -> JSONResponse:
             return JSONResponse({"available": False, "error": message, "message": message})
 
         result = analyzer.analyze_evidence(pack, backend=backend)
-        return JSONResponse(result.to_dict())
+        return JSONResponse(opportunity.merge_result(pack, result))
     except ValueError as exc:
         return JSONResponse({"error": str(exc)}, status_code=400)
     except FileNotFoundError:
