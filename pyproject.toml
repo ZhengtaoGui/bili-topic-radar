@@ -1,6 +1,6 @@
 [project]
 name = "bili-topic-radar"
-version = "0.3.0"
+version = "0.4.0"
 description = "Local Bilibili topic research dashboard for collision checks, comment demand mining, and optional AI analysis."
 readme = "README.md"
 requires-python = ">=3.11"

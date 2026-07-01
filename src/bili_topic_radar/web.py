@@ -1008,75 +1008,576 @@ HTML = """<!doctype html>
         grid-template-columns: 1fr;
       }
     }
+
+    :root {
+      --bg: #0b1119;
+      --bg-2: #101823;
+      --panel: rgba(20, 30, 43, 0.74);
+      --panel-strong: rgba(24, 36, 50, 0.88);
+      --ink: #edf2f7;
+      --muted: #91a0b4;
+      --line: rgba(255, 255, 255, 0.09);
+      --line-strong: rgba(212, 168, 87, 0.38);
+      --accent: #d4a857;
+      --accent-strong: #f0d08b;
+      --accent-soft: rgba(212, 168, 87, 0.15);
+      --blue: #75a7d9;
+      --green: #52c896;
+      --green-bg: rgba(82, 200, 150, 0.13);
+      --amber: #d4a857;
+      --amber-bg: rgba(212, 168, 87, 0.15);
+      --red: #ef6f72;
+      --red-bg: rgba(239, 111, 114, 0.15);
+      --input: rgba(15, 23, 33, 0.88);
+      --shadow: 0 36px 110px rgba(0, 0, 0, 0.46);
+      --shadow-soft: 0 18px 54px rgba(0, 0, 0, 0.28);
+      --glow: 0 0 34px rgba(212, 168, 87, 0.16);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    [hidden] { display: none !important; }
+
+    body {
+      overflow-x: hidden;
+      background:
+        radial-gradient(circle at 50% 14%, rgba(212, 168, 87, 0.10), transparent 34rem),
+        radial-gradient(circle at 10% 8%, rgba(117, 167, 217, 0.10), transparent 28rem),
+        linear-gradient(180deg, var(--bg), var(--bg-2) 38rem, var(--bg));
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: -20%;
+      z-index: -1;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 28% 28%, rgba(212, 168, 87, 0.10), transparent 24rem),
+        radial-gradient(circle at 72% 18%, rgba(117, 167, 217, 0.08), transparent 26rem);
+      filter: blur(8px);
+      opacity: 0.84;
+      animation: ambientBreath 9s var(--ease) infinite alternate;
+    }
+
+    .ambient-grid {
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.024) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.024) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: radial-gradient(circle at 50% 20%, rgba(0,0,0,0.9), transparent 72%);
+    }
+
+    header { display: none; }
+
+    .hero-stage,
+    .loading-stage {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px 16px;
+      position: relative;
+    }
+
+    .hero-shell {
+      width: min(960px, 100%);
+      display: grid;
+      gap: 30px;
+      justify-items: center;
+      text-align: center;
+      animation: stageIn 0.58s var(--ease) both;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--accent-strong);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+    }
+
+    .hero-copy h1 {
+      margin: 0;
+      color: #f7fafc;
+      background: none;
+      -webkit-background-clip: initial;
+      background-clip: initial;
+      font-size: clamp(46px, 9vw, 96px);
+      line-height: 0.98;
+      text-shadow: 0 22px 70px rgba(0, 0, 0, 0.42), 0 0 34px rgba(212, 168, 87, 0.12);
+    }
+
+    .hero-copy .subtitle {
+      max-width: 760px;
+      margin: 18px auto 0;
+      color: #bec9d8;
+      font-size: clamp(16px, 2vw, 20px);
+    }
+
+    .privacy-note {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .hero-form {
+      width: min(780px, 100%);
+    }
+
+    .hero-input-card {
+      position: relative;
+      display: grid;
+      gap: 16px;
+      padding: clamp(18px, 3vw, 26px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 28px;
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.12), transparent 18rem) border-box,
+        linear-gradient(180deg, rgba(20, 29, 41, 0.86), rgba(10, 16, 24, 0.90)) padding-box;
+      box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(26px) saturate(1.08);
+      -webkit-backdrop-filter: blur(26px) saturate(1.08);
+      animation: floatCard 5.6s var(--ease) infinite alternate;
+    }
+
+    .hero-primary-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .hero-keyword {
+      min-height: 62px;
+      border-radius: 18px;
+      padding: 0 20px;
+      font-size: clamp(18px, 3vw, 26px);
+      font-weight: 800;
+      background: rgba(15, 23, 33, 0.88);
+      border-color: rgba(255, 255, 255, 0.12);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    }
+
+    input:focus, textarea:focus, select:focus {
+      border-color: rgba(240, 208, 139, 0.86);
+      box-shadow: 0 0 0 4px rgba(212, 168, 87, 0.13), 0 0 30px rgba(212, 168, 87, 0.12);
+    }
+
+    button {
+      border-color: rgba(212, 168, 87, 0.76);
+      border-radius: 8px;
+      color: #121820;
+      background: linear-gradient(180deg, #e7c27c, var(--accent));
+      box-shadow: 0 10px 28px rgba(212, 168, 87, 0.17), inset 0 1px 0 rgba(255, 255, 255, 0.34);
+      transition: transform 0.22s var(--ease), border-color 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+    }
+
+    .hero-submit {
+      min-height: 62px;
+      padding: 0 26px;
+      border-radius: 18px;
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    button:hover {
+      border-color: rgba(240, 208, 139, 0.92);
+      transform: translateY(-3px);
+      box-shadow: 0 18px 42px rgba(212, 168, 87, 0.24), 0 0 34px rgba(212, 168, 87, 0.16);
+    }
+
+    button.secondary,
+    button.ghost {
+      color: #d9e2ee;
+      background: rgba(255, 255, 255, 0.055);
+      border-color: var(--line);
+      box-shadow: none;
+    }
+
+    button.secondary:hover,
+    button.ghost:hover {
+      color: #f2d89f;
+      background: rgba(212, 168, 87, 0.11);
+      border-color: rgba(212, 168, 87, 0.38);
+    }
+
+    .hero-secondary-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .hero-advanced {
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.035);
+      text-align: left;
+    }
+
+    .hero-advanced summary {
+      cursor: pointer;
+      padding: 14px 16px;
+      color: #efd8a8;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .advanced-grid {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr);
+      gap: 12px;
+      padding: 0 16px 16px;
+    }
+
+    .hero-status {
+      min-height: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .loading-shell {
+      width: min(760px, 100%);
+      display: grid;
+      gap: 24px;
+      padding: clamp(22px, 4vw, 34px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(20, 29, 41, 0.88), rgba(10, 16, 24, 0.92));
+      box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(26px);
+      -webkit-backdrop-filter: blur(26px);
+      animation: stageIn 0.44s var(--ease) both;
+    }
+
+    .loading-title {
+      margin: 0;
+      font-size: clamp(28px, 5vw, 46px);
+      line-height: 1.06;
+    }
+
+    .loading-copy {
+      margin: 8px 0 0;
+      color: #aebbd0;
+    }
+
+    .progress-track {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.24);
+    }
+
+    .progress-fill {
+      width: var(--progress, 8%);
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #c89943, #f0d08b);
+      box-shadow: 0 0 22px rgba(212, 168, 87, 0.36);
+      transition: width 0.62s var(--ease);
+    }
+
+    .loading-steps {
+      display: grid;
+      gap: 10px;
+    }
+
+    .loading-step {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 46px;
+      padding: 10px 12px;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 14px;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.035);
+      transition: color 0.24s ease, border-color 0.24s ease, background 0.24s ease, transform 0.24s var(--ease);
+    }
+
+    .loading-step b {
+      display: grid;
+      place-items: center;
+      flex: 0 0 30px;
+      height: 30px;
+      border-radius: 50%;
+      color: #b7c3d4;
+      background: rgba(10, 16, 24, 0.92);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      font-family: var(--mono);
+    }
+
+    .loading-step.active,
+    .loading-step.done {
+      color: #efd8a8;
+      border-color: rgba(212, 168, 87, 0.34);
+      background: rgba(212, 168, 87, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .loading-step.active b,
+    .loading-step.done b {
+      color: #151a20;
+      border-color: rgba(212, 168, 87, 0.78);
+      background: linear-gradient(180deg, #f2d490, var(--accent));
+      box-shadow: 0 0 0 5px rgba(212, 168, 87, 0.12), 0 12px 26px rgba(212, 168, 87, 0.22);
+    }
+
+    .loading-step.active b {
+      animation: pulseDot 1.5s ease-in-out infinite;
+    }
+
+    .loading-status {
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    main.dashboard {
+      width: min(1180px, calc(100% - 32px));
+      padding: 28px 0 42px;
+      opacity: 1;
+      transform: none;
+    }
+
+    .dashboard-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .dashboard-title {
+      margin: 0;
+      color: #f7fafc;
+      background: none;
+      -webkit-background-clip: initial;
+      background-clip: initial;
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.08;
+      text-shadow: 0 16px 54px rgba(0, 0, 0, 0.36), 0 0 28px rgba(212, 168, 87, 0.10);
+    }
+
+    .dashboard-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .panel,
+    .stat,
+    .ai-summary-item,
+    .proposal-card,
+    .gap-item {
+      border-color: var(--line);
+      background: var(--panel);
+      box-shadow: var(--shadow-soft), inset 0 1px 0 rgba(255, 255, 255, 0.055);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    .status-panel {
+      padding: 14px 16px;
+      background: linear-gradient(90deg, rgba(212, 168, 87, 0.09), rgba(117, 167, 217, 0.055)), var(--panel);
+    }
+
+    .status {
+      padding: 0;
+    }
+
+    .stat-value,
+    .opportunity-score-value {
+      font-family: var(--mono);
+      color: #f2d89f;
+      text-shadow: 0 0 22px rgba(212, 168, 87, 0.16);
+    }
+
+    .factor-fill {
+      background: linear-gradient(90deg, #c89943, #f0d08b);
+    }
+
+    .gap-quote {
+      border-left-color: var(--accent);
+      background: rgba(212, 168, 87, 0.08);
+    }
+
+    .tag {
+      border-color: rgba(212, 168, 87, 0.26);
+      background: rgba(212, 168, 87, 0.08);
+      color: #efd8a8;
+    }
+
+    .dashboard .reveal-section {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+
+    .dashboard.revealed .reveal-section {
+      animation: revealSection 0.58s var(--ease) both;
+      animation-delay: var(--delay, 0ms);
+    }
+
+    .dashboard.revealed .reveal-section:nth-of-type(2) { --delay: 80ms; }
+    .dashboard.revealed .reveal-section:nth-of-type(3) { --delay: 160ms; }
+    .dashboard.revealed .reveal-section:nth-of-type(4) { --delay: 240ms; }
+    .dashboard.revealed .reveal-section:nth-of-type(5) { --delay: 320ms; }
+
+    @keyframes ambientBreath {
+      from { transform: scale(1) translate3d(0, 0, 0); opacity: 0.60; }
+      to { transform: scale(1.06) translate3d(0, -10px, 0); opacity: 0.92; }
+    }
+
+    @keyframes floatCard {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    @keyframes stageIn {
+      from { opacity: 0; transform: translateY(22px) scale(0.985); filter: blur(6px); }
+      to { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+    }
+
+    @keyframes revealSection {
+      from { opacity: 0; transform: translateY(22px); filter: blur(5px); }
+      to { opacity: 1; transform: translateY(0); filter: blur(0); }
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { box-shadow: 0 0 0 5px rgba(212, 168, 87, 0.12), 0 12px 26px rgba(212, 168, 87, 0.22); }
+      50% { box-shadow: 0 0 0 9px rgba(212, 168, 87, 0.05), 0 12px 34px rgba(212, 168, 87, 0.30); }
+    }
+
+    @media (max-width: 760px) {
+      .hero-primary-row,
+      .advanced-grid,
+      .dashboard-top {
+        grid-template-columns: 1fr;
+        display: grid;
+      }
+
+      .hero-submit,
+      .dashboard-actions button {
+        width: 100%;
+      }
+
+      .dashboard-actions {
+        justify-content: stretch;
+      }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <div class="header-inner">
-      <div>
-        <h1>B站选题撞车雷达</h1>
-        <p class="subtitle">做视频前先扫一眼 —— 这个选题撞不撞车?还有哪个角度空着?观众在评论区求什么?</p>
-        <p class="privacy-note">纯只读公开数据,不碰你的账号,不发任何东西。</p>
-      </div>
-      <button id="tutorial-button" class="secondary" type="button">📖 使用教程</button>
-    </div>
-  </header>
-  <main>
-    <section class="panel quick-start" aria-label="快速开始">
-      <p class="quick-title">第一次用?先点这里看现成例子 👇</p>
-      <div class="quick-actions">
-        <button id="demo-mcp-button" class="secondary" type="button">📊 看示例:MCP</button>
-        <button id="demo-claudecode-button" class="secondary" type="button">📊 看示例:Claude Code</button>
-      </div>
-    </section>
+  <div class="ambient-grid"></div>
 
-    <section class="panel">
-      <form id="collect-form" class="controls">
-        <div class="form-grid">
-          <div class="form-left">
+  <section id="hero-stage" class="hero-stage" aria-label="选题入口">
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">BILIBILI TOPIC DUE DILIGENCE</p>
+        <h1>选题撞车雷达</h1>
+        <p class="subtitle">做视频前先扫一遍同题,看撞不撞车、哪个角度没人做。</p>
+        <p class="privacy-note">只读公开数据,不登录,不发布。</p>
+      </div>
+
+      <form id="collect-form" class="hero-form">
+        <div class="hero-input-card">
+          <div class="hero-primary-row">
             <div class="field">
               <div class="field-head">
                 <label for="keyword">选题关键词</label>
                 <span class="required">*必填*</span>
                 <span class="info" tabindex="0" role="button" data-tip="雷达会拿这个词去 B站 搜同主题视频。用观众真正会搜的词最准。">i</span>
               </div>
-              <div class="help-text">你想做的视频主题</div>
-              <input id="keyword" name="keyword" required placeholder="例如:MCP、Claude Code、机械键盘、露营">
+              <input id="keyword" class="hero-keyword" name="keyword" required placeholder="例如:MCP、Claude Code、机械键盘、露营">
             </div>
-            <div class="field">
-              <div class="field-head">
-                <label for="top-comments">抓多少热评</label>
-                <span class="info" tabindex="0" role="button" data-tip="评论区是金矿——观众喊的需求就是你视频的差异化方向。数字越大越慢。">i</span>
+            <button id="collect-button" class="hero-submit" type="submit">开始尽调</button>
+          </div>
+
+          <div class="hero-secondary-row">
+            <button id="demo-mcp-button" class="secondary" type="button">看示例:MCP</button>
+            <button id="demo-claudecode-button" class="secondary" type="button">看示例:Claude Code</button>
+          </div>
+
+          <details class="hero-advanced">
+            <summary>高级采集设置</summary>
+            <div class="advanced-grid">
+              <div class="field">
+                <div class="field-head">
+                  <label for="top-comments">抓多少热评</label>
+                  <span class="info" tabindex="0" role="button" data-tip="评论区是金矿——观众喊的需求就是你视频的差异化方向。数字越大越慢。">i</span>
+                </div>
+                <div class="help-text">默认 10,最高 50</div>
+                <input id="top-comments" name="top_comments" type="number" min="0" max="50" value="10">
               </div>
-              <div class="help-text">对播放最高的前几个视频抓热评(挖&quot;观众想要什么&quot;),默认 10</div>
-              <input id="top-comments" name="top_comments" type="number" min="0" max="50" value="10">
+              <div class="field">
+                <div class="field-head">
+                  <label for="extra">额外搜索词(可选)</label>
+                  <span class="info" tabindex="0" role="button" data-tip="同一个题,观众搜法不同(教程/实战/入门/原理…)。多给几个词,覆盖更全、角度地图更准。">i</span>
+                </div>
+                <div class="help-text">观众可能用的其他搜法,帮你搜得更全</div>
+                <textarea id="extra" name="extra_queries" placeholder="MCP 教程&#10;MCP 实战&#10;MCP 原理"></textarea>
+                <div class="field-actions">
+                  <button id="suffix-button" class="ghost" type="button">+ 自动加常见后缀</button>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="field">
-            <div class="field-head">
-              <label for="extra">额外搜索词(可选)</label>
-              <span class="info" tabindex="0" role="button" data-tip="同一个题,观众搜法不同(教程/实战/入门/原理…)。多给几个词,覆盖更全、角度地图更准。">i</span>
-            </div>
-            <div class="help-text">观众可能用的其他搜法,帮你搜得更全;留空也行</div>
-            <textarea id="extra" name="extra_queries" placeholder="MCP 教程&#10;MCP 实战&#10;MCP 原理"></textarea>
-            <div class="field-actions">
-              <button id="suffix-button" class="ghost" type="button">+ 自动加常见后缀</button>
-            </div>
-          </div>
-        </div>
-        <div class="form-actions">
-          <button id="collect-button" type="submit">🚀 开始扫描</button>
-          <p class="submit-note">扫描会真去 B站 搜,约 30–60 秒(限速对 B站 友好),请耐心等。</p>
+          </details>
+          <div id="hero-status" class="hero-status">真实请求 B站 通常需要 30-60 秒。</div>
         </div>
       </form>
-      <div id="status" class="status">👆 输入一个选题点&quot;开始扫描&quot;,或点上方&quot;看示例&quot;先体验。</div>
+    </div>
+  </section>
+
+  <section id="loading-stage" class="loading-stage" aria-label="采集中" hidden>
+    <div class="loading-shell">
+      <div>
+        <p class="eyebrow">COLLECTING PUBLIC SIGNALS</p>
+        <h2 class="loading-title">正在扫同题证据</h2>
+        <p id="loading-copy" class="loading-copy">搜索、评论和统计正在汇总。</p>
+      </div>
+      <div class="progress-track" aria-hidden="true">
+        <div id="loading-fill" class="progress-fill"></div>
+      </div>
+      <div class="loading-steps">
+        <div class="loading-step active" data-step="0"><b>1</b><span>搜索同题视频</span></div>
+        <div class="loading-step" data-step="1"><b>2</b><span>拉取高赞评论</span></div>
+        <div class="loading-step" data-step="2"><b>3</b><span>汇总证据</span></div>
+      </div>
+      <div id="loading-status" class="loading-status">正在建立采集任务。</div>
+    </div>
+  </section>
+
+  <main id="dashboard" class="dashboard" hidden>
+    <div class="dashboard-top">
+      <div>
+        <p class="eyebrow">BILIBILI EVIDENCE BOARD</p>
+        <h1 class="dashboard-title">尽调结果</h1>
+        <p class="subtitle">撞车雷达、评论真需求、机会窗口和 AI 智能分析都在这里。</p>
+      </div>
+      <div class="dashboard-actions">
+        <button id="restart-button" class="secondary" type="button">重新选题</button>
+        <button id="tutorial-button" class="secondary" type="button">使用教程</button>
+      </div>
+    </div>
+
+    <section class="panel status-panel reveal-section">
+      <div id="status" class="status">输入一个选题点&quot;开始尽调&quot;,或点&quot;看示例&quot;先体验。</div>
     </section>
 
-    <section id="stats" class="stats" aria-label="统计卡"></section>
+    <section id="stats" class="stats reveal-section" aria-label="统计卡"></section>
 
-    <section id="ai-analysis" class="panel ai-panel" aria-label="AI 智能分析"></section>
+    <section id="ai-analysis" class="panel ai-panel reveal-section" aria-label="AI 智能分析"></section>
 
-    <section class="panel">
+    <section class="panel reveal-section">
       <div class="table-wrap">
         <table>
           <thead>
@@ -1140,15 +1641,26 @@ HTML = """<!doctype html>
       sortKey: "play",
       sortDir: "desc",
       expanded: new Set(),
+      mode: "hero",
     };
 
     const $ = (id) => document.getElementById(id);
     const statusEl = $("status");
+    const heroStage = $("hero-stage");
+    const loadingStage = $("loading-stage");
+    const dashboard = $("dashboard");
+    const heroStatus = $("hero-status");
+    const loadingStatus = $("loading-status");
+    const loadingCopy = $("loading-copy");
+    const loadingFill = $("loading-fill");
+    const loadingSteps = Array.from(document.querySelectorAll(".loading-step"));
     const tbody = $("tbody");
     const statsEl = $("stats");
     const aiEl = $("ai-analysis");
     const collectButton = $("collect-button");
     const tutorialDialog = $("tutorial-dialog");
+    let loadingTimer = null;
+    let loadingStartedAt = 0;
 
     const statCopy = {
       total_unique_videos: {
@@ -1183,6 +1695,80 @@ HTML = """<!doctype html>
     function setStatus(text, isError = false) {
       statusEl.textContent = text;
       statusEl.classList.toggle("error", isError);
+      if (state.mode === "hero") {
+        heroStatus.textContent = text;
+        heroStatus.style.color = isError ? "var(--red)" : "var(--muted)";
+      }
+      if (state.mode === "loading") {
+        loadingStatus.textContent = text;
+        loadingStatus.style.color = isError ? "var(--red)" : "var(--muted)";
+      }
+    }
+
+    function setMode(mode) {
+      state.mode = mode;
+      heroStage.hidden = mode !== "hero";
+      loadingStage.hidden = mode !== "loading";
+      dashboard.hidden = mode !== "dashboard";
+      document.body.className = `stage-${mode}`;
+    }
+
+    function clearLoadingMotion() {
+      if (loadingTimer) window.clearInterval(loadingTimer);
+      loadingTimer = null;
+    }
+
+    function paintLoading(progress, activeStep) {
+      loadingFill.style.setProperty("--progress", `${Math.max(8, Math.min(100, progress))}%`);
+      loadingSteps.forEach((step, index) => {
+        step.classList.toggle("done", index < activeStep);
+        step.classList.toggle("active", index === activeStep);
+      });
+    }
+
+    function beginLoadingMotion(keyword, scanCount) {
+      clearLoadingMotion();
+      loadingStartedAt = Date.now();
+      loadingCopy.textContent = `正在尽调「${keyword}」,覆盖 ${scanCount} 个搜索词。`;
+      paintLoading(10, 0);
+      setMode("loading");
+      setStatus("正在搜索同题视频,随后会拉取高赞评论并汇总证据。");
+      loadingTimer = window.setInterval(() => {
+        const elapsed = Date.now() - loadingStartedAt;
+        const activeStep = elapsed > 28000 ? 2 : elapsed > 11000 ? 1 : 0;
+        const base = activeStep === 0 ? 10 : activeStep === 1 ? 42 : 70;
+        const drift = Math.min(activeStep === 2 ? 18 : 24, Math.floor(elapsed / 900));
+        paintLoading(Math.min(92, base + drift), activeStep);
+        if (activeStep === 0) setStatus("搜索同题视频中,正在收集标题、UP主、播放和发布时间。");
+        else if (activeStep === 1) setStatus("拉取高赞评论中,重点看观众真实需求和追问。");
+        else setStatus("汇总证据中,正在计算撞车态势和机会窗口。");
+      }, 1600);
+    }
+
+    function finishLoadingMotion() {
+      clearLoadingMotion();
+      paintLoading(100, 2);
+      loadingSteps.forEach((step) => {
+        step.classList.add("done");
+        step.classList.remove("active");
+      });
+    }
+
+    function revealDashboard() {
+      setMode("dashboard");
+      dashboard.classList.remove("revealed");
+      void dashboard.offsetWidth;
+      dashboard.classList.add("revealed");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function returnToHero(message = "真实请求 B站 通常需要 30-60 秒。", isError = false) {
+      clearLoadingMotion();
+      setMode("hero");
+      collectButton.disabled = false;
+      heroStatus.textContent = message;
+      heroStatus.style.color = isError ? "var(--red)" : "var(--muted)";
+      $("keyword").focus();
     }
 
     function formatInt(value) {
@@ -1749,6 +2335,8 @@ HTML = """<!doctype html>
       renderTable();
       const count = pack.total_unique_videos ?? ((pack.videos || []).length);
       setStatus(`已加载 ${count} 个视频；查询词：${(pack.queries || []).join(" / ") || "-"}`);
+      finishLoadingMotion();
+      revealDashboard();
     }
 
     async function loadAiBackends() {
@@ -1818,7 +2406,7 @@ HTML = """<!doctype html>
       const extra = $("extra").value.split("\\n").map((item) => item.trim()).filter(Boolean);
       const keyword = $("keyword").value.trim();
       const scanCount = (keyword ? 1 : 0) + extra.length;
-      setStatus(`扫描中… 正在搜 ${scanCount} 个词、抓热评(限速中,约 30–60 秒)。`);
+      beginLoadingMotion(keyword, scanCount);
       try {
         const payload = {
           keyword,
@@ -1832,18 +2420,23 @@ HTML = """<!doctype html>
         });
         renderPack(pack);
       } catch (error) {
-        setStatus(error.message || String(error), true);
+        const message = error.message || String(error);
+        setStatus(message, true);
+        returnToHero(message, true);
       } finally {
         collectButton.disabled = false;
       }
     });
 
     async function loadDemo(filename, label) {
+      clearLoadingMotion();
       setStatus(`加载示例:${label}...`);
       try {
         renderPack(await fetchJson(`/api/evidence?file=${encodeURIComponent(filename)}`), filename);
       } catch (error) {
-        setStatus(error.message || String(error), true);
+        const message = error.message || String(error);
+        setStatus(message, true);
+        returnToHero(message, true);
       }
     }
 
@@ -1853,6 +2446,10 @@ HTML = """<!doctype html>
 
     $("demo-claudecode-button").addEventListener("click", () => {
       loadDemo("evidence_claudecode.json", "Claude Code");
+    });
+
+    $("restart-button").addEventListener("click", () => {
+      returnToHero();
     });
 
     // 支持 ?demo=mcp / ?demo=claudecode / ?demo=evidence_xxx.json 自动载入(可分享预览链接)
