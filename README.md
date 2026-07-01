@@ -11,8 +11,8 @@
 
 **纯只读公开数据 —— 不登录账号、不发任何内容、零封号风险。**
 
-![开场](docs/screenshots/home.png)
-![看板](docs/screenshots/dashboard.png)
+![开场](docs/screenshots/hero.png)
+![看板](docs/screenshots/results.png)
 
 ---
 
